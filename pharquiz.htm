@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	<title>NotAnAvocado: PharQuiz 3251</title>
+	<link rel="stylesheet" href="styles/pure-min.css"></link>
+	<link rel="stylesheet" href="styles/side-menu.css"></link>
+	<link rel="stylesheet" href="styles/yak-styles.css"></link>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/pharquiz.js"></script>
+	<script src="js/ui.js"></script>
+</head>
+<body>
+<div id="layout" class="">
+	<a id="menuLink" class="menu-link" href="#menu">
+		<span></span>
+	</a>
+	<div id="menu" class="">
+		<div class="pure-menu">
+			<a class="pure-menu-heading" href="#">
+				notanavocado
+			</a>
+			<ul class="pure-menu-list">
+				<li class="pure-menu-item pure-menu-item-selected">
+					<a class="pure-menu-link" href="#">
+						PharQuiz
+					</a>
+				</li>
+				<li class="pure-menu-item">
+					<a class="pure-menu-link" href="druglist.htm">
+						Drug List
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+	<div class="headerdiv header" id="headerdiv">
+		<style scoped>
+			.headerdiv,
+			.headerdiv{
+				padding-top: 0px;
+			}
+		</style>
+		<h1>Pharmacology Quiz</h1>
+		<h2>Formulated for PHAR3251 @ UNSW</h2>
+	</div>
+	<div class="content">
+		<style scoped>
+			.button-submit,
+			.button-submit{
+				border-radius: 8px;
+				color: white;
+				background: #3366FF;
+				text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
+			}
+		</style>
+		<p id="question">Loading...</p>
+		<form name="quiz" id="quizform">
+			<input id="r1" type="radio" name="response" value="lr1" onclick="selectedRadio = this.value;"><label for="r1" id="lr1">1</label><br><br>
+			<input id="r2" type="radio" name="response" value="lr2" onclick="selectedRadio = this.value;"><label for="r2" id="lr2">2</label><br><br>
+			<input id="r3" type="radio" name="response" value="lr3" onclick="selectedRadio = this.value;"><label for="r3" id="lr3">3</label><br><br>
+			<input id="r4" type="radio" name="response" value="lr4" onclick="selectedRadio = this.value;"><label for="r4" id="lr4">4</label><br><br>
+		</form>
+		<div id="submitdiv">
+			<button id="subbutton" class="button-submit pure-button" onClick="submitResponse()">SUBMIT</button>
+		</div>
+		<div id = "feedbackpanel">
+			<p><b>Feedback</b></p>
+				<p id="score">Score: <i>None yet</i></p>
+				<p id="feedback"><i>Feedback will appear here...</i></p><br>
+		</div>
+		<div id="footer">
+			<h6>&copy; Jackson Blythe 2015<br>Problem? Flick me an <a href="mailto:notanavocado@gmail.com?Subject=PharQuiz%20Enquiry">e-mail</a>!</h6>
+		</div>
+	</div>
+</div>
+</body>
+</html>
