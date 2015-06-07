@@ -122,14 +122,14 @@ function submitResponse(){
 	document.getElementById("score").innerHTML = "Score: " + numberCorrect + "/" + questionCount;
 	questionCount++;
 	console.log("Feedback given.");
-	$("response").attr("checked", false);
+	$('input[name=response]').attr('checked',false);
 	generateQuestion();
 }
 
 $( document ).ready(function() {
 	console.log("Document Loaded.");
+	$('input[name=response]').attr('checked',false);
 	loadQuestions();
-	$("response").attr("checked", false);
 });
 
 $(document).keypress(function(event) {
