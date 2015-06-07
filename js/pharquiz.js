@@ -1,3 +1,9 @@
+/**
+*
+* Please forgive me for this.
+*
+**/ 
+
 //Variable declarations
 var questionData;
 var questionArray;
@@ -9,25 +15,23 @@ var correctResponse = "";
 var adverseEffects = [];
 var answerP;
 
-function loadQuestions(){
-	console.log("Loading drug codex...");
+function loadQuestions(){ //Interprets drug codex on page load.
+	//Load codex from text file:
 	questionData = $.ajax({
 		url: "drugcodex.txt",
 		async: false
 	}).responseText;
-	console.log("...done.");
-	console.log("Converting codex to questions...");
+	//Convert codex to questions:
 	questionArray = questionData.split("$");
 	drugCount = questionArray.length/6;
-	console.log("...done. " + drugCount + " drugs found.");
 	populateAEs();
+	//Generate a starting question.
 	generateQuestion();
 }
 
-function populateAEs(){
+function populateAEs(){ //Prepares an array of all adverse effects
 	var AEsubArray;
 	adverseEffects[0]="headache";
-	console.log("Populating adverse effects for question generation...");
 	for(var q=0;q<questionArray.length;q++){
 		if(q%6==5){
 			AEsubArray = questionArray[q].split(";"); //REPLACE SEMICOLON WITH # FOR EASY READING - YOU CAN NOW USE ; IN OTHER FIELDS
@@ -38,11 +42,9 @@ function populateAEs(){
 			}
 		}
 	}
-	console.log("...done:")
-	console.log(adverseEffects);
 }
 
-function checkDuplicate(testelement, testarray){
+function checkDuplicate(testelement, testarray){ //A simple function to see if a value is found within an array
 	var duplicate = false;
 	for(var g=0;g<testarray.length;g++){
 		if(testelement==testarray[g]){
@@ -52,48 +54,164 @@ function checkDuplicate(testelement, testarray){
 	return duplicate;
 }
 
-function generateQuestion(){
-	//Formulate the Question
-	console.log("Generating question number " + questionCount + "...");
-	//Which drug?
-	var drugID = Math.floor(Math.random()*drugCount);
-	//which kind of question?
-	var qClass = Math.ceil(Math.random()*5);
-	console.log(qClass);
-	//Which answer will be correct
-	answerP = Math.ceil(Math.random()*4);
-	correctResponse = questionArray[drugID*6+qClass].replace(/["]+/g,"");
-	if(correctResponse=="-"){
-		generateQuestion;
+function generateQuestion(){ //Formulate a question
+	var drugID = Math.floor(Math.random()*drugCount); //which drug?
+	var qClass = Math.ceil(Math.random()*7); //which kind of question?
+	answerP = Math.ceil(Math.random()*4); //Which answer will be correct
+	correctResponse = questionArray[drugID*6+qClass].replace(/[".]+/g,""); //generates a basal correct response.
+	if(correctResponse=="-"){ //If for some reason the answer is null, try again.
+		generateQuestion();
+		return;
 	}
-	document.getElementById("lr" + answerP).innerHTML = correctResponse;
-	if(qClass==1){
-		document.getElementById("question").innerHTML = "<b>What class of drug is " + questionArray[drugID*6] + "?</b>";
+	document.getElementById("lr" + answerP).innerHTML = correctResponse; //Paste the answer into the document
+	switch(qClass){ //Generate a question based on qClass:
+		case 1:
+			document.getElementById("question").innerHTML = "<b>What class of drug is " + questionArray[drugID*6] + "?</b>";
+			generateResponses(qClass);
+			break;
+		case 2:
+			document.getElementById("question").innerHTML = "<b>What is the molecular function of " + questionArray[drugID*6] + "?</b>";
+			generateResponses(qClass);
+			break;
+		case 3:
+			document.getElementById("question").innerHTML = "<b>What are the clinical uses of " + questionArray[drugID*6] + "?</b>";
+			generateResponses(qClass);
+			break;
+		case 4:
+			document.getElementById("question").innerHTML = "<b>What is the mechanism of action of  " + questionArray[drugID*6] + "?</b>";
+			generateResponses(qClass);
+			break;
+		case 5:
+			document.getElementById("question").innerHTML = "<b>Which of the following is not an adverse effect of " + questionArray[drugID*6] + "?</b>";
+			generateAEQuestion(drugID);
+			break;
+		case 6:
+			document.getElementById("question").innerHTML = "<b>Which of the following regarding " + questionArray[drugID*6] + " is INCORRECT?</b>";
+			generateMixed(drugID);
+			break;
+		case 7:
+			document.getElementById("question").innerHTML = "<b>Which of these drugs " + questionArray[drugID*6+4].replace(/[".]+/g,"") + "?";
+			generateMOAReverse(drugID);
+			break;
 	}
-	if(qClass==2){
-		document.getElementById("question").innerHTML = "<b>What is the molecular function of " + questionArray[drugID*6] + "?</b>";
-	}
-	if(qClass==3){
-		document.getElementById("question").innerHTML = "<b>What are the clinical uses of " + questionArray[drugID*6] + "?</b>";
-	}
-	if(qClass==4){
-		document.getElementById("question").innerHTML = "<b>What is the mechanism of action of  " + questionArray[drugID*6] + "?</b>"
-	}
+}
+
+
+function generateResponses(qClass){
 	for(var p=1;p<5;p++){
 		if(p!=answerP){
 			var answerID = Math.floor(Math.random()*drugCount);
 			document.getElementById("lr" + p).innerHTML = questionArray[answerID*6+qClass].replace(/["]+/g,"");
 		}
 	}
-	if(qClass==5){
-		document.getElementById("question").innerHTML = "<b>Which of the following is not an adverse effect of " + questionArray[drugID*6] + "?</b>";
-		generateAEQuestion(drugID);
+}
+
+function generateMixed(subjectdrug){
+	var drugClass = "The drug class is " + questionArray[subjectdrug*6+1] + ".";
+	var drugTarget = "The molecular target of the drug is " + questionArray[subjectdrug*6+2] + ".";
+	var drugUses = "It is used for " + questionArray[subjectdrug*6+3] + " clinically.";
+	var drugMOA = "It " + questionArray[subjectdrug*6+4];
+	var corrID = Math.floor(Math.random()*drugCount);
+	if(corrID==subjectdrug){
+		generateMixed();
 	}
-	console.log("...done. Awaiting user input.");
+	var corrClass = Math.floor(Math.random()*4);
+	switch(corrClass){
+		case 0:
+			correctResponse = "The drug class is " + questionArray[corrID*6+1] + ".";
+			document.getElementById("lr"+answerP).innerHTML = correctResponse;
+			for(var p=1;p<5;p++){
+				if(p!=answerP){
+					var answerID = Math.floor(Math.random()*3);
+					switch(answerID){
+						case 0:
+							document.getElementById("lr" + p).innerHTML = drugTarget;
+							break;
+						case 1:
+							document.getElementById("lr" + p).innerHTML = drugUses;
+							break;
+						case 2:
+							document.getElementById("lr" + p).innerHTML = drugMOA;
+							break;
+					}
+				}
+			}
+			break;
+		case 1:
+			correctResponse = "The molecular target of the drug is " + questionArray[corrID*6+2] + ".";
+			document.getElementById("lr"+answerP).innerHTML = correctResponse;
+			for(var p=1;p<5;p++){
+				if(p!=answerP){
+					var answerID = Math.floor(Math.random()*3);
+					switch(answerID){
+						case 0:
+							document.getElementById("lr" + p).innerHTML = drugClass;
+							break;
+						case 1:
+							document.getElementById("lr" + p).innerHTML = drugUses;
+							break;
+						case 2:
+							document.getElementById("lr" + p).innerHTML = drugMOA;
+							break;
+					}
+				}
+			}
+			break;
+		case 2:
+			correctResponse = "It is used for " + questionArray[corrID*6+3] + " clinically.";
+			document.getElementById("lr"+answerP).innerHTML = correctResponse;
+			for(var p=1;p<5;p++){
+				if(p!=answerP){
+					var answerID = Math.floor(Math.random()*3);
+					switch(answerID){
+						case 0:
+							document.getElementById("lr" + p).innerHTML = drugClass;
+							break;
+						case 1:
+							document.getElementById("lr" + p).innerHTML = drugTarget;
+							break;
+						case 2:
+							document.getElementById("lr" + p).innerHTML = drugMOA;
+							break;
+					}
+				}
+			}
+			break;
+		case 3:
+			correctResponse = "It " + questionArray[corrID*6+4].replace(/["]/g) + ".";
+			document.getElementById("lr"+answerP).innerHTML = correctResponse;
+			for(var p=1;p<5;p++){
+				if(p!=answerP){
+					var answerID = Math.floor(Math.random()*3);
+					switch(answerID){
+						case 0:
+							document.getElementById("lr" + p).innerHTML = drugClass;
+							break;
+						case 1:
+							document.getElementById("lr" + p).innerHTML = drugTarget;
+							break;
+						case 2:
+							document.getElementById("lr" + p).innerHTML = drugUses;
+							break;
+					}
+				}
+			}
+			break;
+	}
+}
+
+function generateMOAReverse(subjectdrug){
+	correctResponse = questionArray[subjectdrug*6];
+	document.getElementById("lr"+answerP).innerHTML = correctResponse;
+	for(var p=1;p<5;p++){
+		if(p!=answerP){
+			var answerID = Math.floor(Math.random()*drugCount);
+			document.getElementById("lr" + p).innerHTML = questionArray[(answerID*6)];
+		}
+	}
 }
 
 function generateAEQuestion(subjectdrug){
-	console.log("Generating adverse effect question for " + questionArray[subjectdrug*6]);
 	var drugAEArray = correctResponse.split(";"); //Change to "#"?
 	correctResponse = adverseEffects[Math.floor(Math.random()*adverseEffects.length)];
 	while(checkDuplicate(correctResponse, drugAEArray)==true){
@@ -108,7 +226,6 @@ function generateAEQuestion(subjectdrug){
 }
 
 function submitResponse(){
-	console.log("User response: " + userResponse + "; correctResponse: " + correctResponse);
 	var userResponse = document.getElementById(selectedRadio).innerHTML;
 	if(document.getElementById("feedback").innerHTML == "<i>Feedback will appear here...</i>"){
 		document.getElementById("feedback").innerHTML = "";
@@ -121,18 +238,26 @@ function submitResponse(){
 	}
 	document.getElementById("score").innerHTML = "Score: " + numberCorrect + "/" + questionCount;
 	questionCount++;
-	console.log("Feedback given.");
-	$('input[name=response]').attr('checked',false);
+	uncheckBoxes();
 	generateQuestion();
 }
 
+function uncheckBoxes(){
+	//Builds an array of radio elements and then unchecks them all.
+	var radios = document.getElementsByName('response');
+	for(var x=0; x<radios.length;x++){
+		radios[x].checked = false;
+	}
+}
+
 $( document ).ready(function() {
-	console.log("Document Loaded.");
-	$('input[name=response]').attr('checked',false);
+	//Runs at start up to kick off proceedings
 	loadQuestions();
+	uncheckBoxes(); //necessary for when user refreshes page (FF)
 });
 
 $(document).keypress(function(event) {
+	//When a key is pressed, if that key is ENTER, simulate submit button click.
     var keycode = (event.keyCode ? event.keyCode : event.which);
     if (keycode == '13') {
         $(document.getElementById('subbutton')).click();
