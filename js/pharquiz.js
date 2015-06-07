@@ -122,6 +122,7 @@ function submitResponse(){
 	document.getElementById("score").innerHTML = "Score: " + numberCorrect + "/" + questionCount;
 	questionCount++;
 	console.log("Feedback given.");
+	$("response").attr("checked", false);
 	generateQuestion();
 }
 
