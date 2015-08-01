@@ -1,0 +1,151 @@
+.category {
+  text-align: center;
+  color:#FFF;
+  font-weight: bold;
+  padding:20px;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+#banner.row{
+  background-color: #fff;
+  padding-left: 25px;
+}
+
+#banner{
+  height: 400px;
+  margin-top: 0px;
+}
+
+h4.feedheader{
+  line-height: 1;
+  margin-top: -5px;
+  margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 767px){
+  #banner{
+    background-color: #fff;
+  }
+
+  #banner.row{
+    padding-right:25px;
+  }
+}
+
+@media (min-width: 767px){
+  #banner{
+    background-image:url("../static/banner_web.jpg");
+    background-position: 90% 25%;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+  }
+  #banner.row{
+    padding-right: 50%;
+  }
+}
+
+.lifehacks{
+  width: 80%;
+  background-color: #bcf1ff;
+  height: 150px;
+  top:50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding:1em;
+  margin: 0 auto;
+}
+
+#topleftlogo{
+  height:85%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#relationships{
+  background-color:#FF3F3F;
+}
+
+#relationships:hover{
+  background-color:#FF6565;
+}
+
+#sleep {
+  background-color:#9844CB;
+}
+
+#sleep:hover {
+  background-color: #AD69D5;
+}
+
+#exercise {
+  background-color:#FFCC4C;
+}
+
+#exercise:hover {
+  background-color:#FFD670;
+}
+
+#eating {
+  background-color:#FF963F;
+}
+
+#eating:hover{
+  background-color:#FFAB65;
+}
+
+#social {
+  background-color:#30C2C2;
+}
+
+#social:hover {
+  background-color:#59CECE;
+}
+
+#sustainability{
+  background-color: #60E760;
+}
+
+#sustainability:hover {
+  background-color: #88ED88;
+}
+
+#study{
+  background-color: #3ED086;
+}
+
+#study:hover{
+  background-color: #65D99E;
+}
+
+#health{
+  background-color: #EB4683;
+}
+
+#health:hover{
+  background-color: #EF6B9C;
+}
+
+// BOOTSTRAP OVERRIDES
+
+body, html {
+  background-color: #FF0000;
+}
+
+.navbar-inner {
+  min-height: 0px;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar {
+  min-height:80px !important;
+  margin-bottom: 0;
+}
