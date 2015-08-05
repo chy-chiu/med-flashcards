@@ -27,7 +27,7 @@
 }
 
 #banner{
-  height: 400px;
+  min-height: 400px;
   margin-top: 0px;
 }
 
@@ -37,38 +37,21 @@ h4.feedheader{
   margin-bottom: -15px;
 }
 
-@media only screen and (max-width: 767px){
-  #banner{
-    background-color: #fff;
-  }
-
-  #banner.row{
-    padding-right:25px;
-  }
-}
-
-@media (min-width: 767px){
-  #banner{
-    background-image:url("../static/banner_web.jpg");
-    background-position: 90% 0%;
-    background-repeat: no-repeat;
-    background-size: 600px;
-    background-attachment: fixed;
-  }
-  #banner.row{
-    padding-right: 50%;
-  }
-}
-
 .lifehacks{
   width: 80%;
   background-color: #bcf1ff;
   height: 150px;
   top:50%;
-  overflow: hidden;
-  text-overflow: ellipsis;
   padding:1em;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px){
+  .lifehacks{
+    height:250px;
+    width:90%;
+  }
 }
 
 #topleftlogo{
@@ -143,10 +126,14 @@ h4.feedheader{
 
 .livefeed{
   height:80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .feedcontrols{
   float:right;
+  padding-bottom:5px;
+  height:20%;
 }
 
 // BOOTSTRAP OVERRIDES
@@ -172,3 +159,27 @@ body, html {
 }
 
 
+// Small screens
+
+@media (max-width: 767px){
+  #banner{
+    background-color: #fff;
+  }
+
+  #banner.row{
+    padding-right:25px;
+  }
+}
+
+@media (min-width: 767px){
+  #banner{
+    background-image:url("../static/banner_web.jpg");
+    background-position: 90% 0%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-attachment: fixed;
+  }
+  #banner.row{
+    padding-right: 50%;
+  }
+}
