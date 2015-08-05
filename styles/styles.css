@@ -47,6 +47,19 @@ h4.feedheader{
   }
 }
 
+@media(min-width: 1500px){
+	#banner{
+		background-image:url("../static/banner_web.jpg");
+		background-position: 70% 10%;
+		background-repeat:no-repeat;
+		background-size: 400px;
+		background-attachment: fixed;
+	}
+	#banner.row{
+		padding-right:50%;
+	}
+}
+
 .lifehacks{
   width: 80%;
   background-color: #bcf1ff;
