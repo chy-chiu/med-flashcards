@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Improve yourself.">
-  <meta name="author" content=""> <!--Set description?-->
-  <link rel="icon" href="./static/favicon.ico"> <!--This needs to be created -->
-  <title>pivot &dash; Improve yourself.</title>
+  <meta name="author" content="">
+  <link rel="icon" href="./favicon.ico">
+  <title>pivot - Social</title>
 
   <!--Bootstrap core -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,6 +15,7 @@
     <!-- Custom styles for this template -->
     <link href="./styles/sticky-footer-navbar.css" rel="stylesheet">
     <link href="./styles/styles.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,30 +31,42 @@
   <!-- Fixed navbar -->
       <nav class="navbar navbar-default">
         <div class="container">
-          <div class="navbar-header pivot-header">
+          <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="./static/logo_small.png" height="50px"/></a>
+            <a class="navbar-brand" href="index.html"><img src="./static/logo_small.png" id="topleftlogo"/></a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">Quizzes</a></li>
-              <li><a href="#contact">Get rid of navbar?</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#quizzes">Quizzes</a></li>
+              <li><a href="#feed">The Feed</a></li>
+              <li><a href="#success">Success Stories</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li class="active"><a href="#social">Social</a></li>
+                  <li><a href="#relationships">Relationships</a></li>
+                  <li><a href="#sleep">Sleep</a></li>
+                  <li><a href="#health">Health</a></li>
+                  <li><a href="#eating">Eating</a></li>
+                  <li><a href="#study">Study</a></li>
+                  <li><a href="#exercise">Exercise</a></li>
+                  <li><a href="#sustainability">Sustainability</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#submitgen">General</a></li>
+                  <li><a href="#submithack">Lifehack</a></li>
+                  <li><a href="#submitstory">Story</a></li>
+                  <li><a href="#art">Art</a></li>
+                  <li><a href="#contactus">Contact Us</a></li>
                 </ul>
               </li>
             </ul>
@@ -63,74 +76,84 @@
 
       <!-- Begin page content -->
       <div class="container">
-        <div class="row">
-          <h1>Social</h1>
-        </div>
-        <hr>
-
-        <div id='post-container'>
+        <div class="post-container">
           <div class="row">
-            <div id='post'>
-              <div id="pull-left">
-                <img src="https://i.imgur.com/DSgDyNs.jpg">
-              </div>
-              <div id="pull-right">
-                <h3>What you should do from aa  lktjlksdf jlksatjlksdf nlkfkjdf</h3>
-                <p>John Smith - 03/08/4:00PM</p><br>
-                <p>SAMPLE TEXT</p>
-              </div>
+            <h1>Social</h1>
+          </div>
+          <div class="row">
+            <p>It's important for everyone to have a social life! Here you can find out how to make new friends, improve existing friendships, and safely balance an active (and awesome) social life with all the other stuff you need to do.</p>
+          </div>
+          <hr>
+          <div class="media">
+            <a class="pull-left" href="#">
+    		        <img class="media-object" src="http://i.imgur.com/YaoYTUq.jpg">
+  		      </a>
+  		      <div class="media-body">
+    		        <h4 class="media-heading">What is a society and should I join one?</h4>
+                <p class="text-right">By John Smith</p>
+                <p>Spoiler: yes. Yes you should.</p>
+                <ul class="list-inline list-unstyled">
+  			             <li><span style="vertical-align:middle;" class="glyphicon glyphicon-calendar"></span> 3rd August, 2015 // 16:38PM</li>
+                     <li>|</li>
+                     <li><span style="vertical-align:middle;" class="glyphicon glyphicon-comment"></span> 2 comments</li>
+			          </ul>
             </div>
           </div>
           <hr>
-          <div class="row">
-            <div id='post'>
-              <div id="pull-left">
-                <img src="https://i.imgur.com/DSgDyNs.jpg">
-              </div>
-              <div id="pull-right">
-                <h3>What you should do from </h3>
-                <p>John Smith - 03/08/4:00PM</p><br>
-                <p>SAMPLE TEXT</p>
-              </div>
+          <div class="media">
+            <a class="pull-left" href="#">
+    		        <img class="media-object" src="http://i.imgur.com/YaoYTUq.jpg">
+  		      </a>
+  		      <div class="media-body">
+    		        <h4 class="media-heading">What is a society and should I join one?</h4>
+                <p class="text-right">By John Smith</p>
+                <p>Spoiler: yes. Yes you should.</p>
+                <ul class="list-inline list-unstyled">
+  			             <li><span style="vertical-align:middle;" class="glyphicon glyphicon-calendar"></span> 3rd August, 2015 // 16:38PM</li>
+                     <li>|</li>
+                     <li><span style="vertical-align:middle;" class="glyphicon glyphicon-comment"></span> 2 comments</li>
+			          </ul>
             </div>
           </div>
           <hr>
-          <div class="row">
-            <div id='post'>
-              <div id="pull-left">
-                <img src="https://i.imgur.com/DSgDyNs.jpg">
-              </div>
-              <div id="pull-right">
-                <h3>What you should do from </h3>
-                <p>John Smith - 03/08/4:00PM</p><br>
-                <p>SAMPLE TEXT</p>
-              </div>
+          <div class="media">
+            <a class="pull-left" href="#">
+    		        <img class="media-object" src="http://i.imgur.com/YaoYTUq.jpg">
+  		      </a>
+  		      <div class="media-body">
+    		        <h4 class="media-heading">What is a society and should I join one?</h4>
+                <p class="text-right">By John Smith</p>
+                <p>Spoiler: yes. Yes you should.</p>
+                <ul class="list-inline list-unstyled">
+  			             <li><span style="vertical-align:middle;" class="glyphicon glyphicon-calendar"></span> 3rd August, 2015 // 16:38PM</li>
+                     <li>|</li>
+                     <li><span style="vertical-align:middle;" class="glyphicon glyphicon-comment"></span> 2 comments</li>
+			          </ul>
             </div>
           </div>
           <hr>
-          <div class="row">
-            <div id='post'>
-              <div id="pull-left">
-                <img src="https://i.imgur.com/DSgDyNs.jpg">
-              </div>
-              <div id="pull-right">
-                <h3>What you should do from </h3>
-                <p>John Smith - 03/08/4:00PM</p><br>
-                <p>SAMPLE TEXT</p>
-              </div>
+          <div class="media">
+            <a class="pull-left" href="#">
+    		        <img class="media-object" src="http://i.imgur.com/YaoYTUq.jpg">
+  		      </a>
+  		      <div class="media-body">
+    		        <h4 class="media-heading">What is a society and should I join one?</h4>
+                <p class="text-right">By John Smith</p>
+                <p>Spoiler: yes. Yes you should.</p>
+                <ul class="list-inline list-unstyled">
+  			             <li><span style="vertical-align:middle;" class="glyphicon glyphicon-calendar"></span> 3rd August, 2015 // 16:38PM</li>
+                     <li>|</li>
+                     <li><span style="vertical-align:middle;" class="glyphicon glyphicon-comment"></span> 2 comments</li>
+			          </ul>
             </div>
           </div>
-          <hr>
-        </div>
-
-      <p>
-
+          <br>
+      </div>
       <footer class="footer">
         <div class="container">
           <p class="text-muted">&copy; UNSW 2015.</p>
         </div>
       </footer>
-
 
       <!-- Bootstrap core JavaScript
       ================================================== -->

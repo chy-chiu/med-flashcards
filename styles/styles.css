@@ -1,3 +1,16 @@
+.post-container {
+  background-color: #fff;
+	margin: 0 auto;
+	width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.media-object {
+  width: 150px;
+  height: 150px;
+}
+
 .category {
   text-align: center;
   color:#FFF;
@@ -37,27 +50,14 @@ h4.feedheader{
 @media (min-width: 767px){
   #banner{
     background-image:url("../static/banner_web.jpg");
-    background-position: 90% 25%;
+    background-position: 90% 0%;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 600px;
     background-attachment: fixed;
   }
   #banner.row{
-    padding-right: 40%;
+    padding-right: 50%;
   }
-}
-
-@media(min-width: 1500px){
-	#banner{
-		background-image:url("../static/banner_web.jpg");
-		background-position: 70% 10%;
-		background-repeat:no-repeat;
-		background-size: 400px;
-		background-attachment: fixed;
-	}
-	#banner.row{
-		padding-right:50%;
-	}
 }
 
 .lifehacks{
@@ -141,52 +141,12 @@ h4.feedheader{
   background-color: #EF6B9C;
 }
 
-#pull-right {
-	display: block;
-	float: right;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	height: 181px;
-	line-height: 19px;
-	width: 400px;
-	word-wrap: break-all;
+.livefeed{
+  height:80%;
 }
 
-#pull-left {
-	display: block;
-	float: left;
-	text-align: left;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-weight: normal;
-	height: 152px;
-	line-height: 19px;
-	width: 208px;
-}
-
-#post-container {
-	display: block;
-	float: left;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-weight: normal;
-	height: 3056px;
-	line-height: 19px;
-	width: 640px;
-}
-
-#post {
-	color: rgb(51, 51, 51);
-	display: block;
-	float: left;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	height: 254px;
-	line-height: 19px;
-	margin-top: 0px;
-	width: 640px;
+.feedcontrols{
+  float:right;
 }
 
 // BOOTSTRAP OVERRIDES
@@ -210,3 +170,5 @@ body, html {
   min-height:80px !important;
   margin-bottom: 0;
 }
+
+

@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Improve yourself.">
-  <meta name="author" content=""> <!--Set description?-->
-  <link rel="icon" href="./static/favicon.ico"> <!--This needs to be created -->
-  <title>pivot &dash; Improve yourself.</title>
+  <meta name="author" content="notanavocado @ github">
+  <link rel="icon" href="./favicon.ico">
+  <title>pivot - Improve yourself.</title>
 
   <!--Bootstrap core -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
@@ -45,13 +45,28 @@
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#quizzes">Quizzes</a></li>
               <li><a href="#feed">The Feed</a></li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#success">Success Stories</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Submit your Success<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="social.html">Social</a></li>
+                  <li><a href="#relationships">Relationships</a></li>
+                  <li><a href="#sleep">Sleep</a></li>
+                  <li><a href="#health">Health</a></li>
+                  <li><a href="#eating">Eating</a></li>
+                  <li><a href="#study">Study</a></li>
+                  <li><a href="#exercise">Exercise</a></li>
+                  <li><a href="#sustainability">Sustainability</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#submitgen">General</a></li>
                   <li><a href="#submithack">Lifehack</a></li>
                   <li><a href="#submitstory">Story</a></li>
+                  <li><a href="#art">Art</a></li>
+                  <li><a href="#contactus">Contact Us</a></li>
                 </ul>
               </li>
             </ul>
@@ -66,8 +81,13 @@
           <p>We're here to help each other succeed. Find <a href="#">tips</a> on how to get the most out of uni life, <a href="#">test your knowledge</a> of healthy, fulfilling living, or read some of the many <a href="#">success stories</a> emerging from UNSW.</p>
           <br>
           <div class="lifehacks">
-            <h4>Your daily quick tips:</h4><br>
-            <span id="feed">Loading The Feed...</span>
+            <div class="livefeed">
+              <h4 class="feedheader"><small>Your daily quick tips:</small></h4><br>
+              <span id="feed">Loading The Feed...</span><br>
+            </div>
+            <div class="feedcontrols">
+              <a><span style="vertical-align:middle;font-size:1.5em;padding-right:10px;" class="glyphicon glyphicon-circle-arrow-up"></span></a><a><span style="vertical-align:middle;font-size:1.5em;padding-right:10px;" class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></a><button type="submit" class="btn btn-success green"><span class="glyphicon glyphicon-cloud-upload"></span> Submit</button>
+            </div>
           </div>
         </div>
         <div class="row">
