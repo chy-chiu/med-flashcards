@@ -183,3 +183,16 @@ body, html {
     padding-right: 50%;
   }
 }
+
+@media (min-width: 1400px){
+  #banner{
+    background-image:url("../static/banner_web.jpg");
+    background-position: 80% 0%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-attachment: fixed;
+  }
+  #banner.row{
+    padding-right: 50%;
+  }
+}
