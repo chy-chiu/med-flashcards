@@ -1,125 +1,167 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Improve yourself.">
-  <meta name="author" content="notanavocado @ github">
-  <link rel="icon" href="./favicon.ico">
-  <title>pivot - Improve yourself.</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Tony Cox Lawyers & Conveyancers Port Macquarie</title>
 
-  <!--Bootstrap core -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Favicon and theming -->
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <meta name="theme-color" content="#ffffff">
 
-    <!-- Custom styles for this template -->
-    <link href="./styles/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="./styles/styles.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:700&text=Tony%20Cox%20Lawyers' rel='stylesheet' type='text/css'>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./dist/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 <body>
-  <!-- Fixed navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="./static/logo_small.png" id="topleftlogo"/></a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#quizzes">Quizzes</a></li>
-              <li><a href="#feed">The Feed</a></li>
-              <li><a href="#success">Success Stories</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="social.html">Social</a></li>
-                  <li><a href="#relationships">Relationships</a></li>
-                  <li><a href="#sleep">Sleep</a></li>
-                  <li><a href="#health">Health</a></li>
-                  <li><a href="#eating">Eating</a></li>
-                  <li><a href="#study">Study</a></li>
-                  <li><a href="#exercise">Exercise</a></li>
-                  <li><a href="#sustainability">Sustainability</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#submitgen">General</a></li>
-                  <li><a href="#submithack">Lifehack</a></li>
-                  <li><a href="#submitstory">Story</a></li>
-                  <li><a href="#art">Art</a></li>
-                  <li><a href="#contactus">Contact Us</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </nav>
 
-      <!-- Begin page content -->
-      <div class="container">
-        <div id="banner" class="row">
-          <h1>Improve yourself.</h1>
-          <p>We're here to help each other succeed. Find <a href="#">tips</a> on how to get the most out of uni life, <a href="#">test your knowledge</a> of healthy, fulfilling living, or read some of the many <a href="#">success stories</a> emerging from UNSW.</p>
-          <br>
-          <div class="lifehacks">
-            <div class="livefeed">
-              <h4 class="feedheader"><small>Your daily quick tips:</small></h4><br>
-              <span id="feed">Loading The Feed...</span><br>
-            </div>
-            <div class="feedcontrols">
-              <a href="#"><span style="vertical-align:middle;font-size:1.5em;padding-right:10px;" class="glyphicon glyphicon-circle-arrow-up"></span></a><a href="#"><span style="vertical-align:middle;font-size:1.5em;padding-right:10px;" class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></a><button type="submit" class="btn btn-success green"><span class="glyphicon glyphicon-cloud-upload"></span> Submit</button>
-            </div>
+  <!-- Navigation -->
+  <nav class="brown lighten-2" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="./static/header_logo.png"</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="team.html">Meet the Team</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Latest News</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="team.html">Meet the Team</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Latest News</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <!-- Top Banner -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container center-align">
+        <br>
+        <h1 class="header white-text quickshad montserrat">Tony Cox Laywers</h1>
+        <br><br>
+        <div class="row">
+          <h5 class="header col s12 light quickshad">Port Macquarie's Leading Legal Team</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="static/office1.jpg" width="100%" alt="Our William St Office">
+    </div>
+  </div>
+
+
+  <!--   Quick Info   -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">star</i></h2>
+            <h5 class="center">World Class Team</h5>
+            <p class="light">Our tight-knit team has more than 60 years' combined experience in the profession, putting us in a premier position to help you with all legal matters.</p>
           </div>
         </div>
-        <div class="row">
-          <a href="social.html"><div id="social" class="col-md-3 category"><img src="./static/social_icon.png" height="150px" /><h3>Social</h3></div></a>
-          <a href="#"><div id='relationships' class="col-md-3 category"><img src="./static/relationships_icon.png" height="150px" /><h3>Relationships</h3></div></a>
-          <a href="#"><div id="sleep" class="col-md-3 category"><img src="./static/sleep_icon.png" height="150px" /><h3>Sleep</h3></div></a>
-          <a href="#"><div id="health" class="col-md-3 category"><img src="./static/health_icon.png" height="150px" /><h3>Health</h3></div></a>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">face</i></h2>
+            <h5 class="center">First Rate Experience</h5>
+            <p class="light">We care about our clients, and are committed to providing the personalised service and advice only a local law firm can provide.</p>
+          </div>
         </div>
-        <div class="row">
-          <a href="#"><div id="eating" class="col-md-3 category"><img src="./static/eating_icon.png" height="150px" /><h3>Eating</h3></div></a>
-          <a href="#"><div id="study" class="col-md-3 category"><img src="./static/study_icon.png" height="150px" /><h3>Study</h3></div></a>
-          <a href="#"><div id="exercise" class="col-md-3 category"><img src="./static/exercise_icon.png" height="150px" /><h3>Exercise</h3></div></a>
-          <a href="#"><div id="sustainability" class="col-md-3 category"><img src="./static/sustainability_icon.png" height="150px" /><h3>Sustainability</h3></div></a>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">business</i></h2>
+            <h5 class="center">Central Location</h5>
+            <p class="light">Found in the beating heart of the Port Macquarie CBD, we are highly accessible to clients in the Port Macquarie Area and around the state.</p>
+          </div>
         </div>
       </div>
 
-      <footer class="footer">
-        <div class="container">
-          <p class="text-muted">&copy; UNSW 2015.</p>
+    </div>
+  </div>
+
+  <!--the team -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light quickshad">Our team can help with a wide range of services.</h5>
         </div>
-      </footer>
+      </div>
+    </div>
+    <div class="parallax"><img src="static/team1.jpg" width="100%" class="teampic hide-on-small-only"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h4>Your team of legal professionals</h4>
+          <p class="left-align light">Tony has assembled one of the finest legal teams this side of the equator, and they're here to help you.</p>
+          <br>
+          <a class="waves-effect waves-light brown btn-large" href="team.html">Meet the Team</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="./dist/js/bootstrap.min.js"></script>
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-      <script src="./dist/js/ie10-viewport-bug-workaround.js"></script>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light quickshad">Contact us today to find out what we can do for you.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="static/tony1.jpg" alt="Tony Cox Lawyers"></div>
+  </div>
 
-      <!-- Feed.js -->
-      <script src="./styles/feed.js"></script>
-    </body>
-  </html>
+  <footer class="page-footer brown">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect with Us</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container brown-text text-lighten-4">
+      &copy; 2015 Cox Laywers. Site design by <a class="brown-text text-lighten-3" href="http://notanavocado.github.io/">Jackson Blythe</a>. Based on the <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize CSS Framework</a>.
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
