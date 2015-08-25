@@ -1,4 +1,7 @@
 /* Custom Stylesheet */
+.tabs {
+  display: block
+}
 
 nav ul a,
 nav .brand-logo {
