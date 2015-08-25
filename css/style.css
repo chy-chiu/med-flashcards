@@ -39,9 +39,23 @@ p {
   color: rgba(255,255,255,.9);
 }
 
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
+
+.center-btn {
+  padding-top: 16px;
+  text-align: center;
+  line-height: 48px;
+  margin-bottom: 0;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 325px;
+  display: block;
+  margin: auto;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
