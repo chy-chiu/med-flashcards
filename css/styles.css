@@ -1,0 +1,74 @@
+//CUSTOM STYLES
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  font-size: 18pt;
+  text-shadow: 1px 1px 2px #222;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:target {
+    border: 2px solid white;
+    color: #fff;
+    background: none;
+}
+
+hr {
+  width: 60%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  font-family: "Voces", sans-serif;
+  height: 100%;
+  background-color: #110022;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Megrim", monospace;
+  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
+  font-size: 100pt;
+}
+
+.breadcrumb {
+  text-shadow: none;
+  background: none;
+  font-size: 14pt;
+  color: #FFF
+}
+
+/*
+ * Sections
+ */
+
+.intro-container {
+  margin-top: -50px;
+}
+
+/*
+ * Media Queries
+ */
