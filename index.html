@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Biomed Question Generation</h1>
+
+<p>Your station is:</p>
+
+<b><p id="question"></p></b>
+
+<button onclick="generateQuestion()">Another!</button>
+
+<script>
+    
+document.addEventListener('DOMContentLoaded', generateQuestion(), false);
+
+function generateQuestion() {
+    var qArray = ["Anatomy: AAA", "Anatomy: Appendicitis", "Anatomy: Breast cancer", "Anatomy: Cervical cancer", "Anatomy: Duodenal ulcer", "Anatomy: Dysphagia from scleroderma", "Anatomy: Extradural/epidural haemorrhage", "Anatomy: Glioblastoma", "Anatomy: Lacunar stroke", "Anatomy: Laryngeal cancer", "Anatomy: Lung cancer", "Anatomy: MI", "Anatomy: Ovarian cancer", "Anatomy: Pancreatitis", "Anatomy: Pituitary adenoma", "Anatomy: Pneumothorax", "Anatomy: Prostate cancer", "Anatomy: RCC", "Anatomy: Renal calculus", "Anatomy: Small bowel obstruction secondary to hernia", "Anatomy: Spinal cord injury", "Anatomy: Stomach ulcer", "Anatomy: Subarachnoid haemorrhage", "Anatomy: Testicular cancer", "Anatomy: Testicular torsion", "Anatomy: Transitional cell carcinoma", "Diagnostics: Acute myeloid leukaemia", "Diagnostics: Acute renal failure", "Diagnostics: Alcoholic liver disease", "Diagnostics: Anaemia", "Diagnostics: Bordetella pertussis", "Diagnostics: DKA", "Diagnostics: HIV", "Diagnostics: hypothyroid", "Diagnostics: Infective endocarditis", "Diagnostics: Meningitis", "Diagnostics: Multiple myeloma", "Diagnostics: PID", "Diagnostics: Pneumonia (atypical)", "Diagnostics: Pneumonia (staph)/lung abscess", "Diagnostics: PUD/H pylori", "Diagnostics: Reflux nephropathy", "Diagnostics: SLE", "Diagnostics: Urosepsis", "Diagnostics: UTI", "Diagnostics: Viral hepatitis", "Pathology: Acute cholecystitis", "Pathology: Breast cancer", "Pathology: Colorectal cancer", "Pathology: COPD", "Pathology: DKA", "Pathology: Hepatitis", "Pathology: Hodgkin's lymphoma", "Pathology: IBD", "Pathology: Infective endocarditis", "Pathology: Lung adenocarcinoma", "Pathology: MCA stroke", "Pathology: MI", "Pathology: Osteoporosis", "Pathology: Prostate cancer", "Pathology: Testicular cancer", "Pathology: Diabetic nephrotic syndrome", "Pharmacology: Acute pulmonary oedema", "Pharmacology: Alcohol", "Pharmacology: Anaphylaxis", "Pharmacology: Asthma", "Pharmacology: Depression", "Pharmacology: DVT post surgery", "Pharmacology: Epilepsy", "Pharmacology: Glaucoma", "Pharmacology: Hyperosmolar hyperglycaemic state", "Pharmacology: Hypertension/hyperlipidaemia", "Pharmacology: IBD", "Pharmacology: Meningitis", "Pharmacology: MI anticoagulation", "Pharmacology: Osteoporosis", "Pharmacology: PE postpartum", "Pharmacology: Pneumonia", "Pharmacology: Post-op analgesia", "Pharmacology: PUD/H.pylori", "Pharmacology: Rheumatoid arthritis", "Pharmacology: Schizophrenia", "Pharmacology: T2DM", "Pharmacology: Urosepsis post surgery"];
+    var randomq = qArray[Math.floor(Math.random() * qArray.length)];
+    document.getElementById("question").innerHTML = randomq;
+}
+</script>
+
+</body>
+</html>
