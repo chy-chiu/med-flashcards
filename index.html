@@ -1,25 +1,181 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Revise: UNSW Med 6th Year Vivas</title>
 
-<h1>Biomed Question Generation</h1>
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">notanavocado</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Vivas</a></li>
+                    <li><a href="biomed.html">Biomed</a></li>
+                </ul>
 
-<p>Your station is:</p>
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="biomed.html">Biomed</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <br><br>
+                <h1 class="header center orange-text">Revise</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">A basic revision system for UNSW Medicine 6th Year Vivas</h5>
+                </div>
+                <div class="row center">
+                    <div class="col s12">
+                        <h6>Include questions from:</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="#">
+                        <div class="col s12 m6">      
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Medicine</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Surgery</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Emergency</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>General Practice</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="col s12 m6">
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Psychiatry</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Obstetrics &amp; Gynaecology</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Paediatrics</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>NPS Modules</span>
+                                </label>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+                <div class="row center">
+                    <a href="medquiz.html" id="download-button" class="btn-large waves-effect waves-light orange">Quiz Me!</a>
+                </div>
+                <br><br>
 
-<b><p id="question"></p></b>
+            </div>
+        </div>
 
-<button onclick="generateQuestion()">Another!</button>
 
-<script>
-    
-document.addEventListener('DOMContentLoaded', generateQuestion(), false);
+        <div class="container">
+            <div class="section">
 
-function generateQuestion() {
-    var qArray = ["Anatomy: AAA", "Anatomy: Appendicitis", "Anatomy: Breast cancer", "Anatomy: Cervical cancer", "Anatomy: Duodenal ulcer", "Anatomy: Dysphagia from scleroderma", "Anatomy: Extradural/epidural haemorrhage", "Anatomy: Glioblastoma", "Anatomy: Lacunar stroke", "Anatomy: Laryngeal cancer", "Anatomy: Lung cancer", "Anatomy: MI", "Anatomy: Ovarian cancer", "Anatomy: Pancreatitis", "Anatomy: Pituitary adenoma", "Anatomy: Pneumothorax", "Anatomy: Prostate cancer", "Anatomy: RCC", "Anatomy: Renal calculus", "Anatomy: Small bowel obstruction secondary to hernia", "Anatomy: Spinal cord injury", "Anatomy: Stomach ulcer", "Anatomy: Subarachnoid haemorrhage", "Anatomy: Testicular cancer", "Anatomy: Testicular torsion", "Anatomy: Transitional cell carcinoma", "Diagnostics: Acute myeloid leukaemia", "Diagnostics: Acute renal failure", "Diagnostics: Alcoholic liver disease", "Diagnostics: Anaemia", "Diagnostics: Bordetella pertussis", "Diagnostics: DKA", "Diagnostics: HIV", "Diagnostics: hypothyroid", "Diagnostics: Infective endocarditis", "Diagnostics: Meningitis", "Diagnostics: Multiple myeloma", "Diagnostics: PID", "Diagnostics: Pneumonia (atypical)", "Diagnostics: Pneumonia (staph)/lung abscess", "Diagnostics: PUD/H pylori", "Diagnostics: Reflux nephropathy", "Diagnostics: SLE", "Diagnostics: Urosepsis", "Diagnostics: UTI", "Diagnostics: Viral hepatitis", "Pathology: Acute cholecystitis", "Pathology: Breast cancer", "Pathology: Colorectal cancer", "Pathology: COPD", "Pathology: DKA", "Pathology: Hepatitis", "Pathology: Hodgkin's lymphoma", "Pathology: IBD", "Pathology: Infective endocarditis", "Pathology: Lung adenocarcinoma", "Pathology: MCA stroke", "Pathology: MI", "Pathology: Osteoporosis", "Pathology: Prostate cancer", "Pathology: Testicular cancer", "Pathology: Diabetic nephrotic syndrome", "Pharmacology: Acute pulmonary oedema", "Pharmacology: Alcohol", "Pharmacology: Anaphylaxis", "Pharmacology: Asthma", "Pharmacology: Depression", "Pharmacology: DVT post surgery", "Pharmacology: Epilepsy", "Pharmacology: Glaucoma", "Pharmacology: Hyperosmolar hyperglycaemic state", "Pharmacology: Hypertension/hyperlipidaemia", "Pharmacology: IBD", "Pharmacology: Meningitis", "Pharmacology: MI anticoagulation", "Pharmacology: Osteoporosis", "Pharmacology: PE postpartum", "Pharmacology: Pneumonia", "Pharmacology: Post-op analgesia", "Pharmacology: PUD/H.pylori", "Pharmacology: Rheumatoid arthritis", "Pharmacology: Schizophrenia", "Pharmacology: T2DM", "Pharmacology: Urosepsis post surgery", "Pathology: Pleural Effusion", "Pathology: Pyrexia of Unknown Origin", "Pathology: Gestational Trophoblastic Disease", "Pathology: Polycythaemia Vera (CP42)", "Diagnostics: Graves Disease", "Diagnostics: Von Willebrand Disease"];
-    var randomq = qArray[Math.floor(Math.random() * qArray.length)];
-    document.getElementById("question").innerHTML = randomq;
-}
-</script>
+                <!--   Icon Section   -->
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="icon-block">
+                            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+                            <h5 class="center">Disclaimer</h5>
 
-</body>
+                            <p class="light">Note that this page stores local files on your device regarding the weightings that you have applied to specific questions. If you clear the cache on your browser, you are likely to lose your settings.</p>
+                            <p class="heavy">This page is not affiliated with UNSW Medicine.</p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6">
+                        <div class="icon-block">
+                            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+                            <h5 class="center">How it Works</h5>
+
+                            <p class="light">This page uses an Anki-like system loaded with a selection of the vivas and </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+        </div>
+
+        <footer class="page-footer orange">
+            <div class="container">
+                <div class="row">
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Settings</h5>
+                        <ul>
+                            <li><a class="white-text modal-trigger" href="#inprogress">Edit Question Weightings</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Contact</h5>
+                        <ul>
+                            <li><a class="white-text" href="mailto:notanavocado@gmail.com?subject=Revise Correction">Report a mistake</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Made with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal Structure -->
+        <div id="inprogress" class="modal">
+            <div class="modal-content">
+                <h4>Sorry!</h4>
+                <p>This feature is still a work in progress. What? I've got exams to study for too, y'know.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close btn-large waves-effect waves-light orange">You suck but OK</a>
+            </div>
+        </div>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.modal').modal();
+            });
+        </script>
+
+    </body>
 </html>

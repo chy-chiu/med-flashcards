@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Revise: UNSW Med 6th Year Vivas</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">notanavocado</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Vivas</a></li>
+                    <li><a href="biomed.html">Biomed</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="biomed.html">Biomed</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <br><br>
+                <h3 class="center orange-text">Medicine (2019 Viva Release)</h3>
+                <div class="row center">
+                    <h5 class="header col s12 light" id="question">QUESTION TEXT HERE.</h5>
+                </div>
+                <div class="row center">
+                    <h5 class="header col s12" id="phase">Reading time:</h5>
+                    <h1 class="header center" id="timer"><span id="minutes">00</span>:<span id="seconds">00</span></h1>
+                </div>
+                <br><br>
+
+            </div>
+        </div>
+
+        <footer class="page-footer orange">
+            <div class="container">
+                <div class="row">
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Settings</h5>
+                        <ul>
+                            <li><a class="white-text modal-trigger" href="#inprogress">Edit Question Weightings</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Contact</h5>
+                        <ul>
+                            <li><a class="white-text" href="mailto:notanavocado@gmail.com?subject=Revise Correction">Report a mistake</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Made with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal Structure -->
+        <div id="inprogress" class="modal">
+            <div class="modal-content">
+                <h4>Sorry!</h4>
+                <p>This feature is still a work in progress. What? I've got exams to study for too, y'know.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close btn-large waves-effect waves-light orange">You suck but OK</a>
+            </div>
+        </div>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script>
+            var timeLeft = 60;
+            var rTInt = setInterval(readTimer, 1000);
+            var qListRaw = '';
+
+            $(document).ready(function(){
+                $('.modal').modal();
+                $.ajax({
+                    type: 'GET',
+                    url: 'db/med_2019.csv',
+                    async: false,
+                    success : function(text){
+                        qListRaw = text;
+                    }
+                });
+                loadQuestion();
+            });
+
+            function loadQuestion(){
+                qList = qListRaw.split('\n');
+                for(var i = 0; i < qList.length; i++){
+                    qList[i] = qList[i].split(';');
+                }
+                console.log("Successfully loaded " + qList.length + " questions.");
+                $("#question").html(qList[Math.floor(Math.random()*qList.length)][2]);
+            }
+
+            function readTimer() {
+                var minutes = Math.floor(timeLeft / 60);
+                var seconds = Math.floor((timeLeft - (minutes * 60)));
+                if (minutes < "10") { minutes = "0" + minutes; }
+                if (seconds < "10") { seconds = "0" + seconds; }
+
+                $("#minutes").html(minutes);
+                $("#seconds").html(seconds);		
+                if(timeLeft==0){
+                    clearInterval(rTInt);
+                    timeLeft=480;
+                    $("#phase").html("Viva time:");
+                    setInterval(vivaTimer, 1000);
+                    return;
+                }
+                timeLeft -= 1;
+            }
+
+            function vivaTimer() {
+                var minutes = Math.floor(timeLeft / 60);
+                var seconds = Math.floor((timeLeft - (minutes * 60)));
+                if (minutes < "10") { minutes = "0" + minutes; }
+                if (seconds < "10") { seconds = "0" + seconds; }
+
+                $("#minutes").html(minutes);
+                $("#seconds").html(seconds);		
+                if(timeLeft==0){
+                    clearInterval(vivaTimer);
+                    $("phase").html("Finished!");
+                    return;
+                }
+                timeLeft -= 1;
+            }
+        </script>
+    </body>
+</html>
