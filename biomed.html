@@ -221,6 +221,12 @@
                     generateQuestion();
                     return;
                 }
+                if(category=="diag"){
+                    $("#question").html(randomq + ".<br><h6>Don't forget your lab test spiel!</h6>");
+                }
+                if(category=="path"){
+                    $("#question").html(randomq + ".<br><h6>Don't forget your cut-up spiel!</h6>");
+                }
             }
         </script>
     </body>
