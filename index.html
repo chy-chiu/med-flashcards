@@ -33,6 +33,18 @@
                     <h5 class="header col s12 light">A basic revision system for UNSW Medicine 6th Year Vivas</h5>
                 </div>
                 <div class="row center">
+                    <div class = "col s12">
+                        <div class="switch">
+                            <label>
+                                <span class="black-text">I'm testing myself</span>
+                                <input type="checkbox" id="modeToggle">
+                                <span class="lever"></span>
+                                <span class="black-text">I'm working in a study group</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row center">
                     <div class="col s12">
                         <h6>Include questions from:</h6>
                     </div>
@@ -42,59 +54,59 @@
                         <div class="col s12 m6">      
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>Medicine</span>
+                                    <input type="checkbox" id="med"/>
+                                    <span class="black-text">Medicine</span>
                                 </label>
                             </p>
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>Surgery</span>
+                                    <input type="checkbox" id="sur"/>
+                                    <span class="black-text">Surgery</span>
                                 </label>
                             </p>
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>Emergency</span>
+                                    <input type="checkbox" id="eme"/>
+                                    <span class="black-text">Emergency</span>
                                 </label>
                             </p>
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>General Practice</span>
+                                    <input type="checkbox" id="gen" disabled="disabled" />
+                                    <span class="black-text">General Practice</span>
                                 </label>
                             </p>
                         </div>
                         <div class="col s12 m6">
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>Psychiatry</span>
+                                    <input type="checkbox" id = "psy" disabled="disabled" />
+                                    <span class="black-text">Psychiatry</span>
                                 </label>
                             </p>
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>Obstetrics &amp; Gynaecology</span>
+                                    <input type="checkbox" id="obs" disabled="disabled" />
+                                    <span class="black-text">Obstetrics &amp; Gynaecology</span>
                                 </label>
                             </p>
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>Paediatrics</span>
+                                    <input type="checkbox" id="pae" disabled="disabled" />
+                                    <span class="black-text">Paediatrics</span>
                                 </label>
                             </p>
                             <p>
                                 <label>
-                                    <input type="checkbox" />
-                                    <span>NPS Modules</span>
+                                    <input type="checkbox" id="nps" disabled="disabled" />
+                                    <span class="black-text">NPS Modules</span>
                                 </label>
                             </p>
                         </div>
                     </form>
                 </div>
                 <div class="row center">
-                    <a href="medquiz.html" id="download-button" class="btn-large waves-effect waves-light orange">Quiz Me!</a>
+                    <a id="getStarted" class="btn-large waves-effect waves-light orange">Quiz Me!</a>
                 </div>
                 <br><br>
 
@@ -112,7 +124,7 @@
                             <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
                             <h5 class="center">Disclaimer</h5>
 
-                            <p class="light">Note that this page stores local files on your device regarding the weightings that you have applied to specific questions. If you clear the cache on your browser, you are likely to lose your settings.</p>
+                            <p class="light">Note that this page (when complete) will store local files on your device regarding the weightings that you have applied to specific questions. If you clear the cache on your browser, you are likely to lose your settings.</p>
                             <p class="heavy">This page is not affiliated with UNSW Medicine.</p>
                         </div>
                     </div>
@@ -122,7 +134,8 @@
                             <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
                             <h5 class="center">How it Works</h5>
 
-                            <p class="light">This page uses an Anki-like system loaded with a selection of the vivas and </p>
+                            <p class="light">Self-testing will cause the system to present you with a question from the 2019 viva release for the subjects you've selected, giving you a reading time and viva time countdown for you to practice your spiels.</p>
+                            <p class="light">Working in a study group will bring up the title of a past question and a timer, so that the mock examiner can see the laptop screen and find the relevant past question from the database.</p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +156,7 @@
                     <div class="col l3 s12">
                         <h5 class="white-text">Contact</h5>
                         <ul>
-                            <li><a class="white-text" href="mailto:notanavocado@gmail.com?subject=Revise Correction">Report a mistake</a></li>
+                            <li><a class="white-text" href="mailto:notanavocado@gmail.com?subject=Revise Issue">Report a mistake</a></li>
                         </ul>
                     </div>
                 </div>
@@ -174,6 +187,61 @@
         <script>
             $(document).ready(function(){
                 $('.modal').modal();
+            });
+
+            $("#getStarted").click(function(){
+                var mode = "group";
+                if ($("#modeToggle").prop('checked')==false){
+                    mode = "indiv";
+                }
+                var subjects = "";
+                if ($("#med").prop('checked')){
+                    subjects += ",med";
+                }
+                if ($("#sur").prop('checked')){
+                    subjects += ",sur";
+                }
+                if ($("#eme").prop('checked')){
+                    subjects += ",eme";
+                }
+                if ($("#gen").prop('checked')){
+                    subjects += ",gen";
+                }
+                if ($("#psy").prop('checked')){
+                    subjects += ",psy";
+                }
+                if ($("#obs").prop('checked')){
+                    subjects += ",obs";
+                }
+                if ($("#pae").prop('checked')){
+                    subjects += ",pae";
+                }
+                if ($("#nps").prop('checked')){
+                    subjects += ",nps";
+                }
+                subjects = subjects.slice(1);
+                window.location.href = "vivas.html?mode=" + mode + "&subjects=" + subjects;
+            });
+
+            $("#modeToggle").click(function(){
+                if($(this).prop('checked')){
+                    $("#gen").removeAttr("disabled");
+                    $("#psy").removeAttr("disabled");
+                    $("#obs").removeAttr("disabled");
+                    $("#pae").removeAttr("disabled");
+                    $("#nps").removeAttr("disabled");
+                } else {
+                    $("#gen").attr("disabled", true);
+                    $("#gen").prop('checked', false);
+                    $("#psy").attr("disabled", true);
+                    $("#psy").prop('checked', false);
+                    $("#obs").attr("disabled", true);
+                    $("#obs").prop('checked', false);
+                    $("#pae").attr("disabled", true);
+                    $("#pae").prop('checked', false);
+                    $("#nps").attr("disabled", true);
+                    $("#nps").prop('checked', false);
+                }
             });
         </script>
 

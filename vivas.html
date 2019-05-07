@@ -28,13 +28,18 @@
         <div class="section no-pad-bot" id="index-banner">
             <div class="container">
                 <br><br>
-                <h3 class="center orange-text">Medicine (2019 Viva Release)</h3>
+                <h3 id="pageTitle" class="center orange-text">Loading questions...</h3>
                 <div class="row center">
-                    <h5 class="header col s12 light" id="question">QUESTION TEXT HERE.</h5>
+                    <h5 class="header col s12 light" id="question">Loading...</h5>
                 </div>
                 <div class="row center">
                     <h5 class="header col s12" id="phase">Reading time:</h5>
-                    <h1 class="header center" id="timer"><span id="minutes">00</span>:<span id="seconds">00</span></h1>
+                    <h1 class="header center" id="timer"><span id="minutes">01</span>:<span id="seconds">00</span></h1>
+                </div>
+                <div class="row center">
+                    <a id="skipButton" class="col s12 m4 btn-large waves-effect waves-light orange">Skip</a>
+                    <span class="col s12 m4"><p></p></span>
+                    <a id="refreshButton" class="col s12 m4 btn-large waves-effect waves-light light-blue lighten-1">Reset</a>
                 </div>
                 <br><br>
 
@@ -53,7 +58,7 @@
                     <div class="col l3 s12">
                         <h5 class="white-text">Contact</h5>
                         <ul>
-                            <li><a class="white-text" href="mailto:notanavocado@gmail.com?subject=Revise Correction">Report a mistake</a></li>
+                            <li><a class="white-text" href="mailto:notanavocado@gmail.com?subject=Revise Issue">Report a mistake</a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,19 +90,60 @@
             var timeLeft = 60;
             var rTInt = setInterval(readTimer, 1000);
             var qListRaw = '';
+            var qID = 0;
 
             $(document).ready(function(){
                 $('.modal').modal();
-                $.ajax({
-                    type: 'GET',
-                    url: 'db/med_2019.csv',
-                    async: false,
-                    success : function(text){
-                        qListRaw = text;
-                    }
-                });
-                loadQuestion();
+                getQuestions();
+                setTitle();
             });
+            
+            $("#skipButton").click(function(){
+               timeLeft=0; 
+            });
+            
+            $("#refreshButton").click(function(){
+               location.reload(); 
+            });
+
+            function setTitle(){
+                if(getQueryVariable("mode")=="indiv"){
+                    $("#pageTitle").html("Viva Releases 2019");
+                } else {
+                    $("#pageTitle").html("UNSW Viva Past Questions");
+                }
+            }
+
+            function getQuestions(){
+                var subjectArray = getQueryVariable("subjects").split(",");
+                if(getQueryVariable("mode")=="indiv"){
+                    for(var i=0;i<subjectArray.length;i++){
+                        var newurl = 'db/' + subjectArray[i] + '_2019.csv';
+                        $.ajax({
+                            type: 'GET',
+                            url: newurl,
+                            async: false,
+                            success : function(text){
+                                qListRaw += text;
+                            }
+                        });
+                    }
+                } else {
+                    for(var i=0;i<subjectArray.length;i++){
+                        var newurl = 'db/' + subjectArray[i] + '.csv';
+                        $.ajax({
+                            type: 'GET',
+                            url: newurl,
+                            async: false,
+                            success : function(text){
+                                qListRaw += text;
+                            }
+                        });
+                    }
+                }
+                qListRaw = qListRaw.slice(0,-1);
+                loadQuestion();
+            }
 
             function loadQuestion(){
                 qList = qListRaw.split('\n');
@@ -105,7 +151,12 @@
                     qList[i] = qList[i].split(';');
                 }
                 console.log("Successfully loaded " + qList.length + " questions.");
-                $("#question").html(qList[Math.floor(Math.random()*qList.length)][2]);
+                qID = Math.floor(Math.random()*qList.length);
+                if(getQueryVariable("mode")=="indiv"){
+                    $("#question").html(qList[qID][2]);
+                } else {
+                    $("#question").html(qList[qID][1]);
+                }
             }
 
             function readTimer() {
@@ -137,9 +188,21 @@
                 if(timeLeft==0){
                     clearInterval(vivaTimer);
                     $("phase").html("Finished!");
+                    $("#pageTitle").html(qList[qID][1]);
+                    $("#skipButton").attr("disabled", true);
                     return;
                 }
                 timeLeft -= 1;
+            }
+
+            function getQueryVariable(variable){
+                var query = window.location.search.substring(1);
+                var vars = query.split("&");
+                for (var i=0;i<vars.length;i++) {
+                    var pair = vars[i].split("=");
+                    if(pair[0] == variable){return pair[1];}
+                }
+                return(false);
             }
         </script>
     </body>
