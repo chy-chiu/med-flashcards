@@ -1,88 +1,88 @@
-1;ACS and D/C AMA
-2;Abdominal stabbing
-3;Acute asthma attack
-4;Acute angle-closure glaucoma
-5;Acute chest pain
-6;Acute mesenteric ischaemia
-7;Acute limb ischaemia
-8;Aggressive patient
-9;Anaphylaxis
-10;Ankle sprain
-11;Alcohol intoxication
-12;Black eye (periorbital haematoma)
-13;Bleeding post tonsillectomy
-14;Bleeding post tooth extraction
-15;Blunt kidney injury
-16;Bowel obstruction also in an (elderly man)
-17;Burns
-18;Cat bite
-19;Cellulitis in IVDU
-20;Chest trauma 
-21;Cocaine overdose
-22;Collapse
-23;Concussion and D/C AMA
-24;Confused hypotensive elderly patient
-25;Delirium
-26;Depressed skull fracture
-27;Diabetic ketoacidosis (DKA)
-28;Drug seeking
-29;Ectopic pregnancy
-30;Embolism in AF
-31;Facial injury
-32;Fall from ladder
-33;Foreign body in oesophagus
-34;Fractured neck of femur (NOF)
-35;Haemetemesis
-36;Haematochezia (post-polypectomy)
-37;Human bite
-38;Hypercalcaemia
-39;Hyperkalaemia
-40;Hypertensive emergency
-41;Incarcerated femoral hernia
-42;Intracerebral haemorrhage (warfarin)
-43;Knee injury
-44;LIF pain
-45;Melena
-46;Meningism
-47;Meningitis
-48;Motor vehicle accident
-49;Nephrolithiasis
-50;Non-fatal drowning
-51;Open fracture
-52;Palmar laceration
-53;Paracetamol overdose
-54;Penetrating foot injury
-55;Perforated viscus
-56;Perianal abscess
-57;Pericarditis
-58;Perineal cellulitis
-59;Periorbital cellulitis
-60;Post cardiac arrest care
-61;PR Bleeding on anticoagulation
-62;Pulmonary embolism
-63;Pyelonephritis in diabetes
-64;RIF pain (young woman)
-65;Seizure
-66;Sepsis of unknown origin
-67;Septic arthritis 
-68;Severe epistaxis
-69;Sexual assault
-70;Shoulder dislocation
-71;Smoke inhalation
-72;Spinal cord compression
-73;Spider bite
-74;Spontaneous pneumothorax
-75;Spontaneous bacterial peritonitis
-76;Status asthmaticus
-77;Stroke
-78;Subarachnoid haemorrhage 
-79;Suture skin laceration
-80;SVT
-81;Tension pneumothorax
-82;Testicular torsion
-83;Unconscious female patient 
-84;Unconscious patient
-85;Unknown drug overdose
-86;Urinary retention
-87;Urosepsis secondary to nephrolithiasis
-88;Vertigo
+1;Emergency;ACS and D/C AMA
+2;Emergency;Abdominal stabbing
+3;Emergency;Acute asthma attack
+4;Emergency;Acute angle-closure glaucoma
+5;Emergency;Acute chest pain
+6;Emergency;Acute mesenteric ischaemia
+7;Emergency;Acute limb ischaemia
+8;Emergency;Aggressive patient
+9;Emergency;Anaphylaxis
+10;Emergency;Ankle sprain
+11;Emergency;Alcohol intoxication
+12;Emergency;Black eye (periorbital haematoma)
+13;Emergency;Bleeding post tonsillectomy
+14;Emergency;Bleeding post tooth extraction
+15;Emergency;Blunt kidney injury
+16;Emergency;Bowel obstruction also in an (elderly man)
+17;Emergency;Burns
+18;Emergency;Cat bite
+19;Emergency;Cellulitis in IVDU
+20;Emergency;Chest trauma 
+21;Emergency;Cocaine overdose
+22;Emergency;Collapse
+23;Emergency;Concussion and D/C AMA
+24;Emergency;Confused hypotensive elderly patient
+25;Emergency;Delirium
+26;Emergency;Depressed skull fracture
+27;Emergency;Diabetic ketoacidosis (DKA)
+28;Emergency;Drug seeking
+29;Emergency;Ectopic pregnancy
+30;Emergency;Embolism in AF
+31;Emergency;Facial injury
+32;Emergency;Fall from ladder
+33;Emergency;Foreign body in oesophagus
+34;Emergency;Fractured neck of femur (NOF)
+35;Emergency;Haemetemesis
+36;Emergency;Haematochezia (post-polypectomy)
+37;Emergency;Human bite
+38;Emergency;Hypercalcaemia
+39;Emergency;Hyperkalaemia
+40;Emergency;Hypertensive emergency
+41;Emergency;Incarcerated femoral hernia
+42;Emergency;Intracerebral haemorrhage (warfarin)
+43;Emergency;Knee injury
+44;Emergency;LIF pain
+45;Emergency;Melena
+46;Emergency;Meningism
+47;Emergency;Meningitis
+48;Emergency;Motor vehicle accident
+49;Emergency;Nephrolithiasis
+50;Emergency;Non-fatal drowning
+51;Emergency;Open fracture
+52;Emergency;Palmar laceration
+53;Emergency;Paracetamol overdose
+54;Emergency;Penetrating foot injury
+55;Emergency;Perforated viscus
+56;Emergency;Perianal abscess
+57;Emergency;Pericarditis
+58;Emergency;Perineal cellulitis
+59;Emergency;Periorbital cellulitis
+60;Emergency;Post cardiac arrest care
+61;Emergency;PR Bleeding on anticoagulation
+62;Emergency;Pulmonary embolism
+63;Emergency;Pyelonephritis in diabetes
+64;Emergency;RIF pain (young woman)
+65;Emergency;Seizure
+66;Emergency;Sepsis of unknown origin
+67;Emergency;Septic arthritis 
+68;Emergency;Severe epistaxis
+69;Emergency;Sexual assault
+70;Emergency;Shoulder dislocation
+71;Emergency;Smoke inhalation
+72;Emergency;Spinal cord compression
+73;Emergency;Spider bite
+74;Emergency;Spontaneous pneumothorax
+75;Emergency;Spontaneous bacterial peritonitis
+76;Emergency;Status asthmaticus
+77;Emergency;Stroke
+78;Emergency;Subarachnoid haemorrhage 
+79;Emergency;Suture skin laceration
+80;Emergency;SVT
+81;Emergency;Tension pneumothorax
+82;Emergency;Testicular torsion
+83;Emergency;Unconscious female patient 
+84;Emergency;Unconscious patient
+85;Emergency;Unknown drug overdose
+86;Emergency;Urinary retention
+87;Emergency;Urosepsis secondary to nephrolithiasis
+88;Emergency;Vertigo

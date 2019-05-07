@@ -113,8 +113,6 @@
                     $("#skipButton").hide();
                 }
                 getQuestions();
-                setTitle();
-
                 $("#readyButton").click(function(){
                     $("#skipButton").show();
                     $("#readyButton").hide();
@@ -130,11 +128,11 @@
                 location.reload(); 
             });
 
-            function setTitle(){
+            function setTitle(addit){
                 if(getQueryVariable("mode")=="indiv"){
-                    $("#pageTitle").html("Viva Releases 2019");
+                    $("#pageTitle").html("Viva Releases 2019: " + addit);
                 } else {
-                    $("#pageTitle").html("UNSW Viva Past Questions");
+                    $("#pageTitle").html("Viva Station: " + addit);
                 }
             }
 
@@ -177,10 +175,11 @@
                 console.log("Successfully loaded " + qList.length + " questions.");
                 qID = Math.floor(Math.random()*qList.length);
                 if(getQueryVariable("mode")=="indiv"){
-                    $("#question").html(qList[qID][2]);
+                    $("#question").html(qList[qID][3]);
                 } else {
-                    $("#question").html(qList[qID][1]);
+                    $("#question").html(qList[qID][2]);
                 }
+                setTitle(qList[qID][1]);
             }
 
             function readTimer() {
@@ -216,8 +215,10 @@
                 $("#seconds").html(seconds);		
                 if(timeLeft==0){
                     clearInterval(vivaTimer);
-                    $("phase").html("Finished!");
-                    $("#pageTitle").html(qList[qID][1]);
+                    $("#phase").html("Finished!");
+                    if(getQueryVariable("mode")=="indiv"){
+                        $("#pageTitle").html(qList[qID][1] + ": " + qList[qID][2]);
+                    }
                     $("#skipButton").attr("disabled", true);
                     return;
                 }

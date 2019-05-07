@@ -43,7 +43,14 @@
                     <h4 class="header col s12 light" id="question">Loading...</h4>
                 </div>
                 <div class="row center">
-                    <a href="#" class="btn-large waves-effect waves-light orange" onclick="generateQuestion()">Another!</a>
+                    <h5 class="header col s12" id="phase">Reading time:</h5>
+                    <h1 class="header center" id="timer"><span id="minutes">01</span>:<span id="seconds">00</span></h1>
+                </div>
+                <div id="buttonRow" class="row center">
+                    <a id="skipButton" class="col s12 m4 btn-large waves-effect waves-light orange">Skip</a>
+                    <a id="readyButton" class="col s12 m4 btn-large waves-effect waves-lightn green lighten-1">Ready!</a>
+                    <span class="col s12 m4"><p></p></span>
+                    <a id="refreshButton" class="col s12 m4 btn-large waves-effect waves-light light-blue lighten-1">Reset</a>
                 </div>
                 <br><br>
             </div>
@@ -89,6 +96,79 @@
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
         <script>
+            var timeLeft = 60;
+            var rTInt = setInterval(readTimer, 1000);
+            var qListRaw = '';
+            var qID = 0;
+            var pause = true;
+
+            $(document).ready(function(){
+                $('.modal').modal();
+                $("#skipButton").hide();
+                $("#readyButton").click(function(){
+                    $("#skipButton").show();
+                    $("#readyButton").hide();
+                    pause = false;
+                });
+            });
+
+            $("#skipButton").click(function(){
+                timeLeft=0; 
+            });
+
+            $("#refreshButton").click(function(){
+                pause = true;
+                generateQuestion();
+                timeLeft = 60;
+                $("#phase").html("Reading time:");
+                $("#minutes").html("01");
+                $("#skipButton").removeAttr("disabled");
+                $("#skipButton").hide();
+                $("#readyButton").show();
+                rTInt = setInterval(readTimer, 1000);
+            });
+
+            function readTimer() {
+                if(pause){
+                    return;
+                } else {
+                    var minutes = Math.floor(timeLeft / 60);
+                    var seconds = Math.floor((timeLeft - (minutes * 60)));
+                    if (minutes < "10") { minutes = "0" + minutes; }
+                    if (seconds < "10") { seconds = "0" + seconds; }
+
+                    $("#minutes").html(minutes);
+                    $("#seconds").html(seconds);		
+                    if(timeLeft==0){
+                        clearInterval(rTInt);
+                        $("#minutes").html("10");
+                        timeLeft=480;
+                        $("#phase").html("Viva time:");
+                        rTInt = setInterval(vivaTimer, 1000);
+                        return;
+                    }
+                    timeLeft -= 1;
+                }
+            }
+
+            function vivaTimer() {
+                var minutes = Math.floor(timeLeft / 60);
+                var seconds = Math.floor((timeLeft - (minutes * 60)));
+                if (minutes < "10") { minutes = "0" + minutes; }
+                if (seconds < "10") { seconds = "0" + seconds; }
+
+                $("#minutes").html(minutes);
+                $("#seconds").html(seconds);		
+                if(timeLeft==0){
+                    clearInterval(rTInt);
+                    $("#phase").html("Finished!");
+                    $("#skipButton").attr("disabled", true);
+                    return;
+                }
+                timeLeft -= 1;
+            }
+            
+            //Original Script
             document.addEventListener('DOMContentLoaded', generateQuestion(), false);
 
             function generateQuestion() {

@@ -1,92 +1,92 @@
-1;Abdominal pain
-2;Absence seizures
-3;Acute asthma
-4;Acute leukaemia
-5;Acute otitis media
-6;Acute Respiratory Distress Syndrome
-7;ADHD
-8;Anaphylaxis
-9;Appendicitis
-10;Autism spectrum disorder
-11;Baby checks
-12;Breastfeeding
-13;Bronchiolitis
-14;Cerebral palsy
-15;Circumcision
-16;Coeliac disease
-17;Common skin conditions
-18;Congenital heart disease
-19;Constipation
-20;Croup
-21;Cystic fibrosis
-22;Delayed puberty
-23;Developmental delay
-24;Developmental dysplasia of the hip
-25;Diabetic ketoacidosis
-26;Down’s syndrome
-27;Duchenne muscular dystrophy
-28;Encopresis and chronic constipation
-29;Epiglottitis
-30;Failure to thrive
-31;Febrile child
-32;Febrile convulsions
-33;Febrile neutropenia
-34;Fluids and analgesia
-35;Fragile X
-36;Gastroenteritis
-37;Glomerulonephritis
-38;Hand foot and mouth disease
-39;Head injury
-40;Henoch-Schonlein purpura
-41;Hereditary spherocytosis
-42;Hirschsprung disease
-43;Hypertension
-44;Hypoglycaemia education
-45;Hypospadias
-46;Idiopathic Thrombocytopaenic Purpura
-47;Immunisations
-48;Impetigo
-49;Infantile colic
-50;Infectious mononucleosis
-51;Inflammatory bowel disease
-52;Ingrown toenail
-53;Intussusception
-54;Kawasaki disease
-55;Legg-Calve-Perthes disease
-56;Limping child
-57;Meningitis and raised ICP
-58;Mesenteric adenitis
-59;Neck lump
-60;Necrotising enterocolitis
-61;Neonatal cyanosis
-62;Neonatal jaundice and biliary atresia
-63;Nephrotic syndrome
-64;Nocturnal enuresis
-65;Non-accidental injury
-66;Nosebleeds and haemophilia
-67;Osgood-Schlatter syndrome
-68;Pale child
-69;Pertussis
-70;Pneumonia
-71;Post-strep glomerulonephritis/ Haematuria
-72;Prematurity and respiratory distress in newborn
-73;Pyloric stenosis
-74;Rash
-75;Rheumatic fever
-76;Sepsis
-77;Short stature
-78;Slipped upper femoral epiphyses
-79;Sore throat
-80;Status epilepticus
-81;Sudden infant death syndrome
-82;Testicular torsion
-83;Tongue tie
-84;Tumours of childhood
-85;Turner's syndrome
-86;Ulcerative colitis
-87;Undescended testes/Crytorchidism
-88;URTI
-89;UTI
-90;Varicella zoster
-91;Vitamin D deficiency and Rickets
-92;Vomiting
+1;Paediatrics;Abdominal pain
+2;Paediatrics;Absence seizures
+3;Paediatrics;Acute asthma
+4;Paediatrics;Acute leukaemia
+5;Paediatrics;Acute otitis media
+6;Paediatrics;Acute Respiratory Distress Syndrome
+7;Paediatrics;ADHD
+8;Paediatrics;Anaphylaxis
+9;Paediatrics;Appendicitis
+10;Paediatrics;Autism spectrum disorder
+11;Paediatrics;Baby checks
+12;Paediatrics;Breastfeeding
+13;Paediatrics;Bronchiolitis
+14;Paediatrics;Cerebral palsy
+15;Paediatrics;Circumcision
+16;Paediatrics;Coeliac disease
+17;Paediatrics;Common skin conditions
+18;Paediatrics;Congenital heart disease
+19;Paediatrics;Constipation
+20;Paediatrics;Croup
+21;Paediatrics;Cystic fibrosis
+22;Paediatrics;Delayed puberty
+23;Paediatrics;Developmental delay
+24;Paediatrics;Developmental dysplasia of the hip
+25;Paediatrics;Diabetic ketoacidosis
+26;Paediatrics;Down’s syndrome
+27;Paediatrics;Duchenne muscular dystrophy
+28;Paediatrics;Encopresis and chronic constipation
+29;Paediatrics;Epiglottitis
+30;Paediatrics;Failure to thrive
+31;Paediatrics;Febrile child
+32;Paediatrics;Febrile convulsions
+33;Paediatrics;Febrile neutropenia
+34;Paediatrics;Fluids and analgesia
+35;Paediatrics;Fragile X
+36;Paediatrics;Gastroenteritis
+37;Paediatrics;Glomerulonephritis
+38;Paediatrics;Hand foot and mouth disease
+39;Paediatrics;Head injury
+40;Paediatrics;Henoch-Schonlein purpura
+41;Paediatrics;Hereditary spherocytosis
+42;Paediatrics;Hirschsprung disease
+43;Paediatrics;Hypertension
+44;Paediatrics;Hypoglycaemia education
+45;Paediatrics;Hypospadias
+46;Paediatrics;Idiopathic Thrombocytopaenic Purpura
+47;Paediatrics;Immunisations
+48;Paediatrics;Impetigo
+49;Paediatrics;Infantile colic
+50;Paediatrics;Infectious mononucleosis
+51;Paediatrics;Inflammatory bowel disease
+52;Paediatrics;Ingrown toenail
+53;Paediatrics;Intussusception
+54;Paediatrics;Kawasaki disease
+55;Paediatrics;Legg-Calve-Perthes disease
+56;Paediatrics;Limping child
+57;Paediatrics;Meningitis and raised ICP
+58;Paediatrics;Mesenteric adenitis
+59;Paediatrics;Neck lump
+60;Paediatrics;Necrotising enterocolitis
+61;Paediatrics;Neonatal cyanosis
+62;Paediatrics;Neonatal jaundice and biliary atresia
+63;Paediatrics;Nephrotic syndrome
+64;Paediatrics;Nocturnal enuresis
+65;Paediatrics;Non-accidental injury
+66;Paediatrics;Nosebleeds and haemophilia
+67;Paediatrics;Osgood-Schlatter syndrome
+68;Paediatrics;Pale child
+69;Paediatrics;Pertussis
+70;Paediatrics;Pneumonia
+71;Paediatrics;Post-strep glomerulonephritis/ Haematuria
+72;Paediatrics;Prematurity and respiratory distress in newborn
+73;Paediatrics;Pyloric stenosis
+74;Paediatrics;Rash
+75;Paediatrics;Rheumatic fever
+76;Paediatrics;Sepsis
+77;Paediatrics;Short stature
+78;Paediatrics;Slipped upper femoral epiphyses
+79;Paediatrics;Sore throat
+80;Paediatrics;Status epilepticus
+81;Paediatrics;Sudden infant death syndrome
+82;Paediatrics;Testicular torsion
+83;Paediatrics;Tongue tie
+84;Paediatrics;Tumours of childhood
+85;Paediatrics;Turner's syndrome
+86;Paediatrics;Ulcerative colitis
+87;Paediatrics;Undescended testes/Crytorchidism
+88;Paediatrics;URTI
+89;Paediatrics;UTI
+90;Paediatrics;Varicella zoster
+91;Paediatrics;Vitamin D deficiency and Rickets
+92;Paediatrics;Vomiting
