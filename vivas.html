@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139690511-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-139690511-1');
+        </script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
         <title>Revise: UNSW Med 6th Year Vivas</title>
@@ -97,13 +107,13 @@
                 getQuestions();
                 setTitle();
             });
-            
+
             $("#skipButton").click(function(){
-               timeLeft=0; 
+                timeLeft=0; 
             });
-            
+
             $("#refreshButton").click(function(){
-               location.reload(); 
+                location.reload(); 
             });
 
             function setTitle(){
