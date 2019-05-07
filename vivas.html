@@ -46,8 +46,9 @@
                     <h5 class="header col s12" id="phase">Reading time:</h5>
                     <h1 class="header center" id="timer"><span id="minutes">01</span>:<span id="seconds">00</span></h1>
                 </div>
-                <div class="row center">
+                <div id="buttonRow" class="row center">
                     <a id="skipButton" class="col s12 m4 btn-large waves-effect waves-light orange">Skip</a>
+                    <a id="readyButton" class="col s12 m4 btn-large waves-effect waves-lightn green lighten-1">Ready!</a>
                     <span class="col s12 m4"><p></p></span>
                     <a id="refreshButton" class="col s12 m4 btn-large waves-effect waves-light light-blue lighten-1">Reset</a>
                 </div>
@@ -101,11 +102,24 @@
             var rTInt = setInterval(readTimer, 1000);
             var qListRaw = '';
             var qID = 0;
+            var pause = true;
 
             $(document).ready(function(){
                 $('.modal').modal();
+                if(getQueryVariable("mode")=="indiv"){
+                    $("#readyButton").hide();
+                    pause = false;
+                } else{
+                    $("#skipButton").hide();
+                }
                 getQuestions();
                 setTitle();
+
+                $("#readyButton").click(function(){
+                    $("#skipButton").show();
+                    $("#readyButton").hide();
+                    pause = false;
+                });
             });
 
             $("#skipButton").click(function(){
@@ -170,21 +184,26 @@
             }
 
             function readTimer() {
-                var minutes = Math.floor(timeLeft / 60);
-                var seconds = Math.floor((timeLeft - (minutes * 60)));
-                if (minutes < "10") { minutes = "0" + minutes; }
-                if (seconds < "10") { seconds = "0" + seconds; }
-
-                $("#minutes").html(minutes);
-                $("#seconds").html(seconds);		
-                if(timeLeft==0){
-                    clearInterval(rTInt);
-                    timeLeft=600;
-                    $("#phase").html("Viva time:");
-                    setInterval(vivaTimer, 1000);
+                if(pause){
                     return;
+                } else {
+                    var minutes = Math.floor(timeLeft / 60);
+                    var seconds = Math.floor((timeLeft - (minutes * 60)));
+                    if (minutes < "10") { minutes = "0" + minutes; }
+                    if (seconds < "10") { seconds = "0" + seconds; }
+
+                    $("#minutes").html(minutes);
+                    $("#seconds").html(seconds);		
+                    if(timeLeft==0){
+                        clearInterval(rTInt);
+                        $("#minutes").html("10");
+                        timeLeft=600;
+                        $("#phase").html("Viva time:");
+                        setInterval(vivaTimer, 1000);
+                        return;
+                    }
+                    timeLeft -= 1;
                 }
-                timeLeft -= 1;
             }
 
             function vivaTimer() {
