@@ -204,9 +204,9 @@
                     if(timeLeft==0){
                         clearInterval(rTInt);
                         if (qList[qID][1]=="Medicine" || qList[qID][1]=="Surgery" || qList[qID][1]=="Emergency" || qList[qID][1]=="Paediatrics"){
-                            timeleft=300;
+                            timeLeft=300;
                             $("#minutes").html("05");
-                        } else{
+                        } else {
                             timeLeft=600;
                             $("#minutes").html("10");
                         }
