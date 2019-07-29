@@ -57,6 +57,7 @@
             </div>
         </div>
 
+        <!-- footer -->
         <footer class="page-footer orange">
             <div class="container">
                 <div class="row">
@@ -81,7 +82,7 @@
             </div>
         </footer>
 
-        <!-- Modal Structure -->
+        <!-- WIP Modal -->
         <div id="inprogress" class="modal">
             <div class="modal-content">
                 <h4>Sorry!</h4>
@@ -98,14 +99,20 @@
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
         <script>
+            //Variable initialisation
             var timeLeft = 60;
             var rTInt = setInterval(readTimer, 1000);
             var qListRaw = '';
             var qID = 0;
             var pause = true;
+            //Initialising object variables
+            var med_2019, sur_2019, eme_2019;
+            var med, sur, eme, gen, psy, obs, pae, nps;
 
+            //Performed on page load
             $(document).ready(function(){
-                $('.modal').modal();
+                //TODO (low priority): Add a loading div, hide the page content and show it only when the page is loaded properly.
+                $('.modal').modal(); //modal initialisation
                 if(getQueryVariable("mode")=="indiv"){
                     $("#readyButton").hide();
                     pause = false;
@@ -192,11 +199,17 @@
                     if (seconds < "10") { seconds = "0" + seconds; }
 
                     $("#minutes").html(minutes);
+                    $("#minutes").html(minutes);
                     $("#seconds").html(seconds);		
                     if(timeLeft==0){
                         clearInterval(rTInt);
-                        $("#minutes").html("10");
-                        timeLeft=600;
+                        if (qList[qID][1]="Medicine" || qList[qID][1]="Surgery" || qList[qID][1]="Emergency" || qList[qID][1]="Paediatrics"){
+                            timeleft=300
+                            $("#minutes").html("5");
+                        } else{
+                            timeLeft=600;
+                            $("#minutes").html("10");
+                        }
                         $("#phase").html("Viva time:");
                         setInterval(vivaTimer, 1000);
                         return;
@@ -225,6 +238,7 @@
                 timeLeft -= 1;
             }
 
+            //Script to grab query vars from URL
             function getQueryVariable(variable){
                 var query = window.location.search.substring(1);
                 var vars = query.split("&");
@@ -234,6 +248,87 @@
                 }
                 return(false);
             }
+
+            //Allows storage of (stringified) arrays (and other objects) using localStorage.setObj("key", arrayVar);
+            Storage.prototype.setObj = function(key, obj) {
+                return this.setItem(key, JSON.stringify(obj))
+            }
+            Storage.prototype.getObj = function(key) {
+                return JSON.parse(this.getItem(key))
+            }
+
+            //LoadObjects
+            function loadLocalStorage(){
+                console.log("Loading local storage files...")
+                if(localStorage.getObj("med_2019")){
+                    med_2019 = localStorage.getObj("med_2019");
+                    sur_2019 = localStorage.getObj("sur_2019");
+                    eme_2019 = localStorage.getObj("eme_2019");
+                    med = localStorage.getObj("med");
+                    sur = localStorage.getObj("sur");
+                    eme = localStorage.getObj("eme");
+                    med = localStorage.getObj("gen");
+                    sur = localStorage.getObj("psy");
+                    eme = localStorage.getObj("pae");
+                    console.log("done!");
+                } else {
+                    createLocalStorage();
+                }
+            }
+
+            //Create Local Storage Objects
+            function createLocalStorage(){
+                console.log("Local storage not detected. Creating local object files...");
+
+                //MAKE 2 FILES: ONE FOR indiv AND ONE FOR group
+                
+                //Load XMLs
+                var indivText = "";
+                var groupText = "";
+                var indivArray = "med_2019,sur_2019,eme_2019".split(',');
+                var groupArray = "med,sur,eme,gen,psy,obs,pae,nps".split(',');
+                
+                for(var i=0;i<indivArray.length;i++){
+                    var newurl = 'db/' + indivArray[i] + '.csv';
+                    $.ajax({
+                        type: 'GET',
+                        url: newurl,
+                        async: false,
+                        success : function(text){
+                            indivText += text;
+                        }
+                    });
+                }
+                
+                for(var i=0;i<groupArray.length;i++){
+                    var newurl = 'db/' + groupArray[i] + '.csv';
+                    $.ajax({
+                        type: 'GET',
+                        url: newurl,
+                        async: false,
+                        success : function(text){
+                            groupText += text;
+                        }
+                    });
+                }
+                
+                //Process Arrays
+                
+
+                //Save to files                
+                localStorage.setObj("indiv", );
+                localStorage.setObj("group", );
+
+                console.log("done!");
+                loadLocalStorage();
+            }
+
+            /* 
+            SCHEMA FOR STORING DATA
+            key: 'csv filename'
+            obj [[qID, times attempted, average rating], [], [], []]
+
+            */
         </script>
     </body>
 </html>
