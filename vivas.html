@@ -168,7 +168,11 @@
                             if(vivaSheet[cell_ref]){
                                 if(vivaSheet[cell_ref].v == searchString){
                                     console.log("Match found in cell " + cell_ref + ".");
-                                    $("#question").html(vivaSheet[cell_ref].c[0].t.substring(9));
+                                    var qText = vivaSheet[cell_ref].c[0].t.substring(9,700);
+                                    if(vivaSheet[cell_ref].c[0].t.length>700){
+                                        qText += "...";
+                                    }
+                                    $("#question").html();
                                 }
                             }
                         }
