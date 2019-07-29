@@ -170,14 +170,21 @@
                                 if(vivaSheet[cell_ref].v == searchString){
                                     console.log("Match found in cell " + cell_ref + ".");
                                     var qText = vivaSheet[cell_ref].c[0].t;
+                                    //If there is no question mark, truncate to 700 chars
                                     if (qText.lastIndexOf("?")==-1){
                                         qText = qText.substring(9,700);
                                         if(vivaSheet[cell_ref].c[0].t.length>700){
                                             qText += "...";
                                         }
+                                        //However, if "discuss" is in the notes, truncate to that.
+                                        if(qText.toLowerCase.lastIndexOf("discuss")!=-1){
+                                            qText = qText.substring(9, qText.toLowerCase.lastIndexOf("discuss")) + " Discuss your assessment and management.";
+                                        }
+                                    //Or if there is a question mark, truncate to that.
                                     } else {
-                                        qText = qText.substring(9,qText.lastIndexOf("?"));
+                                        qText = qText.substring(9,qText.lastIndexOf("?")+1);
                                     }
+                                    //Push to HTML and exit the function
                                     $("#question").html(qText);
                                     return;
                                 }
