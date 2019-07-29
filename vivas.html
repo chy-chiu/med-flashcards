@@ -169,9 +169,14 @@
                             if(vivaSheet[cell_ref]){
                                 if(vivaSheet[cell_ref].v == searchString){
                                     console.log("Match found in cell " + cell_ref + ".");
-                                    var qText = vivaSheet[cell_ref].c[0].t.substring(9,700);
-                                    if(vivaSheet[cell_ref].c[0].t.length>700){
-                                        qText += "...";
+                                    var qText = vivaSheet[cell_ref].c[0].t;
+                                    if (qText.lastIndexOf("?")==-1){
+                                        qText = qText.substring(9,700);
+                                        if(vivaSheet[cell_ref].c[0].t.length>700){
+                                            qText += "...";
+                                        }
+                                    } else {
+                                        qText = qText.substring(9,qText.lastIndexOf("?"));
                                     }
                                     $("#question").html(qText);
                                     return;
