@@ -161,6 +161,7 @@
                     var vivaSheet = workbook.Sheets[sheet1Name];
                     var range = XLSX.utils.decode_range(vivaSheet['!ref']);
                     console.log("Searching for " + searchString + ", " + searchString.length);
+                    
                     for (var R = range.s.r; R <= range.e.r; ++R) {
                         for (var C = range.s.c; C <= range.e.c; ++C) {
                             var cell_address = { c: C, r: R };
@@ -173,10 +174,13 @@
                                         qText += "...";
                                     }
                                     $("#question").html(qText);
+                                    return;
                                 }
                             }
                         }
                     }
+                    //If the function gets to this point, the question wasn't found in Jane's notes.
+                    $("#question").html("Question not found in past notes. Please refer to Google Drive.");
                 }
 
                 req.send();
