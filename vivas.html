@@ -177,8 +177,9 @@
                                             qText += "...";
                                         }
                                         //However, if "discuss" is in the notes, truncate to that.
-                                        if(qText.toLowerCase.lastIndexOf("discuss")!=-1){
-                                            qText = qText.substring(9, qText.toLowerCase.lastIndexOf("discuss")) + " Discuss your assessment and management.";
+                                        var tempQText = qText.toLowerCase();
+                                        if(tempQText.lastIndexOf("discuss")!=-1){
+                                            qText = qText.substring(9, tempQText.lastIndexOf("discuss")) + " Discuss your assessment and management.";
                                         }
                                     //Or if there is a question mark, truncate to that.
                                     } else {
