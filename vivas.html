@@ -160,7 +160,6 @@
                     var sheet1Name = workbook.SheetNames[0];
                     var vivaSheet = workbook.Sheets[sheet1Name];
                     var range = XLSX.utils.decode_range(vivaSheet['!ref']);
-                    searchString = searchString.substring(0, searchString.length-1);
                     console.log("Searching for " + searchString + ", " + searchString.length);
                     for (var R = range.s.r; R <= range.e.r; ++R) {
                         for (var C = range.s.c; C <= range.e.c; ++C) {
