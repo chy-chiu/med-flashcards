@@ -40,6 +40,7 @@
                 <br><br>
                 <h3 id="pageTitle" class="center orange-text">Loading questions...</h3>
                 <div class="row center">
+                    <h5 class="header col s12" id="questiontitle">Click to reveal question title</h5>
                     <h5 class="header col s12 light" id="question">Loading...</h5>
                 </div>
                 <div class="row center">
@@ -98,6 +99,7 @@
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+        <script lang="javascript" src="js/xlsx.full.min.js"></script>
         <script>
             //Variable initialisation
             var timeLeft = 60;
@@ -110,7 +112,7 @@
             var med, sur, eme, gen, psy, obs, pae, nps;
 
             //Performed on page load
-            $(document).ready(function(){
+            $(document).ready(function(){            
                 //TODO (low priority): Add a loading div, hide the page content and show it only when the page is loaded properly.
                 $('.modal').modal(); //modal initialisation
                 if(getQueryVariable("mode")=="indiv"){
@@ -141,6 +143,40 @@
                 } else {
                     $("#pageTitle").html("Viva Station: " + addit);
                 }
+            }
+
+            function getVivaSource(searchString) {
+                var url = "viva_source.xlsx";
+
+                /* set up async GET request */
+                var req = new XMLHttpRequest();
+                req.open("GET", url, true);
+                req.responseType = "arraybuffer";
+
+                req.onload = function (e) {
+                    var data = new Uint8Array(req.response);
+                    var workbook = XLSX.read(data, { type: "array" });
+
+                    var sheet1Name = workbook.SheetNames[0];
+                    var vivaSheet = workbook.Sheets[sheet1Name];
+                    var range = XLSX.utils.decode_range(vivaSheet['!ref']);
+                    searchString = searchString.substring(0, searchString.length-1);
+                    console.log("Searching for " + searchString + ", " + searchString.length);
+                    for (var R = range.s.r; R <= range.e.r; ++R) {
+                        for (var C = range.s.c; C <= range.e.c; ++C) {
+                            var cell_address = { c: C, r: R };
+                            var cell_ref = XLSX.utils.encode_cell(cell_address);
+                            if(vivaSheet[cell_ref]){
+                                if(vivaSheet[cell_ref].v == searchString){
+                                    console.log("Match found in cell " + cell_ref + ".");
+                                    $("#question").html(vivaSheet[cell_ref].c[0].t.substring(9));
+                                }
+                            }
+                        }
+                    }
+                }
+
+                req.send();
             }
 
             function getQuestions(){
@@ -182,9 +218,11 @@
                 console.log("Successfully loaded " + qList.length + " questions.");
                 qID = Math.floor(Math.random()*qList.length);
                 if(getQueryVariable("mode")=="indiv"){
-                    $("#question").html(qList[qID][3]);
+                    $("#questiontitle").html(qList[qID][3]);
+                    $("#question").hide();
                 } else {
-                    $("#question").html(qList[qID][2]);
+                    $("#questiontitle").html(qList[qID][2]);
+                    getVivaSource(qList[qID][2]);
                 }
                 setTitle(qList[qID][1]);
             }
