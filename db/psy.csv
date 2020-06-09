@@ -1,36 +1,31 @@
-1;Psychiatry;ADHD
-2;Psychiatry;Aggression in dementia
-3;Psychiatry;Anorexia nervosa
-4;Psychiatry;Antidepressants
-5;Psychiatry;Autism spectrum disorder
-6;Psychiatry;Bipolar disorder
-7;Psychiatry;Borderline personality disorder
-8;Psychiatry;Bulimia nervosa
-9;Psychiatry;Clozapine
-10;Psychiatry;Delirium
-11;Psychiatry;Delirium vs Dementia
-12;Psychiatry;Dementia
-13;Psychiatry;Depression
-14;Psychiatry;Disruptive mood dysregulation disorder
-15;Psychiatry;ECT
-16;Psychiatry;Gaming addiction
-17;Psychiatry;Generalised anxiety disorder
-18;Psychiatry;Involuntary admission
-19;Psychiatry;Korsakoff's syndrome
-20;Psychiatry;Lithium toxicity
-21;Psychiatry;Mental health act
-22;Psychiatry;OCD
-23;Psychiatry;Oppositional defiant disorder
-24;Psychiatry;Organic and non-organic dementia
-25;Psychiatry;Organic depression
-26;Psychiatry;Panic disorder
-27;Psychiatry;Perinatal depression
-28;Psychiatry;Psychotherapy
-29;Psychiatry;PTSD
-30;Psychiatry;Schizophrenia
-31;Psychiatry;Schizophrenia first episode
-32;Psychiatry;Schizophrenia substance abuse
-33;Psychiatry;Somatic symptom disorder
-34;Psychiatry;Substance use
-35;Psychiatry;Tardive dyskinesia
-36;Psychiatry;Voluntary admission
+1;Psychiatry;Dementia;A 63 year old man complains of several episodes of blurred vision. His BP is 175/100 mmHg. How would you assess and manage him?
+2;Psychiatry;Substance use and abuse;Discuss your assessment and management of Substance use and abuse
+3;Psychiatry;Suicide;Discuss your assessment and management of Suicide
+4;Psychiatry;Depression;Mary Thomas, a 52 year old bank worker, comes to see you. She is a new patient of the practice, having moved from Melbourne last year because of her husband’s work. She tells you that her husband recently left her for a younger woman, and she is worried that she “may have caught something from him”. She asks if you can do a check up for this. When you talk to her, she hardly looks at you, looks very tired and drained and is very tearful. How would you assess and manage her?
+5;Psychiatry;Organic depression;A 66 year old man presents with what appears to be Major Depression of 4 months duration. At the time you see him, he has already been treated with Sertraline for 6 weeks, at a dose of 50 100 mg/day, with no improvement. His lack of response makes you suspect that he may have an “organic depression”. Which physical disorders are most likely to present as depression in him, and how will you investigate him?
+6;Psychiatry;Perinatal depression;Describe the screening tools at our disposal to aid in the early detection of depression arising in women in the perinatal period. What are the treatments (psychological and pharmacological) available for the treatment of depression at this time; please include a brief comment on the safety of antidepressants in pregnancy.
+7;Psychiatry;Bipolar disorder;A 35 year old businessman is brought to you by his wife as his work colleagues have been concerned that he has become increasingly irritable, demanding, talkative and is starting new schemes and investments which they consider unwise. He does not think that he needs to see you. Discuss how you would manage this clinical situation.
+8;Psychiatry;Lithium toxicity;A patient with bipolar disorder presents to you confused, ataxic and dysarthric. Outline how you would confirm whether this patient had lithium toxicity, your assessment of the possible causes of toxicity, and your proposed management.
+9;Psychiatry;Psychotherapy;Discuss psychotherapy what is it, what types are there, and what are the common ingredients of successful therapies?
+10;Psychiatry;Electroconvulsive therapy;Discuss the issues you would consider in deciding whether to treat a depressed patient with ECT.
+11;Psychiatry;Schizophrenia;You are a general practitioner and a 22 year old man is referred to you for follow up after being discharged from hospital where he was treated for an acute relapse of schizophrenia. His discharge medication is olanzapine 15 mg daily. Describe your ongoing management plan including your own role and that of other agencies whose help you may need to enlist.
+12;Psychiatry;Tardive dyskinesia;55 year old man presents with tardive dyskinesia; he is a known schizophrenia and takes haloperidol. How would you manage this patient? Describe some movement disorders that can be caused by neuroleptic drugs.
+13;Psychiatry;Generalised anxiety disorder;You have just seen a 33 year old woman who often attends with worries over her own health and the safety of her husband and children. She finds the worrying excessive and not easy to control. Describe your approach to discussing the likely diagnosis and management with the patient.
+14;Psychiatry;Obsessive compulsive disorder;Michael has for years been afraid that electrical appliances, if not switched off, could cause a fire and harm his family or neighbours. He spends four hours a day checking that they are switched off. How would you assess and manage?
+15;Psychiatry;Panic disorder;A 28 year old woman has short episodes of chest pain, dizziness and breathlessness. She has had 2 similar episodes in the past 4 months. Medical investigations have excluded cardiac pathology. How would you assess and manage?
+16;Psychiatry;Post-traumatic stress disorder;A 35 year old woman presents with anxiety, irritability and difficulty concentrating which have been present for the past 6 months since her involvement in a motor vehicle accident. What additional features would need to be present for a diagnosis of PTSD? What are the essential components of treatment?
+17;Psychiatry;Somatic symptom disorder;You are a GP who is about to see Mrs Smith who is regarded as an “impossible patient”. She attends at least twice a week and has been seen by every doctor in the practice over the last 10 years. She complains of a whole variety of symptoms but no serious medical condition has ever been diagnosed. How would you assess and manage?
+18;Psychiatry;Mental health act;A 21 year old male is brought to ED by police. He is aggressive and disoriented. What are the prerequisites for a patient to be admitted as an involuntary patient to a psychiatric admission centre? Who has to assess the patient to retain them, and when does the patient have to be reviewed by the magistrate? What are the requirements for a patient to receive involuntary treatment for a further period up to 6 months? What is mental health act & how is guardianship different?
+19;Psychiatry;Anorexia nervosa;A 16 year old girl presents with her mother with a history of weight loss and preoccupation with the size of her body. How would you assess and manage?
+20;Psychiatry;Borderline personality disorder;A 28 year old woman is BIBA, tearful and threatening self harm. She denies having taken any drug overdoses. There are superficial lacerations to her right wrist. She is irritable and crying. How would you assess and manage her?
+21;Psychiatry;Attention Deficit and Hyperactivity Disorder (ADHD);Cody is an 8-year-old boy referred to paediatrics clinic from general practitioner because of disruptive behaviour at home and school. His mother recalls that Cody has been hyperactive since a toddler. Teacher reports that he does not sit still in class and interrupts frequently. Discuss approach to management.
+22;Psychiatry;Autism spectrum disorder;A 7 year old boy is referred because of his antisocial and isolated behaviour at school, and non compliance at home. He has a history of “being different”, few friends, and poor attention except for spending most of his time pre occupied with his coin collection. His father is a computer expert and his mother is a maths teacher. The parents have difficulty communicating and are contemplating a trial separation. You are about to see the parents. What are the issues?
+23;Psychiatry;Bulimia nervosa;Discuss your assessment and management of Bulimia nervosa
+24;Psychiatry;Antidepressants;Discuss your assessment and management of Antidepressants
+25;Psychiatry;Disruptive mood dysregulation disorder;Discuss your assessment and management of Disruptive mood dysregulation disorder
+26;Psychiatry;Overdose;Discuss your assessment and management of Overdose
+27;Psychiatry;Gaming addiction;Mum brings her son in concerned about his excessive gaming, and potentially failing out of his university course. He doesn't think it's a problem. Take a history and counsel the son.
+28;Psychiatry;Delirium (altered mental state);Discuss your assessment and management of Delirium (altered mental state)
+29;Psychiatry;Korsakoff's syndrome;Discuss your assessment and management of Korsakoff's syndrome
+30;Psychiatry;First episode psychosis;A 19 year old girl is taken to her GP by her mother following an outburst of aggressive behaviour and accusations that her parents are “controlling her”. How would you assess and manage?
+31;Psychiatry;Neuroleptic Malignant Syndrome/Clozapine;A 60 year old woman is being management for a relapse of schizophrenia, for which she takes clozapine. She has history of HTN, T2DM, dyslipidaemia. On Day 7, she appears agitated, disorientated and febrile. Assess and manage.
