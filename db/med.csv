@@ -1,109 +1,92 @@
-1;Medicine;Acute confusion (cellulitis)
-2;Medicine;Acute alcohol withdrawal
-3;Medicine;Acute dyspnoea (post MI)
-4;Medicine;Acute hepatitis
-5;Medicine;Acute pulmonary oedema (APO)
-6;Medicine;Acute transfusion reaction
-7;Medicine;Acute transfusion reaction with fever
-8;Medicine;Adrenal insufficiency
-9;Medicine;AKI (anuria)
-10;Medicine;AKI (APO)
-11;Medicine;AKI (increased Cr)
-12;Medicine;AKI and hyperkalaemia
-13;Medicine;Anaemia and unstable angina
-14;Medicine;Anaemia in antibiotics treated pneumonia
-15;Medicine;Ascites
-16;Medicine;Atrial fibrillation
-17;Medicine;Atrial fibrillation and stroke risk
-18;Medicine;AV fistula
-19;Medicine;Bell's palsy
-20;Medicine;Cannula site infection (Staph aureus culture)
-21;Medicine;Cardiac rehabilitaton Post-MI
-22;Medicine;Chronic alcoholism
-23;Medicine;Colorectal cancer screening
-24;Medicine;Congestive heart failure (indapamide)
-25;Medicine;Coronary angiogram consent
-26;Medicine;Delirium
-27;Medicine;Dementia
-28;Medicine;Diabetes mellitus
-29;Medicine;Diabetic ulcer
-30;Medicine;Dialysis  advice
-31;Medicine;Diarrhoea (post stroke)
-32;Medicine;Drug reaction
-33;Medicine;Exacerbation of COPD
-34;Medicine;Failed cannulation
-35;Medicine;Fall (autonomic failure)
-36;Medicine;Febrile neutropenia
-37;Medicine;Focal seizures
-38;Medicine;Gout
-39;Medicine;Guillain Barre Syndrome
-40;Medicine;Haematemesis
-41;Medicine;Heparin dosing
-42;Medicine;Hepatic encephalopathy
-43;Medicine;Hepatitis C
-44;Medicine;HIV
-45;Medicine;Hypertension and blurred vision
-46;Medicine;Hypertensive urgency
-47;Medicine;Hyperthyroidism (Graves)
-48;Medicine;Hypokalaemia (vomiting)
-49;Medicine;Hyponatraemia
-50;Medicine;Hypotension and hyperkalaemia in CKD
-51;Medicine;Immune thrombocytpaenic purpura
-52;Medicine;Immunosuppressants consent
-53;Medicine;Impaired colleague
-54;Medicine;Infective endocarditis
-55;Medicine;Iron deficiency anaemia
-56;Medicine;Liver biopsy
-57;Medicine;Liver mass
-58;Medicine;Lower back pain and sciatica
-59;Medicine;Lung Cancer
-60;Medicine;Macrocytic anaemia
-61;Medicine;Malaena and shock
-62;Medicine;Massive GIB and ethics regarding treatment
-63;Medicine;Methotrexate monitoring
-64;Medicine;Microscopic haematuria
-65;Medicine;Migraine
-66;Medicine;Multiple sclerosis
-67;Medicine;Myasthenia gravis
-68;Medicine;Needle-stick injury
-69;Medicine;Obesity
-70;Medicine;Obstructive sleep apnoea
-71;Medicine;Painless Jaundice
-72;Medicine;Palliative care
-73;Medicine;Palliative care of liver metastases
-74;Medicine;Pancreatic cancer counselling (palliative)
-75;Medicine;Parkinson�s disease
-76;Medicine;Peritonitis (peritoneal dialysis)
-77;Medicine;Pleural effusion
-78;Medicine;Pneumonia
-79;Medicine;Post-stroke fever
-80;Medicine;Prolactinoma
-81;Medicine;Proteinuria
-82;Medicine;Pseudomembranous colitis
-83;Medicine;Pulmonary embolus and Chemotherapy
-84;Medicine;Pyelonephritis
-85;Medicine;Recurrent DVT (warfarin)
-86;Medicine;Recurrent falls
-87;Medicine;Recurrent syncope
-88;Medicine;Recurrent TIA
-89;Medicine;Recurrent UTIs
-90;Medicine;Retrosternal chest pain (SLE)
-91;Medicine;Rheumatoid arthritis
-92;Medicine;Seizure (viral encephalitis)
-93;Medicine;Shingles (herpes zoster)
-94;Medicine;Spinal cord compression
-95;Medicine;Statin-induced myopathy
-96;Medicine;Stroke rehabilitation
-97;Medicine;SVC syndrome
-98;Medicine;Systemic lupus erythematosus
-99;Medicine;T1DM
-100;Medicine;Tension headache
-101;Medicine;Thrombocytopaenia
-102;Medicine;Transient ischaemic attack (TIA)
-103;Medicine;Traveller�s diarrhoea
-104;Medicine;Tuberculosis
-105;Medicine;Tumour lysis syndrome
-106;Medicine;Ulcerative colitis
-107;Medicine;UTI in a man
-108;Medicine;VTE risk in cancer
-109;Medicine;Warfarin education
+1;Medicine;Atrial Fibrillation;A 54 year old man complains of intermittent palpitations. He has no history of cardiac disease or hypertension. The ECG shows atrial fibrillation. How would you manage him?
+2;Medicine;Atrial Fibrillation Anticoagulation;A 57 year old woman is diagnosed with intermittent atrial fibrillation on Holter monitoring after she presented complaining of palpitations. How would you assess and manage her risk of stroke complicating AF?
+3;Medicine;Consent - Coronary Angiogram;A 67 year old man has been experiencing chest pain on exertion for several weeks and is to have a coronary angiogram. How would you explain the risks and benefits of the procedure and how it will be performed?
+4;Medicine;Hypertensive Urgency and Headache;A 48 year old man complains of headaches. Physical exam is unremarkable except for his BP which is 175/100 mmHg. How would you assess and manage him?
+5;Medicine;MI Complications;A 59 year old man is admitted following a myocardial infarction requiring coronary stenting. On the 4th day of hospitalisation he becomes acutely dyspnoeic. How would you assess and manage him?
+6;Medicine;Unstable Angina and Anaemia;A 66 year old man is in hospital being investigated for anaemia. He has a past history of stable angina and experiences an episode of angina only partly relieved by glyceryl trinitrate. How would you assess and manage him?
+7;Medicine;Drug Reaction;A 70 year old woman is admitted with hypertension and cardiac failure. She is commenced on indapamide. Her admission is complicated by a urinary tract infection. She is treated with amoxicillin as she had a previous drug reaction to cotrimoxazole (sulphamethoxazole, trimethoprim). On the third day of amoxicillin treatment she becomes febrile and develops a generalised maculopapular rash. How would you assess and manage her?
+8;Medicine;Shingles;A 57-year-old woman gives a one week history of sharp pain over her lateral chest wall. She has now noticed some “spots” on her skin. On examination there are erythematous, vesicular lesions in T7 distribution. How would you assess and manage her?
+9;Medicine;Acute Adrenal Insufficiency;A 55 year old woman has been in hospital for two days with acute gastroenteritis. She has a history of polymyalgia rheumatica which has been treated with oral prednisone 10mg daily for several years. Her BP has fallen to 90/70 mmHg. How would you manage her?
+10;Medicine;Diabetes;A 60 year old woman has been found to have a fasting BSL of 14.7mmol/L. She attends the Diabetes Clinic for the first time. How would you assess and manage her?
+11;Medicine;Diabetic Ulcer;A 60 year old woman with type 2 diabetes mellitus and obesity presents with an ulcer on the sole of her left foot. She reports this has been gradually increasing in size and has been weeping recently. How would you assess her?
+12;Medicine;Hyperthyroidism;A 26 year old female presents with tiredness, palpitations and heat intolerance. She has a diffusely enlarged thyroid. How would you assess her?
+13;Medicine;Obesity Treatment;A 35 year old previously well woman asks you for a drug to help her lose weight. She has a body mass index of 32 and is clinically well. She has a family history of type 2 diabetes. What would you advise her?
+14;Medicine;Hyperprolactinaemia;A 46-year-old woman reports that she has been lactating intermittently over the past 2 months. How would you assess her?
+15;Medicine;Ascites;A 68 year old woman presents complaining of abdominal distension. On examination she has 10cm of shifting dullness but no organomegaly. How would you assess her?
+16;Medicine;Liver Biopsy;A 35 year old man with chronic hepatitis C is to have a liver biopsy. How would you assess the risks and how would you assess him following the procedure?
+17;Medicine;Hepatocellular Carcinoma;A 58 year old man presents with a two month history of right upper quadrant discomfort and weight loss. His liver function tests are normal but a CT scan of his abdomen shows a solitary mass in the liver. How would you assess him?
+18;Medicine;Massive Haematemesis;A 36 year old man is admitted following a haemetemesis. His condition is stable and he is awaiting endoscopy. However he has a further bleed and his BP falls to 80/65 mmHg. How would you manage him?
+19;Medicine;Ulcerative Colitis;A 38 year old woman presents with a two day history of profuse bloody diarrhoea with fever. She was diagnosed as having ulcerative colitis 10 years ago and has been treated with salazopyrine and corticosteroids. She has not had any symptoms for the past three years and ceased all treatment six months ago. How would you assess and manage her?
+20;Medicine;Recurrent Falls;A 76 year old woman, who is in a nursing home, has fallen over on two occasions in the past 3 days. How you would assess her?
+21;Medicine;Fall and Fractured Hip;A 72 year old woman with longstanding postural hypotension secondary to autonomic failure presents after a fall at home. Her right hip is painful along with her left ribs. How would you assess and manage her?
+22;Medicine;Acute Transfusion Reaction;A 55 year old man is receiving a blood transfusion and develops rigors and vomiting. How would you manage him?
+23;Medicine;Acute Transfusion Reaction;A 67 year old woman with iron deficiency anaemia is admitted for a blood transfusion. Two hours after the transfusion commences, she is febrile. How would you assess and manage her?
+24;Medicine;Febrile neutropenia;A 36 year old woman presents with fever and painful mouth ulcers. A month previously she was diagnosed to have hyperthyroidism and she was treated with propylthiouracil. Examination reveals two shallow ulcers of her hard palate. Her temperature is 39°C. Her liver and spleen are not palpable. Her total white cell count is 0.5 x 109/L (4.5-­‐11.0) with very low neutrophils. How would you manage her?
+25;Medicine;Leukaemia;A 75 year old man has a routine blood test that shows anaemia and a WCC count of 45 x 109. Please assess and manage.
+26;Medicine;Macrocytic Anaemia;An 87 year old man is fatigued and pale. His FBC shows Hb 78 g/L (>130), MCV 108 (80-100), platelets 168 (>140). How would you assess and manage him?
+27;Medicine;Microcytic Anaemia;A 70 year old woman complains of increasing tiredness. Her Hb is 98 g/dL (115-­‐165) with low MCV and MCH. How would you manage her? 
+28;Medicine;Recurrent DVT;A 60 year old man develops a DVT in his right leg two months after stopping warfarin for a similar episode on the left. How would you manage him?
+29;Medicine;Thrombocytopenia;A 29 year old woman presents with easy bruising and menorrhagia. The only haematological abnormality is a platelet count of 52 x 109L (150-400). How would you assess and manage her?
+30;Medicine;VTE Risk and Prophylaxis;A 68 year old man with known lung cancer is admitted for staging investigations. How would you assess and manage his risk of venous-thromboembolism during the admission?
+31;Medicine;HIV;A 30 year old man is recently diagnosed with HIV following a routine test as part of a sexual health assessment. He is asymptomatic. How would you assess and manage him?
+32;Medicine;Fever/Post Stroke Fever;A 67 year old man is admitted following a stroke. By the 5th day his neurological status is improving but he develops a fever. How would you assess and manage him?
+33;Medicine;Bell's Palsy;A 31 year old woman has noticed that the left side of her face is droopy and she is unable to close her left eye completely. She has signs of left lower facial nerve weakness. How would you assess and manage her?
+34;Medicine;Blurred vision;A 63 year old man complains of several episodes of blurred vision. His BP is 175/100 mmHg. How would you assess and manage him?
+35;Medicine;Chronic Daily Headache;A 36 year old woman has been experiencing almost daily headaches for the past three months. She is otherwise asymptomatic. How would you assess and manage her?
+36;Medicine;Parkinson's Disease;A 60 year old man has had Parkinson’s disease for six years and has been taking levodopa/benserazide for the last four years. He complains that the control of his symptoms is not as good as it was. How would you manage him?
+37;Medicine;Spinal Cord Compression;A 70-year-old man presents with several weeks of back pain and progressive leg weakness over 3 days associated with urinary urgency. There is a T10 sensory level and he is in urinary retention. How would you assess and manage him?
+38;Medicine;Status Epilepticus/Seizure secondary to Viral Encephalitis;A 24 year old woman is admitted to hospital with suspected viral encephalitis and is commenced on high-dose aciclovir. On the first night of her hospitalisation she has a generalised seizure which is persisting for more than 10 minutes. How would you manage her?
+39;Medicine;Stroke (TIA);A 70 year old man with type II diabetes presents complaining of an episode of facial asymmetry and weakness which lasted 5 minutes. How would you assess and manage him?
+40;Medicine;Exacerbation of COPD/COPD related drowsiness;A 60 year old man is admitted to hospital with an acute exacerbation with COPD. Within hours of his admission, the nursing staff report that he has become drowsy and difficult to rouse. How would you assess and manage him?
+41;Medicine;Lung Cancer;A 65 year man with a long history of smoking presents with cough and weight loss and a mass is seen on his CXR. How would you assess him?
+42;Medicine;Obstructive Sleep Apnoea;A 45 year old man presents with daytime sleepiness and heavy snoring. How would you assess and manage him?
+43;Medicine;Pleural effusion;An 82 year old woman presents with shortness of breath and is found to have a moderate sized left pleural effusion. How would you assess and manage her?
+44;Medicine;Superior Vena Caval Syndrome;A 67 year old man presents with moderate shortness of breath. His face is dusky and oedematous and there are multiple dilated veins on his upper body. On CXR he has a large central mass. How would you assess and manage him?
+45;Medicine;AKI/Urinary Retention;An 82 year old man is admitted to hospital for investigation of falls. He does not pass urine for the next 24 hours. How would you manage him?
+46;Medicine;Haematuria;A 20 year old man is found to have microscopic haematuria on a routine employment medical exam. How would you assess him?
+47;Medicine;Peritoneal Dialysis Peritonitis;A 52 year old woman is being treated by peritoneal dialysis for end-stage renal failure due to chronic glomerulonephritis. She presents with an acute abdomen. How would you assess and manage her?
+48;Medicine;UTI (recurrent);A 23 year old woman presents with a history of recurrent UTIs. How would you assess and manage her?
+49;Medicine;Thrombosed fistula;A 57 year old man usually on home haemodialysis presents because his AV fistula has stopped working. He noted 2 hours ago that the usual thrill and bruit are not present. His last dialysis was 2 days ago. How would you manage him?
+50;Medicine;Hypokalaemia;A 44 year old woman is receiving chemotherapy for lymphoma. She has been vomiting frequently and her serum potassium is 3.0 mmol/L. How would you manage her?
+51;Medicine;Hyperkalaemia in CKD;A 74 year old man has CKD stage 3 with eGFR 58. He is treated for hypertension with ramipril and amlodipine. In recent weeks he has been dizzy and his blood pressure is 98/56 mmHg. His serum potassium is 6.8 mmol/L. How would you manage him?
+52;Medicine;Hyponatraemia;An 86 year old woman admitted with pneumonia becomes confused. Her serum sodium is 119 mmol/L (135-145). How would you assess and manage her?
+53;Medicine;Gout;A 72 year old man presents with a red, painful, swollen left 1st metatarsalphalangeal joint. How would you assess and manage him?
+54;Medicine;Methotrexate monitoring;A 38 year old woman has been treated for rheumatoid arthritis for two months with diclofenac. Her arthritis is poorly controlled and recent X-rays of her hands show erosive changes in the metacarpophalangeal and proximal phalangeal joints. She is to be commenced on methotrexate. How would you monitor her therapeutic response and possible drug toxicity?
+55;Medicine;Rheumatoid Arthritis;A 33 year old woman presents with a three month history of pain in her hands, wrists and feet. The pain is worse in the morning and associated with stiffness in the joints lasting for about an hour. On examination there is swelling of the wrist and MCP joints with limited movement in the joints. How would you assess and manage her?
+56;Medicine;SLE;A 36 year old woman with SLE is hospitalised for investigation of declining renal function. She complains of pleuritic retrosternal chest pain. How would you assess her?
+57;Medicine;Statin Induced Myopathy;A 63 year old woman complains of aching shoulders and hips for the past month. She has not noticed any weakness but the pain is affecting her activities. Apart from the pain she feels tired but her appetite is good and her weight is stable. Her past health is unremarkable expect for hypercholesterolemia which was diagnosed three months ago and is being treated with simvastatin. How would you assess and manage her?
+58;Medicine;Counselling - Palliative Care;The daughter of a 79 year old woman is concerned about her mother who has pancreatic cancer and isn’t expected to survive for more than a few months. The daughter seeks advice about how her mother, who lives alone, should be cared for. How would you manage this situation?
+59;Medicine;End of Life Care;A 78 year old woman has with terminal cancer and is expected to die within a few days and is documented as not for resuscitation. She is semiconcious but seems distressed, tachypnoeic and agitated and is making gurgling noises which are distressing to the family. How would you manage this situation?
+60;Medicine;Guardianship Act;An 80 year old woman presents with haematemesis from a large gastric ulcer. Endoscopic methods of control have failed, bleeding has recommenced, and urgent surgery is planned. Her relatives request that nothing further be done as she is too old for surgery. How would you manage this situation?
+61;Medicine;Tissued Cannula;A 68 year old man has been in hospital for 6 days receiving intravenous antibiotics for prostatitis, which need to continue for another 4 days. You are the ‘after-hours’ intern and the nursing staff request you re-site his cannula which “tissued”. The patient however is quite unhappy that this is the 5th attempt at a cannula today and does not want another cannula. How would you manage this situation?
+62;Medicine;Needle Stick Injury;A 25 year old intern is attempting to insert an IV cannula but fails and accidentally sticks himself after withdrawing the cannula. How would you manage this situation?
+63;Medicine;CHF/Acute Decompensated HF;A 67 year old man with cardiac failure presents with increasing dyspnoea and ankle oedema. His current treatment includes frusemide and enalapril. How would you manage him?
+64;Medicine;Congestive Heart Failure;A 72 year old man presents with recent onset of shortness of breath, dry cough and ankle swelling. He has a history of hypertension and takes indapamide. His BP is 130/95 and there are signs of congestive cardiac failure. How would you manage him?
+65;Medicine;Dementia Counselling;A 73 year old woman, who lives alone, has become increasingly forgetful and vague. Her son is worried that she is unsafe. How would you manage this situation?
+66;Medicine;New Onset Anaemia + Pneumonia;A 55 year old man is admitted to hospital with pneumonia and is commenced on ceftriaxone and azithromycin. Over the next 3-4 days his condition improves however his Hb falls from 147 g/L on admission to 93 g/L. How would you assess and manage him?
+67;Medicine;AKI;A 66 year old man is hospitalised with worsening congestive cardiac failure. His dose of frusemide is increased and is also commenced on enalapril. The next day his serum creatinine has increased from 115umol/L (60-120) on admission to 175umol/L. How would you assess and manage him?
+68;Medicine;AKI;A 78 year old man has been hospitalised for one week following a stroke complicated by pneumonia. Routine biochemistry shows that his serum creatinine has increased to 280umol/L (60-120) from 110umol/L on admission. How would you manage him?
+69;Medicine;Pseudomembranous Colitis;A 63 year old woman has been admitted following a stroke. She develops a urinary tract infection and is treated with intravenous antibiotics. On the 4th day of treatment she develops severe diarrhoea. How would you assess and manage her?
+70;Medicine;Pseudomembranous Colitis;A 66 year old man has been hospitalised for treatment of acute prostatitis with ceftriaxone. His initial symptoms have resolved and his treatment is changed to oral ciprofloxacin. The next day he develops cramping abdominal pain, diarrhoea and fever. How would you assess and manage him?
+71;Medicine;Altered mental state;A 50 year old woman is hospitalised for IV antibiotics for cellulitis. On the evening of the second day she becomes acutely confused. How would you assess her?
+72;Medicine;Altered mental state;An 83 year old woman is admitted following a fall. She becomes acutely confused the following day and is very disruptive in the ward. How would you assess and manage her?
+73;Medicine;Hypercholesterolaemia;A 35 year old asymptomatic man presents for a check-up. His total serum cholesterol is 6.6 mmol/L (<4.0 mmol/L). How would you assess and manage him?
+74;Medicine;Pulmonary Embolism;A 36 year old woman is receiving chemotherapy for breast cancer. On the fourth day of her hospitalisation she becomes acutely short of breath. Her T is 37.4°C, PR is 120/min, BP 100/85mmHg, RR 32/min and O2 saturation 88%. How would you assess and manage her?
+75;Medicine;Infective endocarditis;A 74 year old man presents to the hospital because a blood culture taken by his GP 24 hours prior has grown a gram positive coccus, likely Staphylococcus, in 2/2 bottles. This patient has a mechanical aortic valve and is on warfarin. He has been unwell for a few days and saw his GP with fever, malaise and rigors. The GP diagnosed an URTI and prescribed Amoxycillin/clavulanic acid (Augmentin). How would you assess and manage him?
+76;Medicine;Guillain-Barre Syndrome;A 36-year-old man presents with a 3-day history of progressive lower limb weakness following a recent flu-like illness. He has markedly reduced power in his legs, reduced reflexes but relatively intact sensation. How would you assess and manage?
+77;Medicine;Obesity;A 53 year old morbidly obese man asks about potential health problems. What would you advise him?
+78;Medicine;Painless Jaundice;A 70-year-old woman notices yellow discoloration of her eyes over three weeks. She has lost 4 kg but has not had any abdominal pain. How would you assess her?
+79;Medicine;Travel Advice/Vaccination;An 18 year old man is leaving for a year’s holiday trekking through South East Asia. What advise would you give him with relation to staying healthy?
+80;Medicine;Drug Induced Neutropenia;A 42 year old woman presents with fever and painful gums and on examination, she has marked gingivitis. Two weeks previously she was prescribed cotrimoxazole (suphonamide and trimethoprim) for a UTI. Full blood count reveals a total WBC of 1.1X109/L with a total neutrophil count of 0.8X109/L. How would you manage her?
+81;Medicine;Bronchiectasis;A 26-year-old female smoker comes in with a 1 year history of a worsening cough with copious sputum production and gives a history of recurrent past chest infections. How would you assess and manage?
+82;Medicine;Back Pain;A 40 year old man develops acute back pain after heavy lifting three weeks ago. He now presents with persistent low back pain, sciatica and weakness of ankle dorsiflexion. He asks about whether he should have spinal manipulation. What would you advise him?
+83;Medicine;Hypertension in Pregnancy;A 36 year old female is planning for pregnancy. Her BP in your office is repeatedly high and is 152/94 mmHg today. Her BMI is 27.5. The patient does not want to take medications as she does not feel unwell. How would you manage her?
+84;Medicine;Rhabdomyolysis;A 42 year old male recommenced weight training after a hiatus of 10 years. He presents 48 hours after his first session, which included 2 hours of heavy weightlifting, complaining of severe pain and tenderness in his back, shoulders and biceps muscles. He describes “blood” in his urine for the last 24 hours and his urinalysis shows +++blood and +++protein. His serum Creatinine is 169 mcrmol/L (NR < 120 mcrmol/L). How would you investigate and manage him?
+85;Medicine;Hypercalcemia;A 59 year old female attends a diabetes clinic annually for review. You notice her serum calcium concentration has been above the upper limit of normal for the last 3 years, currently 2.79 mml/L (NR<2.6 mmol/L). How would you investigate and manage this?
+86;Medicine;Hospital Acquired Respiratory Illness;A 66 year old male presented with an acute coronary syndrome 2 days ago and had coronary stenting performed yesterday without complication. Nursing staff alert you that he developed a cough and myalgia overnight and now has a fever of 38.5 C. You are aware that other patients in the hospital have had similar febrile presentations. How would you manage this situation?
+87;Medicine;Orthostatic hypotension;A 72 year old female presents with recurring dizziness. She has postural hypotension thought to be due to due to autonomic failure and is taking multiple medications for other conditions. How would approach this situation?
+88;Medicine;Hypocalcaemia;An 82 year old male complains of cramps and tingling in his fingers. He received a subcutaneous injection of denosumab by his GP for osteoporosis 7 days prior. He has stable chronic kidney disease with an eGFR of 58 ml/min and his current biochemical tests show a low plasma corrected calcium of 1.58 mmol/L (NR 2.1-2.6 mmol/L). How would you investigate and manage him?
+89;Medicine;Difficult discharge;An 85 year old non-English speaking female has been in hospital for 3 days under your team following a syncopal episode, for which no cause was found despite routine blood tests, serial ECGs and a CT brain. You are told on the ward round to discharge her, but her children insist she stay in hospital until a cause is found. How would you manage this situation?
+90;Medicine;Bridging Anticoagulation;An 87 year old male is admitted to hospital for elective inguinal hernia surgery. He had a metallic aortic valve replacement 20 years ago. His last warfarin dose was 4 pm yesterday and his INR today is 3.4. How would you manage him?
+91;Medicine;Heart Failure Exacerbation Management;An independent 72 year old male presents with dyspnoea on exertion at 200m on flat surface, orthopnoea and lower limb swelling. He has no angina. He had coronary bypass surgery 17 years prior. His only medications are aspirin and rosuvastatin. How would you manage him?
+92;Medicine;Post-Operative Hyperkalaemia;You receive a call from the surgical ward about a patient who is 2 days post small bowel resection for adhesions and ischaemic gut. You are told the patient is looking well but their blood tests show a potassium of 6.5 mmol/L (NR < 5.5 mmol/L). How would you manage this?
