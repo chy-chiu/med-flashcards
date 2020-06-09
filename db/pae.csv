@@ -1,92 +1,97 @@
-1;Paediatrics;Abdominal pain
-2;Paediatrics;Absence seizures
-3;Paediatrics;Acute asthma
-4;Paediatrics;Acute leukaemia
-5;Paediatrics;Acute otitis media
-6;Paediatrics;Acute Respiratory Distress Syndrome
-7;Paediatrics;ADHD
-8;Paediatrics;Anaphylaxis
-9;Paediatrics;Appendicitis
-10;Paediatrics;Autism spectrum disorder
-11;Paediatrics;Baby checks
-12;Paediatrics;Breastfeeding
-13;Paediatrics;Bronchiolitis
-14;Paediatrics;Cerebral palsy
-15;Paediatrics;Circumcision
-16;Paediatrics;Coeliac disease
-17;Paediatrics;Common skin conditions
-18;Paediatrics;Congenital heart disease
-19;Paediatrics;Constipation
-20;Paediatrics;Croup
-21;Paediatrics;Cystic fibrosis
-22;Paediatrics;Delayed puberty
-23;Paediatrics;Developmental delay
-24;Paediatrics;Developmental dysplasia of the hip
-25;Paediatrics;Diabetic ketoacidosis
-26;Paediatrics;Down�s syndrome
-27;Paediatrics;Duchenne muscular dystrophy
-28;Paediatrics;Encopresis and chronic constipation
-29;Paediatrics;Epiglottitis
-30;Paediatrics;Failure to thrive
-31;Paediatrics;Febrile child
-32;Paediatrics;Febrile convulsions
-33;Paediatrics;Febrile neutropenia
-34;Paediatrics;Fluids and analgesia
-35;Paediatrics;Fragile X
-36;Paediatrics;Gastroenteritis
-37;Paediatrics;Glomerulonephritis
-38;Paediatrics;Hand foot and mouth disease
-39;Paediatrics;Head injury
-40;Paediatrics;Henoch-Schonlein purpura
-41;Paediatrics;Hereditary spherocytosis
-42;Paediatrics;Hirschsprung disease
-43;Paediatrics;Hypertension
-44;Paediatrics;Hypoglycaemia education
-45;Paediatrics;Hypospadias
-46;Paediatrics;Idiopathic Thrombocytopaenic Purpura
-47;Paediatrics;Immunisations
-48;Paediatrics;Impetigo
-49;Paediatrics;Infantile colic
-50;Paediatrics;Infectious mononucleosis
-51;Paediatrics;Inflammatory bowel disease
-52;Paediatrics;Ingrown toenail
-53;Paediatrics;Intussusception
-54;Paediatrics;Kawasaki disease
-55;Paediatrics;Legg-Calve-Perthes disease
-56;Paediatrics;Limping child
-57;Paediatrics;Meningitis and raised ICP
-58;Paediatrics;Mesenteric adenitis
-59;Paediatrics;Neck lump
-60;Paediatrics;Necrotising enterocolitis
-61;Paediatrics;Neonatal cyanosis
-62;Paediatrics;Neonatal jaundice and biliary atresia
-63;Paediatrics;Nephrotic syndrome
-64;Paediatrics;Nocturnal enuresis
-65;Paediatrics;Non-accidental injury
-66;Paediatrics;Nosebleeds and haemophilia
-67;Paediatrics;Osgood-Schlatter syndrome
-68;Paediatrics;Pale child
-69;Paediatrics;Pertussis
-70;Paediatrics;Pneumonia
-71;Paediatrics;Post-strep glomerulonephritis/ Haematuria
-72;Paediatrics;Prematurity and respiratory distress in newborn
-73;Paediatrics;Pyloric stenosis
-74;Paediatrics;Rash
-75;Paediatrics;Rheumatic fever
-76;Paediatrics;Sepsis
-77;Paediatrics;Short stature
-78;Paediatrics;Slipped upper femoral epiphyses
-79;Paediatrics;Sore throat
-80;Paediatrics;Status epilepticus
-81;Paediatrics;Sudden infant death syndrome
-82;Paediatrics;Testicular torsion
-83;Paediatrics;Tongue tie
-84;Paediatrics;Tumours of childhood
-85;Paediatrics;Turner's syndrome
-86;Paediatrics;Ulcerative colitis
-87;Paediatrics;Undescended testes/Crytorchidism
-88;Paediatrics;URTI
-89;Paediatrics;UTI
-90;Paediatrics;Varicella zoster
-91;Paediatrics;Vitamin D deficiency and Rickets
-92;Paediatrics;Vomiting
+1;Paediatrics;Rheumatic fever;A 7-year-old Indigenous child presents with fever and polyarthritis. You note a cardiac murmur. Discuss your assessment and management.
+2;Paediatrics;Congenital heart disease;2-month-old presents with an audible murmur. She gets breathless and sweaty with feeds, and takes a long time feeding. There is a history of poor weight gain. Discuss your management including long-term prognosis and possible complications.
+3;Paediatrics;Murmur;While doing a newborn check, you hear a cardiac murmur. What other relevant examination findings do you want to know and how will you further assess and manage?
+4;Paediatrics;Neonatal cyanosis;The midwives call you because a neonate is cyanotic and not responding to positive pressure ventilation. Discuss your assessment and management.
+5;Paediatrics;Fever & Rash;10-month old with 8-hours of fever, irritability is now progressively drowsy. The mother is worried about a rash.
+6;Paediatrics;Febrile convulsions;2-year-old presents with temperature of 39OC and generalised twitching for 5 minutes followed by post-ictal drowsiness. Her parents commenced CPR when she developed transient cyanosis. She is now running around in ED. Assess and manage.
+7;Paediatrics;Meningitis and raised ICP;A 2-year-old child was brought into ED with a focal seizure followed by increasing drowsiness and listlessness. On examination she was found to be febrile with a rising blood pressure and falling pulse with papilloedema. What is the acute management of this child?
+8;Paediatrics;Head injury;A 7-year-old boy fell over playing a game in school and lost consciousness for a few seconds. Assess and manage.
+9;Paediatrics;Status epilepticus;A 9-year-old boy presents with recurrent afebrile seizures which are focal in onset then generalize to grand mal seizures. This time he presents with a 20 minute seizure. How would you manage this child?
+10;Paediatrics;Absence seizures;An 8-year-old girl is referred by her class teacher who noticed she has become highly inattentive in class with multiple “daydreaming” episodes where she seems absent and stares away. Her school work has also started deteriorating. How would you assess and manage her?
+11;Paediatrics;Common skin conditions;A 3 year old boy presents with three rashes. How would you manage each of these? A. Crusting weeping lesions B. Lazy erythematous rash on check C. Dry scaly itchy skin lesions on flexors with signs of cracking
+12;Paediatrics;Developmental delay;A 2-year-old is brought by mum who is worried he is not speaking and does not understand “wave bye-bye”. He sat at 11 months and walked at 18 months. His vision and hearing are fine. His family is bilingual. What advice would you give, and how would you assess the patient? What signs would worry you?
+13;Paediatrics;Growth failure and short stature;A 6-year-old boy is brought into the clinic, as his parents are concerned about his height. He is the smallest in his class and his height is <3rd centile. Discuss how you would manage this child.
+14;Paediatrics;Failure to thrive;Montana a 6-month-old infant presents to clinic because the maternal and child health nurse was worried about her growth. On examination and measurement, you find Montana’s weight has crossed 2 major centiles in the last 3 months. Discuss your approach to management.
+15;Paediatrics;Nocturnal enuresis;Steven is a 10-year-old boy who presents with a history of recurrent chest infections. Mother is worried about cystic fibrosis. On further history and examination, he has already been test and was definitively negative. You reassure her that he has a post-viral cough and not CF. As they leave, his mother comments that Steven wets the bed every night. Discuss your approach to management of his enuresis.
+16;Paediatrics;Diabetic ketoacidosis;A 6 year old boy presents with vomiting and worsening abdominal pain, tachycardia, tachypnoea and hypotension. How would you assess and manage this child?
+17;Paediatrics;Hypoglycaemia;Hypoglycaemia education
+18;Paediatrics;Neck lump;A 7 year old girl presents with a neck lump. Discuss your assessment and management.
+19;Paediatrics;Acute otitis media;A 3-year-old boy presents with irritability and found to be tugging his right ear. On examination, discharge was found coming from his right ear. Manage this child.
+20;Paediatrics;Intussusception;9-month-old boy presents with a history of paroxysmal screaming, episodic pallor, vomiting and pulling up of knees for 8 hours. His mother is panicked and has brought him to the ED where he has passed red currant jelly stools. How would you assess and manage him? What are the contraindications for barium enema?
+21;Paediatrics;Appendicitis;A 10 year old boy presents with a 2-day history of fever and acute abdomnial pain which later localses to RIF. How would you assess and manage this child?
+22;Paediatrics;Mesenteric adenitis;A 12-year-old boy presents to ED with abdominal pain. He has a history of a viral illness. Discuss your assessment and management. How is the approach different to that of an adult?
+23;Paediatrics;Neonatal jaundice and biliary atresia;A 2-month-old child presents with persistent jaundice since the neonatal period. How would you manage this baby initially? List possible causes. On examination he has pale stools and bruises visible on his body. What would be the cause and what complications to examine/investigate for? Explain to parents what your concerns are.
+24;Paediatrics;Coeliac disease;A 2-year-old presents with a history of poor growth from 12 months of age. His parents mention he has 3-4 foul-smelling stools a day. What is the likely diagnosis and investigations?
+25;Paediatrics;Gastro-oesophageal reflux disease;A 3-month-old baby is brought in by his parents who are concerned about his vomiting and poor feeding. Discuss assessment and management.
+26;Paediatrics;Hirschsprung disease;A neonate fails to pass meconium within the first 48 hours of life. How would you assess and manage this child?
+27;Paediatrics;Gastroenteritis;An 18-month-old boy presents with 24 hours of diarrhoea and vomiting. He has reduced feeding to <50% of normal intake and his mother is concerned he is lethargic. How would you manage this child?
+28;Paediatrics;Ulcerative Colitis;Angus is a 13-year-old boy sent to hospital by his gastroenterologist because of his UC. He was first diagnosed 6 months ago. Since then he has been managed on steroids. He had his first hospital admission 6 weeks ago. Since the he has been weaned off steroids. In the week prior, Angus had bloody diarrhoea and abdominal pain. Discuss options for management.
+29;Paediatrics;Encopresis and chronic constipation;Case 1: Jessica, 9, and her mother present to you because of faecal soiling. Her mother feels that she is not constipated because Jessica has big stools. Her bowel motions are, however, infrequent. Her faecal incontinence is affecting her schooling because other children avoid her. How would you manage this situation?
+30;Paediatrics;Pyloric stenosis;A 4-week-old baby presents with projectile vomiting, usually after a feed. No weight gains, although he is very hungry and on examination he looks slightly dehydrated. What are DDX for vomiting in the newborn period? Assess and manage.
+31;Paediatrics;Constipation;7-year-old girl presents with her mother complaining of constipation. All examination and investigation findings are normal. Discuss management
+32;Paediatrics;The unwell neonate;A newborn is found to be very unwell and floppy: unusual crying, cyanosis, cool peripheries, grunting and tachypnoeic. Describe your acute management.
+33;Paediatrics;Infantile colic;Katie and Shane bring their 6-week-old baby Mackenzie to ED because Mackenzie cries incessantly. Mackenzie was born by emergency CS because of failure to progress. Mackenzie had Apgar scores of 9 and 9. Katie developed a uterine infection and spent 7 days in hospital. Since coming home Mackenzie has “cried non-stop” but this has increased in the last two weeks. Mackenzie is growing well. He is predominantly breastfed, supplemented by one bottle during the night. Steve has just returned to work as a mechanic in the last fortnight. Katie and Steve are exhausted and distraught and don’t know what to do. Discuss your approach to management?
+34;Paediatrics;Pale child;A 9 month old is noted by the GP to be very pale. The parents are not sure of the duration but do not report any recent change. The infant is generally well but is a little lethargic and irritable. What are the possible differential diagnoses? How would you assess and manage this child?
+35;Paediatrics;Acute leukaemia;A 4-year-old boy is brought in by his mother for poor appetite and weight loss. He also has a history of persistent low-grade fever and bruising. His examination findings reveal pinpoint macules on the mucosa of his mouth, generalized lymphadenopathy and hepatosplenomegaly. Assess and manage. His WCC is 211 x 109/L and her platelets are 52 x 109/L. Discuss your differential diagnoses and management.
+36;Paediatrics;Febrile neutropenia;Liam is a 2-year-old boy who is receiving treatment for acute lymphocytic leukaemia. 13 days after his last chemotherapy treatment he develops a fever. Discuss your approach to management.
+37;Paediatrics;Anaphylaxis;A 7-year-old girl with a history of peanut allergy presents to the ED after having collapsed. She had eaten an ice cream which may have contained nuts. How would you manage this child?
+38;Paediatrics;Infectious mononucleosis;A 16 year old girl comes into the clinic with enlarged cervical LNs. She has been complaining of feeling tired with flu-like symptoms. She has a very sore throat. What is the most likely diagnosis and how would you manage the child?
+39;Paediatrics;Henoch-Schonlein purpura;A 5-year-old child presents with a purpuric rash distributed mainly on buttocks and extensors of lower limbs and abdominal pain. What is the most likely diagnosis and how would you manage?
+40;Paediatrics;Rash;A 7 year old boy is brought in with a painless rash. He was found to have diffuse petechial rash all over his body, non-blanching and red pinpoint macules. He is haemodynamically stable, feeling well with no fever, nausea or neck stiffness. How would you assess and manage this child?
+41;Paediatrics;Hand, foot and mouth disease;A 15-month-old girl is brought in by her mother for a fever and refusal to drink. On examination she was found to have vesicles on her posterior oropharynx, hands and feet. How would you assess and manage this child?
+42;Paediatrics;Fever without focus;Patrick an 18-month-old child is referred to you from his GP because of 2 consecutive days of fevers of 40ºC. He has been feeding poorly and tired. He has been otherwise well. He has no vomiting, diarrhoea, cough or runny nose. Discuss your approach to his management and comment on the seriousness of this presentation.
+43;Paediatrics;Varicella zoster;Discuss your assessment and management of Varicella Zoster
+44;Paediatrics;Breastfeeding;A mother presents with difficulties breastfeeding and asks about formula feeding. Discuss your approach to this problem. Discuss benefits of breastfeeding and bottle-feeding with the mum.
+45;Paediatrics;Baby checks;The mother of a newborn has overheard nurses saying that a “baby check” needs to be done, and she would like to know what this means. What is the difference between newborn screening and a baby-check? What is SWISH?
+46;Paediatrics;Tumours of childhood;A 5 year old boy presents with a 3 week history of pallor, irritability, peri-orbital bruising, bone pain and a limp. He was pale and had bilateral peri-orbital bruising and swelling. A mass was palpable around his jaw. He walked in with a limp in his right leg. His BP is 150/90mmHg. A large right-sided abdominal mass was palpable.
+47;Paediatrics;Non-accidental injury;A 20-month-old is brought into ED by her mother, who claims she fell out of her cot 12 hours ago and seems to have broken her leg. The child appears miserable, dirty and ill cared for. Initial examination findings reveal multiple bruises on the back and body including the back of her head. X-ray reveals a spiral fracture of the femur. How would you assess and manage her?
+48;Paediatrics;Immunisations;A 6m old presents with no previous immunizations because her parents are concerned about risk of allergic reactions. Their friend’s child had screaming for >3 hours and the LMO said further immunizations were contraindicated. Discuss how immunizations work and the contraindications to vaccinations. Discuss side effects of immunizations and risks of brain damage.
+49;Paediatrics;Cerebral palsy;A 3 year old with quadriplegic CP has severe weakness and developmental abilities of a 2-month-old child. She comes to clinic for review. How would you manage this patient? [CP is SAD – SPASTIC, ATAXID, DYSKINETIC]
+50;Paediatrics;Prematurity and respiratory distress in newborn;A baby is born at 30 weeks gestation and is grunting with increased RR for age. What kind of problems do premature babies face, and how would you manage this presentation? How would you prevent this problem?
+51;Paediatrics;Necrotising enterocolitis;A 2-week old pre-term baby comes in with abdominal distension, inability to tolerate feeds, apnoeas, lethargy and a fluctuating temperature. How would you assess and manage this child
+52;Paediatrics;Autism spectrum disorder;A 7 year old boy is referred because of his antisocial and isolated behaviour at school, and non-compliance at home. He has a history of “being different”, few friends, and poor attention except for spending most of his time pre-occupied with his coin collection. His father is a computer expert and his mother is a maths teacher. The parents have difficulty communicating and are contemplating a trial separation. You are about to see the parents. What are the issues?
+53;Paediatrics;Attention Deficit and Hyperactivity Disorder (ADHD);A 9-year-old boy attends for interview with his mother. She reports that his school complains that he gets into fights at school, and is disruptive in class. Mother also reports that he is aggressive towards his 2 younger brothers. How would you approach the assessment of this child’s mental health and what diagnoses would you consider likely?
+54;Paediatrics;Down’s syndrome;You have been asked to examine this baby on the ward. You notice this baby has poor tone and a single palmar crease. What is the most likely diagnosis? What issues may develop for the child
+55;Paediatrics;Post-streptococcal glomerulonephritis;A 10-year-old boy presents with dark coloured urine and oedema of his lower extremities. On examination, his BP is 180/100. His respiratory and CV exams are normal. His PMHx is remarkable for a sore throat that was presumed to e a viral infection 2 weeks ago. How would you assess and manage this patient?
+56;Paediatrics;Nephrotic syndrome;An 8-year-old girl presents to ED brought in by her mother who is worried she has puffy eyes and has been passing very little urine. Urinalysis reveals protein +++. How would you manage this case?
+57;Paediatrics;Pertussis;3-year-old boy presents with bouts of coughing ending with vomiting, these are worse at night and after feeding. Discuss your provisional diagnosis and management.
+58;Paediatrics;Bronchiolitis;4-month-old presents with breathlessness, wheezing, fever 38OC, poor feeding (only 1/3rd of feeds). He has no past history of lung disease. How would you assess and manage?
+59;Paediatrics;Transient Cyanotic Episode;A 3-month old presents to ED following an episode of going blue at home. The infant’s SPO2 is now 98%. 1) Generate a list of DDX for this episode. 2) What would you look for on history and examination? 3) Under what circumstances might you discharge this child?
+60;Paediatrics;Sore throat;A 5-year-old presents with sore throat. How would you assess and manage?
+61;Paediatrics;URTI;A 9-year-old girl presents with a sore throat for 3 days with difficulty swallowing. On examination, her pharynx is erythematous and tonsils are enlarged. Discuss your assessment and management.
+62;Paediatrics;Sudden infant death syndrome;A concerned mother presents to her GP for information on SIDS and how she can reduce her child’s risk of this condition. How would you manage this situation?
+63;Paediatrics;Pneumonia;An 11-month old boy presents with a 3 day history of URTI. Now his breathing has become laboured, noisy and difficult. His mother is worried. Another child contact has to be admitted to hospital on the previous day. On examination, you hear crackles in the lung bases. Discuss your assessment and management.
+64;Paediatrics;Croup;Harry is a 3.5-year-old boy brought to ED by his mother because he had noisy breathing and a dry cough since 3am last night. His mother is worried because she thinks his breathing is getting worse. Discuss your management of Harry.
+65;Paediatrics;Cystic fibrosis;A 3-week old has positive newborn screening test for CF and is said to be homozygous for CFTRΔF508 mutations. How would you confirm the diagnosis, counsel the parents on CF? What are the long-term outcomes?
+66;Paediatrics;Acute asthma;4-year-old boy who is brought to ED by his mother who is worried about his cough, increased WOB, wheeze and fever. He suffered from similar symptoms last winter and was prescribed Ventolin by his GP. He has suffered from eczema intermittently but has otherwise been well. His mother recalls suffering from asthma as a child. Assess and manage.
+67;Paediatrics;Kawasaki disease;1-year-old girl with 7-day history of fever. Vital signs are HR 140, BP 110/54, RR 40 and temperature 38.9OC. Associated with 4cm L-sided neck swelling (3 days after onset of fever), red conjunctiva, dry/crusted lips, hyperaemic oropharynx, enlarged red tongue (strawberry appearance). Skin shows generalised polymorphous, erythematous, macular, blanching rash. Her palms and soles are swollen, red and mildly tender
+68;Paediatrics;Slipped upper femoral epiphyses;A 16-year-old obese boy presents with pain in the R hip and knee. He walks into your practice with a limp. How would you assess and manage this child?
+69;Paediatrics;Limping child;A 4-year-old boy presents with a limp whilst walking. Examination reveals limited ROM. Assess and manage.
+70;Paediatrics;Osgood-Schlatter syndrome;A 9-month-old is noted by the GP to be very pale. The parents are not sure of the duration but do not report any recent change. The infant is generally well but is a little lethargic and irritable. What are the possible differential diagnoses? How would you assess and manage this child?
+71;Paediatrics;Vitamin D deficiency and Rickets;A mother presents to you with her 6-year old son with concerns he is of short stature. His antenatal and post-natal histories have been normal to date. On physical examination the boy appears to have a large head, is on the <3rd centile for height with enlarged wrists and ankles. How would you assess and manage him?
+72;Paediatrics;Duchenne muscular dystrophy;A mother presents to you with her 7-year-old son who is “always clumsy”. He dislikes PE and has a funny gait and run. He started walking at 20 months and was delayed with his speaking. What are your provisional and differential diagnoses? How would you manage this boy?
+73;Paediatrics;Septic arthritis;An infant boy refuses to weight bear with his right limb. Mum complains he is feverish and hard to settle. He has no previous history of trauma. How would you assess and manage this patient?
+74;Paediatrics;Legg-Calve-Perthes disease;Discuss the DDx of an 8-year-ol boy with a limp other than Perthes Disease. Assess and manage as Perthe's Disease.
+75;Paediatrics;Developmental dysplasia of the hip;During the newborn exam, a 2-day-old was found to have a right hip that dislocates. Discuss your management.
+76;Paediatrics;Testicular torsion;16-year-old boy presents with scrotal swelling and pain. Assess and manage.
+77;Paediatrics;UTI;A 2-week-old baby boy presents with a fever, unsettled and a decrease in feeding. Supraprubic aspirate of urine shows an increase in WCC. How will you manage?
+78;Paediatrics;Hypospadias;What is hypospadias and what is the management of this problem?
+79;Paediatrics;Abdominal pain;Discuss your assessment and management of Abdominal pain
+80;Paediatrics;Acute Respiratory Distress Syndrome;Discuss your assessment and management of Acute Respiratory Distress Syndrome
+81;Paediatrics;Circumcision;Discuss your assessment and management of Circumcision
+82;Paediatrics;Cleft lip/palate;Discuss your assessment and management of Cleft lip/palate
+83;Paediatrics;Delayed puberty;Discuss your assessment and management of Delayed puberty
+84;Paediatrics;Epiglottitis;Discuss your assessment and management of Epiglottitis
+85;Paediatrics;Fluids and analgesia;Discuss your assessment and management of Fluids and analgesia
+86;Paediatrics;Fragile X;Discuss your assessment and management of Fragile X
+87;Paediatrics;Hereditary spherocytosis;Discuss your assessment and management of Hereditary spherocytosis
+88;Paediatrics;Hypertension;Discuss your assessment and management of Hypertension
+89;Paediatrics;Idiopathic Thrombocytopaenic Purpura;Discuss your assessment and management of Idiopathic Thrombocytopaenic Purpura
+90;Paediatrics;Impetigo;Discuss your assessment and management of Impetigo
+91;Paediatrics;Infectious Exanthema;Discuss your assessment and management of Infectious Exanthema
+92;Paediatrics;Nappy rash;Discuss your assessment and management of Nappy rash
+93;Paediatrics;Nosebleeds and haemophilia;Discuss your assessment and management of Nosebleeds and haemophilia
+94;Paediatrics;Paroxysmal Disorders (‘Funny Turns’);Discuss your assessment and management of Paroxysmal Disorders (‘Funny Turns’)
+95;Paediatrics;Tongue tie;Discuss your assessment and management of Tongue tie
+96;Paediatrics;Turner's syndrome;Discuss your assessment and management of Turner's syndrome
+97;Paediatrics;Undescended testes/Crytorchidism;Discuss your assessment and management of Undescended testes/Crytorchidism
