@@ -252,7 +252,9 @@
                 } else {
                     $("#questiontitle").html(qList[qID][2]);
                     $("#questiontitle").hide();
-                    getVivaSource(qList[qID][2]);
+                    $("#question").html(qList[qID][3]);
+
+                    //getVivaSource(qList[qID][2]);
                 }
                 setTitle(qList[qID][1]);
             }
