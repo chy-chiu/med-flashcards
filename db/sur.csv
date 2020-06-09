@@ -1,133 +1,82 @@
-1;Surgery;Abdominal wall mass and warfarin
-2;Surgery;Age-related macular degeneration
-3;Surgery;Alcohol withdrawal
-4;Surgery;Anterior resection (consent in NESB)
-5;Surgery;Appendiceal abscess
-6;Surgery;AAA - repair (consent)
-7;Surgery;Acute limb ischaemia
-8;Surgery;Acute pancreatitis
-9;Surgery;Acute upper limb ischaemia
-10;Surgery;Anal pain
-11;Surgery;Arthroplasty associated infection
-12;Surgery;Back pain
-13;Surgery;Biliary stricture
-14;Surgery;Blood transfusion assessment
-15;Surgery;Blood transfusion risks
-16;Surgery;Breast lump
-17;Surgery;Breast abscess/mastitis
-18;Surgery;Breast Cancer Genetic Screening
-19;Surgery;Breast cancer axillary node clearance and radiotherapy counselling
-20;Surgery;Burns and explosions
-21;Surgery;Coronary artery bypass surgery (CABG) (consent)
-22;Surgery;Cancer-related pain
-23;Surgery;Carotid bruit
-24;Surgery;Cellulitis 
-25;Surgery;Chest drain insertion
-26;Surgery;Central line-associated pneumothorax
-27;Surgery;Colon cancer family counselling
-28;Surgery;Colonoscopy consent
-29;Surgery;Chronic otitis media
-30;Surgery;Colonoscopy periop management
-31;Surgery;Colon cancer family counselling
-32;Surgery;Colonoscopy consent
-33;Surgery;Compartment syndrome
-34;Surgery;Dyspepsia
-35;Surgery;Discharge from wound/Enterocutaneous fistula (Crohn�s)
-36;Surgery;Distal large bowel obstruction
-37;Surgery;Diverticulitis
-38;Surgery;"DVT prophylaxis prevent recurrence"
-39;Surgery;Diabetic ulcer
-40;Surgery;Elevated PSA
-41;Surgery;ERCP consent
-42;Surgery;Epididymoorchitis
-43;Surgery;Elective knee replacement pre and postop considerations
-44;Surgery;Failure to regain consciousness
-45;Surgery;Femoral fracture - neurovascular compromise
-46;Surgery;Femoral hernia
-47;Surgery;Fitness for surgery
-48;Surgery;Gastrectomy counselling
-49;Surgery;Groin lump (melanoma)
-50;Surgery;Haemorrhoids
-51;Surgery;HIV and surgery
-52;Surgery;Head injury
-53;Surgery;High output stoma
-54;Surgery;Indirect inguinal hernia
-55;Surgery;Inguinal lymphadenopathy
-56;Surgery;Irreducible inguinal hernia
-57;Surgery;Impotence
-58;Surgery;ITP in a surgical candidate
-59;Surgery;Irreducible periumbilical hernia 
-60;Surgery;Lower limb cellulitis
-61;Surgery;Laparoscopic cholecystectomy (consent)
-62;Surgery;Large bowel obstruction
-63;Surgery;Laryngeal Carcinoma
-64;Surgery;Ludwig's angina (submandibular infection)
-65;Surgery;Leg ulcer
-66;Surgery;Metastatic Pancreatic cancer
-67;Surgery;Metastatic colorectal cancer 
-68;Surgery;Melanoma
-69;Surgery;Nephrolithiasis
-70;Surgery;NESB emergency consent
-71;Surgery;Neck lump
-72;Surgery;"NG consent tube fluid and electrolyte balance"
-73;Surgery;Nipple discharge
-74;Surgery;Non-surgical intraoperative components of liver resection
-75;Surgery;Oesophageal cancer (progressive dysphagia)
-76;Surgery;Post-operative ileus
-77;Surgery;Post-operative pulmonary complications
-78;Surgery;Post-operative urinary retention
-79;Surgery;Post-parathyroidectomy hypocalcaemia
-80;Surgery;Post-thyroidectomy airway obstruction
-81;Surgery;Pre-operative assessment of PVD in TKR
-82;Surgery;Pre-operative management of bleeding risk
-83;Surgery;Prostate cancer
-84;Surgery;Post-operative hyperkalaemia
-85;Surgery;Prostate cancer screening
-86;Surgery;Painless haematuria
-87;Surgery;Pancreatic Cancer
-88;Surgery;Post-operative analgesia charting
-89;Surgery;Post-operative confusion
-90;Surgery;Post-operative constipation
-91;Surgery;Post-operative fever
-92;Surgery;Post-operative fluids
-93;Surgery;Post-operative hypotension
-94;Surgery;Perianal fistula
-95;Surgery;Peripheral vascular disease
-96;Surgery;Post-AAA repair leg pain
-97;Surgery;Post-CABG dyspnoea
-98;Surgery;Post-gastrectomy fluid management
-99;Surgery;Post-operative pain management
-100;Surgery;Post-operative potassium monitoring
-101;Surgery;Post-splenectomy counselling
-102;Surgery;Pre-operative insulin and wafarin
-103;Surgery;Pre-operative metformin
-104;Surgery;Pre-operative nutrition
-105;Surgery;Pressure ulcer
-106;Surgery;Progressive back pain
-107;Surgery;Prostate cancer screening
-108;Surgery;Peri-operative corticosteroids
-109;Surgery;Peri-operative insulin-dependent diabetes management
-110;Surgery;Pulmonary embolus
-111;Surgery;RIF pain
-112;Surgery;Refused cholecystectomy
-113;Surgery;RUQ pain and dabigatran
-114;Surgery;Scrotal lump
-115;Surgery;Skin abscess
-116;Surgery;Splenectomy
-117;Surgery;Sinusitis
-118;Surgery;Small bowel obstruction
-119;Surgery;Subacute thyroiditis
-120;Surgery;Septic arthritis
-121;Surgery;Stress urinary incontinence
-122;Surgery;Superficial thrombophlebitis
-123;Surgery;Solitary thyroid nodule
-124;Surgery;Total hip replacement consent
-125;Surgery;Testicular Cancer
-126;Surgery;Thyrotoxicosis
-127;Surgery;Trauma bleeding
-128;Surgery;Traumatic catheterisation
-129;Surgery;Urinary retention
-130;Surgery;Upper limb innervation
-131;Surgery;Venous ulcer
-132;Surgery;Vitamin K supplementation
-133;Surgery;Wound dehiscence
+1;Surgery;Chronic otitis media;A 43 year old woman presents with worsening left-sided headache. She has a history of chronic otitis media affecting the left ear. How would you assess her?
+2;Surgery;Laryngeal carcinoma;A 60 year old man presents with hoarseness for four weeks. There is no history of upper respiratory infection. How would you assess him?
+3;Surgery;Lymphoma neck lump;A 63 year old man presents with a painless swelling in his left lateral neck. How would you assess him?
+4;Surgery;Acute rhinosinusitis;A 37 year old woman presents with acute pain over the left cheek and eye following an upper respiratory tract infection. She feels congested in the sinuses and has noticed an unpleasant taste at the back of her throat especially in the mornings. The left eye and cheek are swollen, inflamed and tender. How would you assess and manage her?
+5;Surgery;Subacute thyroiditis;A 36 year old woman presents with a four day history of neck pain and swelling. She has a swollen painful thyroid. How would you assess and manage her?
+"6;Surgery;Solitary thyroid nodule;A 50 year old healthy woman notices a lump on the side of her neck.
+Ultrasound reveals a 1.5cm solitary nodule in her thyroid. How would you assess her?"
+7;Surgery;Abdominal wall haemorrhage / haematoma;An 86 year old woman presents with sudden onset of right abdominal pain. She is taking Warfarin because of previous deep vein thrombosis. Examination revealed evidence of a tender 10cm abdominal wall mass. Can you outline your management?
+8;Surgery;Acute appendicitis;A 25 year old man presents with a two week history of right iliac fossa pain and intermittent fevers. His BP is 120/72 mmHg, PR 64/min and T 36.4°C. Examination reveals evidence of a 6cm right iliac fossa mass. There is tenderness over the mass but nowhere else on the abdomen. How would you assess and manage him?
+9;Surgery;Ascending cholangitis / Cholecystitis;A 66 year old woman presents to hospital with a three day history of right upper quadrant pain and fever. She is taking Dabigatran (Pradaxa) because of atrial fibrillation. Outline the management options.
+10;Surgery;Laparoscopic cholecystectomy consent;A 40 year old woman is admitted for an elective laparoscopic cholecystectomy for gallstones. How would you explain the risks and benefits of the procedure to her?
+11;Surgery;Refused cholecystectomy;A 60 year old woman has known gallstones and suffered an attack of pancreatitis two months ago. She has been strongly advised to have a cholecystectomy but does not wish to undergo surgery. How would you manage this situation?
+12;Surgery;Consent for anterior resection of rectum;A 70 year old man has a rectal cancer which will require anterior resection of the rectum. He does not speak English. How would you obtain informed consent?
+13;Surgery;Dysphagia;A 72 year old man presents with a 6 months history of dysphagia. How would you assess him?
+14;Surgery;Haemorhhoids;A 65-­‐year-­‐old woman complains of PR bleeding which she attributes to haemorrhoids. How would you assess and manage?
+15;Surgery;Groin hernia;An 82 year old woman is transferred from a nursing home to the Emergency Department with a history of cramping abdominal pain, vomiting of dark green fluid and abdominal distension. Clinical examination reveals evidence of a 5cm hard right groin lump. How would you assess and manage her?
+16;Surgery;Large bowel obstruction;An 82 year old woman presents to the Emergency Department with a four day history of cramping supra-pubic abdominal pain, abdominal distension and complete constipation. She has not previously had any abdominal surgery. Clinical examination reveals evidence of right iliac fossa tenderness. Can you outline your management plan?
+17;Surgery;Metastatic colorectal cancer;An 80 year old woman with dementia from a nursing home is transferred with symptoms of a large bowel obstruction. An abdominal CT scan confirms evidence of an obstructing sigmoid colon cancer with multiple liver metastases. How would you manage her?
+18;Surgery;Pancreatic cancer;A 58 year old man presents with painless progressive jaundice for 2 weeks. Investigations reveal cholestatic liver function tests, dilated bile ducts, and a 3cm mass in the head of the pancreas. How would you manage him?
+19;Surgery;Extradural haematoma;A 25 year old man sustained a head injury during a football game and is confused. Outline the important aspects in the management of this patient.
+20;Surgery;Age-related macular degeneration;A 76 year old woman complains of worsening vision when reading and has also noticed that lines of text appear wavy. How would you assess her?
+21;Surgery;Compartment syndrome;A 50 year old woman suffers a fractured tibia and fibula and a below knee plaster is applied. The following day, she has severe pain in the leg and foot and her toes are cold. How would you manage her?
+22;Surgery;Consent for total hip replacement;A 70 year old man has been advised to have a total hip replacement because of osteoarthritis and severe pain. What would you advise him about the risks and benefits of the procedure?
+23;Surgery;Right arm injury;A 27 year old man has sustained injury to his right arm. How would you test for the function of his radial, median and ulnar nerves?
+24;Surgery;Septic arthritis;An 80 year old woman presents with a painful swollen right knee. She has a temperature of 38.2°C. The knee joint is swollen, tender and warm. How would you manage her?
+25;Surgery;Breast lump;A 60 year old woman presents with a breast lump she has found herself. You are unable to palpate the lump. How would you manage this situation?
+26;Surgery;Melanoma;A 30 year old woman presents with a 1cm pigmented lesion on the skin of the left calf. She thinks it has increased in size recently. How would you assess her?
+27;Surgery;Painless haematuria;A 76 year old man presents with painless haematuria. How would you assess him?
+28;Surgery;Impotence;A 70 year old man presents with the recent onset of impotence. How would you assess and manage him?
+29;Surgery;Painful swollen testis;A 56 year old man presents with a painful, swollen right testis. He has recently experienced several urinary tract infections. How would you manage him?
+30;Surgery;Prostate carcinoma;A 68 year old man presents with difficulty passing urine and frequent nocturia. He has a generally enlarged prostate with a small hard nodule on its surface. How would you assess and manage him?
+31;Surgery;Pyelonephritis / Kidney Stone *** differing answers;A 65 year old man presents to the Emergency Department with a twenty four hour history of right loin to groin colicky pain and intermittent fevers. His BP is 120/72 mmHg, PR 64/min and T 38.4°C. Can you outline your management plan?
+32;Surgery;Central catheter associated pneumothorax;A 57 year old man has a central line inserted into his right subclavian vein. Immediately after the insertion, he develops acute shortness of breath. How would you assess and manage him?
+33;Surgery;Carotid bruit;A 70 year old asymptomatic man is found to have a right carotid bruit. How would you assess and manage him?
+34;Surgery;Diabetic ulcer;An 87 year old man presents with a necrotic ulcer on the tip of his 4th right toe. He is known to have diabetes. How would you assess and manage him?
+35;Surgery;Venous ulcer;A 65 year old woman has a 7cm ulcer with a sloughy base situated just above the medial malleolus. There is brownish pigmentation of her left lower calf . How would you manage her?
+36;Surgery;Pre-op anti-platelet management;A 70 year old man is booked for an elective cystoscopy. He is taking clopidogrel and aspirin because of emergency insertion of a coronary stent two months earlier. Outline your pre-operative management.
+37;Surgery;DVT prophylaxis;A 65 year old man is booked for a radical prostatectomy for prostate cancer. He had a right leg deep venous thrombosis 5 months ago and is currently on Warfarin. What are the measures you would take to prevent a recurrence?
+38;Surgery;Idiopathic Thrombocytopaenic Purpura;A 36 year old woman is to have a repair of a shoulder rotator cuff injury. She has a history of ITP and is on oral prednisone. How would you manage her?
+39;Surgery;Intra-op components of care;A 65 year old man is on the operating theatre table for a liver resection for metastases from colorectal cancer. Outline the non-surgical intra-operative components of this patient’s care.
+40;Surgery;Pre-op colonoscopy and diabetes management;A 70 year old man is booked for an elective colonoscopy because of a positive faecal occult blood test. He is diabetic and takes metformin but no insulin. He has mild renal impairment (serum creatinine 0.14mmol/L, NR 0.06-0.12). How would you assess and manage this man peri-operatively?
+41;Surgery;Pre-op and post-op care;A 65 year old man has been transferred from the ward to the operating theatres for an elective right knee replacement. Outline his pre-operative management and post-operative recovery room care.
+42;Surgery;Peripheral vascular disease in surgical candidate;A 64 year old man has severe osteoarthritis of the right knee and a knee replacement has been recommended. He also has intermittent claudication at 100 metres. How would you assess him prior to surgery?
+43;Surgery;Post-op leg swelling (DVT);A 75 year old woman has a right total hip replacement. Two days later she complains of a swollen left leg. How would you assess and manage her?
+44;Surgery;Post-op fluid management;You are asked by the nursing staff on the surgical ward to chart intravenous fluids for a 78 year old woman who underwent a small bowel resection two days earlier. What do you chart and what are the considerations you need to take into account?
+45;Surgery;High output stoma;You are asked to review an 82 year old man on the surgical ward who underwent a bowel resection four days earlier. He has a stoma and the output has been 800mls over the last two hours. Outline your management?
+46;Surgery;Post-op hyperkalaemia;A 56 year old man has coronary artery bypass surgery. Three days later his serum potassium is 6.9 mmol/L (3.8-4.9) and is serum creatinine is normal. How would you manage him?
+47;Surgery;Post-op confusion;A 75 year old woman has an urgent operation for an incarcerated femoral hernia. Twenty four hours later she becomes anxious and confused. How would you assess and manage her?
+48;Surgery;Acute alcohol withdrawal;A 55 year old man has an elective knee reconstruction. Two days later he is agitated, sweating and has a tachycardia. The nursing staff say that he has been hallucinating and that he is a heavy drinker. How would you manage him?
+49;Surgery;Post-operative constipation;A 55 year old woman has severe constipation five days after abdominal hysterectomy. How would you assess and manage her?
+50;Surgery;Post-op bilious vomiting;A 64 year old man has a right hemicolectomy for a carcinoma in the caecum. His nasogastric tube was removed after 24 hours and he is commenced on oral fluids on day three. Later that day he vomits 800mls of greenish fluid. How would you assess and manage him?
+51;Surgery;Post-op pulmonary complications;A 63 year old woman has a total hip replacement. She is a heavy smoker (25 pack years). On the first day post-operatively she is complaining of shortness of breath and cough. How would you assess and manage her?
+52;Surgery;Post-procedure infection;A 60 year old woman has a left hemicolectomy for carcinoma. Three days later, she has a temperature of 39°C. How would you assess her?
+53;Surgery;Post-operative fistula;A 30 year old woman had resection of part of the ileum for Crohn’s disease. Five days later she has a fever (38.5oC) and a discharge of brownish offensive material from the lower end of the abdominal wound. How would you assess and manage her?
+54;Surgery;Post-parathyroidectomy hypocalcaemia;A 38 year old woman has a minimally invasive parathyroidectomy for a parathyroid adenoma which had caused hypercalcemia. Twenty-four hours later she complains of “pins and needles” around her mouth. How would you assess and manage her?
+55;Surgery;Post-op hypotension;An 81 year old female has a repair of an abdominal aortic aneurysm. Twenty-four hours later she becomes hypotensive (BP 90/70). How would you assess and manage her?
+56;Surgery;Post-op pain management;A 65 year old woman is about to have a hemicolectomy for diverticular disease. She asks about the control of her postoperative pain because of an unpleasant experience postoperatively 20 years ago. What would you advise her?
+57;Surgery;Post-op analgesia;You are asked by the nursing staff on the surgical ward to review a 78 year old woman with abdominal pain who underwent a small bowel resection four days earlier. What are the considerations you need to take into account when you chart her analgesia?
+58;Surgery;Wound dehiscence;A 60 year old man has recently undergone coronary artery bypass grafting complicated by infection and dehiscence of the vein graft site on the left lower leg. He presents one week later with a persistent offensive, copious discharge from the wound. How would you manage him?
+59;Surgery;Post-op urinary retention;You are asked to review a 72 year old man on the ward who underwent bilateral inguinal hernia repair earlier in the day. He has been unable to pass urine for the last eight hours. Outline your management.
+60;Surgery;Nipple discharge;A 44 year old woman presents with discharge from her right nipple. What are the differential diagnoses?
+61;Surgery;DVT prophylaxis;A 60 year old man is admitted for an anterior resection of the rectum for carcinoma. How would you manage the risk of deep venous thrombosis?
+62;Surgery;Umbilical Discharge;A 32 year old woman presents with discharge from her umbilicus. What are the differential diagnoses?
+63;Surgery;Subphrenic abscess;You are asked by the nursing staff on the surgical ward to review a 68 year old woman with a swinging fever and right shoulder tip pain. She underwent a laparotomy for perforated peptic ulcer seven days earlier. What is the likely diagnosis and appropriate treatment?
+64;Surgery;Post-thyroidectomy haematoma;A 56 year old man has a total thyroidectomy. 12 hours later he complains of difficulty breathing. He has stridor and there is swelling at his wound site. How would you manage him?
+65;Surgery;Post-operative AKI;A 68 year old man has surgery for perforated acute appendicitis with peritonitis. Two days later he becomes oliguric. How would you assess and manage him?
+66;Surgery;Primary bleeding disorder;A 35 year old woman presents to the pre-operative clinic for assessment prior to a laparoscopic cholecystectomy. She has history of excessive menstrual loss and of bleeding problems after tooth extraction. How would you assess her?
+67;Surgery;Urgent consent for non-English speaking patient;A 68 year old Russian man, who does not speak English, become hypotensive and anaemic 12 hours after abdominal surgery and urgently needs to return to theatre. How would you obtain consent?
+68;Surgery;DVT prophylaxis and warfarin;A 72 year old woman presents to the Emergency Department with a four day history of epigastric pain. Gastroscopy reveals evidence of a gastric antral ulcer. Can you outline your management plan?
+69;Surgery;Gastric ulcer;A 72 year old woman presents to the Emergency Department with a four day history of epigastric pain. Gastroscopy reveals evidence of a gastric antral ulcer. Can you outline your management plan?
+70;Surgery;Intermittent claudication;A 73 year old man presents with intermittent pain in his right thigh and calf on walking. What might you expect to find on history and examination?
+71;Surgery;Varicose veins;An 82 year old woman presents with lower limb varicose veins. Explain how you would assess this patient’s varicose veins with reference to the venous drainage of the lower limb, and relevant surface anatomy.
+72;Surgery;Fractured Nose;A 21 year old man presents with a suspected fractured nose sustained during a football game. Can you outline your management?
+73;Surgery;Abdominal Pain;A 57 year old man presents with abdominal pain. There are no signs of abdominal rebound tenderness or guarding. What are possible diagnoses and which investigations may be helpful?
+74;Surgery;ERCP consent;A 63 year old man presented with jaundice and is booked for an endoscopic retrograde cholangio-pancreatogram (ERCP). Can you outline the consent for this procedure?
+75;Surgery;Gross Haematuria;A 63 year old man presents with macroscopic haematuria after a fall off a ladder. Can you outline your management?
+76;Surgery;Necrotising soft tissue infection;A 68 year old woman presents with evidence of spreading cellulitis of the anterior abdominal wall. What symptoms, signs and investigation results would support a diagnosis of necrotizing acute soft tissue infection?
+77;Surgery;Non-operative management of bowel obstruction;A 72 year old man presents with evidence of possible large bowel obstruction. What are the indications for non-operative intervention?
+78;Surgery;Lateral Neck Lump;An 82 year old woman presents with evidence of a hard 2cm lesion in her left lateral neck. What are the differential diagnoses and appropriate investigations?
+79;Surgery;Post-operative Nausea;You are asked by the nursing staff on the surgical ward to review a 68 year old woman with persistent nausea. She underwent a laparotomy for perforated peptic ulcer two days earlier. What are the differential diagnoses and appropriate treatment?
+80;Surgery;Post-operative IV Fluids;You are asked to chart intravenous fluids for a 67 year old woman who underwent a laparotomy for perforated peptic ulcer disease two days earlier. What fluids and rate would you chart? What factors do you take into account?
+81;Surgery;Post-operative oliguria;You are asked to review a 68 year old man who underwent a Hartmann’s procedure six days ago because of perforated sigmoid colon diverticular disease. His total urine output has been 50mls over the last six hours. The nurse has requested 20mgs of Lasix. How would you manage the patient?
