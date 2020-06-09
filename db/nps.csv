@@ -1,29 +1,28 @@
-1;NPS Modules;A child with acute OM
-2;NPS Modules;Acute mania in bipolar disorder
-3;NPS Modules;Alcohol withdrawal delirium
-4;NPS Modules;Analgesia for low back pain
-5;NPS Modules;Anticoagulation in AF
-6;NPS Modules;APO
-7;NPS Modules;Bacteraemia
-8;NPS Modules;CAP
-9;NPS Modules;Catheter associated UTI
-10;NPS Modules;Chronic abdominal pain in adults
-11;NPS Modules;Chronic heart failure
-12;NPS Modules;COPD exacerbation
-13;NPS Modules;Delirium in an older person
-14;NPS Modules;Depression in adolescents
-15;NPS Modules;Glycaemic control in long-established diabetes
-16;NPS Modules;H pylori infection
-17;NPS Modules;HTN
-18;NPS Modules;Insomnia
-19;NPS Modules;Iron deficiency
-20;NPS Modules;Lipid and CVD risk assessment
-21;NPS Modules;Management of ACS
-22;NPS Modules;Polypharmacy
-23;NPS Modules;Postoperative pain and vomiting
-24;NPS Modules;Prevention of VTE
-25;NPS Modules;Seizure
-26;NPS Modules;Surgical antibiotic prophylaxis
-27;NPS Modules;T2DM initiating treatment
-28;NPS Modules;T2DM intensifying treatment
-29;NPS Modules;UTI
+1;NPS Modules;Acute pulmonary oedema;Discuss your assessment and management of Acute pulmonary oedema
+2;NPS Modules;Anticoagulation in atrial fibrillation;Discuss your assessment and management of Anticoagulation in atrial fibrillation
+3;NPS Modules;Chronic heart failure;Discuss your assessment and management of Chronic heart failure
+4;NPS Modules;Hypertension;Discuss your assessment and management of Hypertension
+5;NPS Modules;Lipid and CVD risk management;Discuss your assessment and management of Lipid and CVD risk management
+6;NPS Modules;Management of acute coronary syndrome;Discuss your assessment and management of Management of acute coronary syndrome
+7;NPS Modules;Seizure;Discuss your assessment and management of Seizure
+8;NPS Modules;Alcohol withdrawal delirium;Discuss your assessment and management of Alcohol withdrawal delirium
+9;NPS Modules;Glycaemic control in long-established diabetes;Discuss your assessment and management of Glycaemic control in long-established diabetes
+10;NPS Modules;Type 2 diabetes - initiating treatment;Discuss your assessment and management of Type 2 diabetes - initiating treatment
+11;NPS Modules;Type 2 diabetes - intensifying treatment;Discuss your assessment and management of Type 2 diabetes - intensifying treatment
+12;NPS Modules;A child with acute otitis media;Discuss your assessment and management of A child with acute otitis media
+13;NPS Modules;Helicobacter pylori infection;Discuss your assessment and management of Helicobacter pylori infection
+14;NPS Modules;Delirium in an older person;Discuss your assessment and management of Delirium in an older person
+15;NPS Modules;Polypharmacy;Discuss your assessment and management of Polypharmacy
+16;NPS Modules;Iron deficiency;Discuss your assessment and management of Iron deficiency
+17;NPS Modules;Prevention of venous thromboembolism;Discuss your assessment and management of Prevention of venous thromboembolism
+18;NPS Modules;Bacteraemia;Discuss your assessment and management of Bacteraemia
+19;NPS Modules;Analgesia for low back pain;Discuss your assessment and management of Analgesia for low back pain
+20;NPS Modules;Postoperative pain and vomiting;Discuss your assessment and management of Postoperative pain and vomiting
+21;NPS Modules;Surgical antibiotic prophylaxis;Discuss your assessment and management of Surgical antibiotic prophylaxis
+22;NPS Modules;Acute mania in bipolar disorder;Discuss your assessment and management of Acute mania in bipolar disorder
+23;NPS Modules;Depression in adolescents;Discuss your assessment and management of Depression in adolescents
+24;NPS Modules;Insomnia;Discuss your assessment and management of Insomnia
+25;NPS Modules;UTI;Discuss your assessment and management of UTI
+26;NPS Modules;UTI (catheter associated);Discuss your assessment and management of UTI (catheter associated)
+27;NPS Modules;Chronic obstructive pulmonary disease exacerbation;Discuss your assessment and management of Chronic obstructive pulmonary disease exacerbation
+28;NPS Modules;Community acquired pneumonia;Discuss your assessment and management of Community acquired pneumonia
