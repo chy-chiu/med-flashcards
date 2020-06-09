@@ -251,6 +251,7 @@
                     $("#question").hide();
                 } else {
                     $("#questiontitle").html(qList[qID][2]);
+                    $("#question").hide();
                     getVivaSource(qList[qID][2]);
                 }
                 setTitle(qList[qID][1]);
@@ -298,6 +299,8 @@
                     $("#phase").html("Finished!");
                     if(getQueryVariable("mode")=="indiv"){
                         $("#pageTitle").html(qList[qID][1] + ": " + qList[qID][2]);
+                    } else {
+                        $("#pageTitle").html(qList[qID][1] + ": " + qList[qID][3]);
                     }
                     $("#skipButton").attr("disabled", true);
                     return;
