@@ -1,45 +1,56 @@
-1;General Practice;Abnormal Pap smear
-2;General Practice;Asthma
-3;General Practice;Breast lump
-4;General Practice;Contraception and sexual health
-5;General Practice;COPD exacerbation
-6;General Practice;CVD risk management
-7;General Practice;Dementia
-8;General Practice;Eczema/ Atopic dermatitis
-9;General Practice;Epilepsy stopping treatment
-10;General Practice;Eye infections
-11;General Practice;Fatigue
-12;General Practice;Fitness to drive
-13;General Practice;Gastric oesophageal reflux disease (GORD)
-14;General Practice;Giant cell arteritis
-15;General Practice;Haemochromatosis
-16;General Practice;Hair loss
-17;General Practice;Headache
-18;General Practice;Hypercholesterolaemia
-19;General Practice;Hypertension
-20;General Practice;Insomnia
-21;General Practice;Irritable bowel syndrome
-22;General Practice;Jaundice
-23;General Practice;Lower back pain
-24;General Practice;Lower limb ulcer
-25;General Practice;Menopause
-26;General Practice;Malaria
-27;General Practice;Osteoarthritis
-28;General Practice;Osteoporosis
-29;General Practice;Otitis media
-30;General Practice;Palpitations
-31;General Practice;Pharyngitis
-32;General Practice;Post-CABG management
-33;General Practice;Prostate cancer screening
-34;General Practice;Raynaud's phenomenon
-35;General Practice;Rectal bleeding
-36;General Practice;Skin lesions
-37;General Practice;Smoking cessation
-38;General Practice;Tinnitus
-39;General Practice;Travel vaccinations
-40;General Practice;Tremor
-41;General Practice;Type 2 diabetes
-42;General Practice;Urinary tract infection
-43;General Practice;Vertigo
-44;General Practice;Wrist fracture
-45;General Practice;Workers compensation
+1;General Practice;Hypertension;Claire is a 45-year-old woman who presents to the practice with headache and insomnia. She has been under stress recently, trying to cope with raising her two children and works part-time as a high school teacher. Claire was initially seen by the practice nurse. Her BMI was recorded as 25. Blood pressure was recorded as 175/105.
+2;General Practice;Smoking cessation;Duane Allman is a 54-year-old man. "Doctor, I want to quit smoking.” How would you assess and manage this patient?
+3;General Practice;Cardiovascular Risk Management;Duane Allman is a 54-year-old man. "Doctor, I've been putting this off but I think that with my family history I need to get my heart checked."
+4;General Practice;Type 2 diabetes;John Baldy is a 54-year-old man with type 2 diabetes. He presents for yearly review.
+5;General Practice;Palpitations;Stephen Raymond Vaughan is a 72-year-old man who presents saying "Doc, I've been feeling a bit dizzy. I think my heart is beating a little fast." He is otherwise well.
+6;General Practice;Post-CABG management;James is a 58-year-old man. He has recently undergone a coronary artery bypass graft. He has a number of questions concerning cardiac risk factors, cardiac medications and lifestyle issues following surgery.
+7;General Practice;Headache;Molly Hatcher is a 36-year-old lady. "Doctor, I got home from work on Monday and I had this terrible headache." On further questioning, she notes a bilateral frontal headache. She notes nausea without vomiting. She notes mild photophobia.
+8;General Practice;Tremor;Patient presents with tremor.
+9;General Practice;Skin lesions;James Taylor is a 42-year-old man. He states "My wife wanted you to look at this spot on my back. I can't really see it and she was concerned."
+10;General Practice;Vertigo;Elizabeth Finn is a 60-year-old lady with a two month history of dizziness. She states "Doctor, whenever I get up from lying down I feel like everything is spinning.”
+11;General Practice;Otitis media;Jimmy Jay is a three-year-old boy. He is brought in by his mother who states "Jimmy was up all night with a painful left ear. He's had the sniffles for the past week."
+12;General Practice;Tinnitus;Patient presents with tinnitus.
+13;General Practice;Pharyngitis;Richard Betts is a 14-year-old boy. He presents to your office with his mother. She states "He's just been so tired and run down these past few days. He also says he has a sore throat and he's achy all over." On further questioning, Richard is a previously healthy 14-year-old boy with normal growth and development. He is otherwise well.
+14;General Practice;Jaundice;James Beam is a 52yo accountant. He states “you know Doc, I was looking in the mirror and I swear my eyes are light yellow.”
+15;General Practice;Gastro-oesophageal reflux disease;James Hendrix is a 50yo overweight man. He states “Doc, I am feeling full and gassy all the time. I get a little regurgitation when I lie down.”
+16;General Practice;Haemochromatosis;Patient presents with high ferritin
+17;General Practice;Rectal bleeding;Richard Derringer is a 65yo M who has noted bright red blood on the toilet paper over the past 2 weeks.
+18;General Practice;Breast lump;Bonnie Raitt is a 50-year-old lady who presents saying "I think I felt a lump under my left breast.”
+19;General Practice;Fatigue;Diane Krall is a 30-year-old lady who presents saying "Doctor, I've been really tired over the last couple of months. I just want to lie down all the time."
+20;General Practice;Hair loss;Patient presents with hair loss.
+21;General Practice;Insomnia;Patient presents with insomnia.
+22;General Practice;Abnormal Pap Smear Results;Sarah McLachlan is a 35-year-old lady with abnormalities on a recent Pap smear. Her previous Pap smears have been unremarkable. She is quite concerned and seeking to understand what these abnormalities mean for her.
+23;General Practice;Contraception and sexual health;Sarah Miles is a 20-year-old lady with questions concerning contraception and sexually-transmitted diseases.
+24;General Practice;Asthma;Vincent Gil is a 10-year-old boy with a recent history of night-time cough and fatigue. His mother states "He has an older brother with asthma. Do you think he has asthma too?"
+25;General Practice;COPD exacerbation;William Wyman is a 60-year-old man with a 50 pack year smoking history. He states "Doc, I feel lousy. I am short of breath and my cough has got a lot worse."
+26;General Practice;Wrist fracture;Jeffrey Beck is a 10-year-old boy. He is brought in by his mother who says "He was playing soccer and fell onto his right arm. He says it's really sore and won't let anyone touch his right wrist."
+27;General Practice;Lower back pain;John Winter is a 70-year-old man with a four-day history of low back pain following a lifting and twisting incident while working in the garden. He states "Doc, I've never had back pain before. But this is really bothering me."
+28;General Practice;Osteoporosis;Patient presents with osteoporosis.
+29;General Practice;Arthritis;Peggy Lee is a 58-year-old lady with peripheral joint pain (wrist and hands) and neck pain. She is on no medication. She states "Doctor, my neck and hands are so sore. I need something for pain relief."
+30;General Practice;UTI;Joan Jett is a 30-year-old woman with irritative voiding symptoms.
+31;General Practice;Prostate cancer screening;Stephen Winwood is a 60-year-old man who has heard about the PSA test. He states "Doc, I had a friend who was recently diagnosed with prostate cancer. It got me worried."
+32;General Practice;Lower limb ulcer;Molly Malone is a 70-year-old lady. She is brought in by a daughter who notes an ulcer on the lower leg.
+33;General Practice;Hypercholesterolaemia;Discuss your assessment and management of Hypercholesterolaemia
+34;General Practice;Allergic Rhinitis;Discuss your assessment and management of Allergic Rhinitis
+35;General Practice;Benign Prostatic Hyerplasia;Discuss your assessment and management of Benign Prostatic Hyerplasia
+36;General Practice;Carpal Tunnel Syndrome (CTS);Discuss your assessment and management of Carpal Tunnel Syndrome (CTS)
+37;General Practice;Common Cold;Discuss your assessment and management of Common Cold
+38;General Practice;Depression;Discuss your assessment and management of Depression
+39;General Practice;Diarrhoea;Discuss your assessment and management of Diarrhoea
+40;General Practice;Dyspepsia;Discuss your assessment and management of Dyspepsia
+41;General Practice;Eczema/ Atopic dermatitis;Discuss your assessment and management of Eczema/ Atopic dermatitis
+42;General Practice;Epilepsy stopping treatment;Discuss your assessment and management of Epilepsy stopping treatment
+43;General Practice;Exercise;Discuss your assessment and management of Exercise
+44;General Practice;Eye infections;Discuss your assessment and management of Eye infections
+45;General Practice;Fitness to drive;Discuss your assessment and management of Fitness to drive
+46;General Practice;Giant cell arteritis;Discuss your assessment and management of Giant cell arteritis
+47;General Practice;Hearing Impairment;Discuss your assessment and management of Hearing Impairment
+48;General Practice;Irritable bowel syndrome;Discuss your assessment and management of Irritable bowel syndrome
+49;General Practice;Malaria;Discuss your assessment and management of Malaria
+50;General Practice;Menopause;Discuss your assessment and management of Menopause
+51;General Practice;Neck pain;Discuss your assessment and management of Neck pain
+52;General Practice;Obesity;Discuss your assessment and management of Obesity
+53;General Practice;Osteoarthritis;Discuss your assessment and management of Osteoarthritis
+54;General Practice;Raynaud's phenomenon;Discuss your assessment and management of Raynaud's phenomenon
+55;General Practice;Travel Vaccinations;Discuss your assessment and management of Travel Vaccinations
+56;General Practice;Workers compensation;Discuss your assessment and management of Workers compensation
