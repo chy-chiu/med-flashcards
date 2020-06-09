@@ -1,43 +1,50 @@
-1;Obstetrics/Gynaecology;Abnormal Pap smear results
-2;Obstetrics/Gynaecology;Antenatal care
-3;Obstetrics/Gynaecology;Antepartum haemorrhage
-4;Obstetrics/Gynaecology;Anticonvulsants in pregnancy
-5;Obstetrics/Gynaecology;Asymptomatic fibroids
-6;Obstetrics/Gynaecology;Breech presentation
-7;Obstetrics/Gynaecology;Caesarean section
-8;Obstetrics/Gynaecology;Contraception
-9;Obstetrics/Gynaecology;Down�s syndrome
-10;Obstetrics/Gynaecology;Dysmenorrhoea
-11;Obstetrics/Gynaecology;Ectopic pregnancy
-12;Obstetrics/Gynaecology;Gestational diabetes
-13;Obstetrics/Gynaecology;Group B strep
-14;Obstetrics/Gynaecology;HBV in pregnancy
-15;Obstetrics/Gynaecology;Herpes simplex virus
-16;Obstetrics/Gynaecology;HIV in pregnancy
-17;Obstetrics/Gynaecology;Hypertension in pregnancy
-18;Obstetrics/Gynaecology;Infertility
-19;Obstetrics/Gynaecology;Intrauterine growth restriction (IUGR)
-20;Obstetrics/Gynaecology;Maternal collapse
-21;Obstetrics/Gynaecology;Menopausal hormone therapy
-22;Obstetrics/Gynaecology;Menorrhagia
-23;Obstetrics/Gynaecology;Miscarriage
-24;Obstetrics/Gynaecology;Normal labour
-25;Obstetrics/Gynaecology;Ovarian cancer
-26;Obstetrics/Gynaecology;Pain relief in labour
-27;Obstetrics/Gynaecology;Pelvic inflammatory disease (PID)
-28;Obstetrics/Gynaecology;Polycystic ovarian syndrome (PCOS)
-29;Obstetrics/Gynaecology;Post partum haemorrhage (PPH)
-30;Obstetrics/Gynaecology;Post-menopausal bleeding (endometrial Ca)
-31;Obstetrics/Gynaecology;Pre-eclampsia and eclampsia
-32;Obstetrics/Gynaecology;Preconception counselling
-33;Obstetrics/Gynaecology;Preterm prelabour rupture of membranes
-34;Obstetrics/Gynaecology;Primary amenorrhoea
-35;Obstetrics/Gynaecology;Pyrexia in labour
-36;Obstetrics/Gynaecology;Recurrent miscarriage
-37;Obstetrics/Gynaecology;Rheumatic heart disease in pregnancy
-38;Obstetrics/Gynaecology;Shoulder dystocia
-39;Obstetrics/Gynaecology;Termination of pregnancy
-40;Obstetrics/Gynaecology;Twin pregnancies
-41;Obstetrics/Gynaecology;Urinary incontinence
-42;Obstetrics/Gynaecology;Uterine prolapse
-43;Obstetrics/Gynaecology;Vaginal discharge
+1;Obstetrics/Gynaecology;Abnormal Pap Smear Results;A 35-year-old woman has an abnormal Pap smear result. Discuss management.
+2;Obstetrics/Gynaecology;Antenatal care;25yo G1P0 presents at 10weeks gestation to ANC counsel lifestyle changes and discuss Ix to assess fetal wellbeing
+3;Obstetrics/Gynaecology;Antepartum haemorrhage;30yo G3P2 presents at 24 weeks with PV bleeding
+4;Obstetrics/Gynaecology;Anticonvulsants in pregnancy;A 25-year-old G1P0 with epilepsy presented to you for management of her medications during pregnancy. How would you advise her?
+5;Obstetrics/Gynaecology;Asymptomatic fibroids;An asymptomatic 30-year-old woman presents for a pap smear and on examination a firm mass is felt to be part of the uterus. Ultrasound demonstrated a 3 cm uterine mass, likely to be a fibroid. What is your management?
+6;Obstetrics/Gynaecology;Breech presentation;A G2P1 presents at 38 weeks in active 1st stage labour and is found to have unexpected breech. How would you assess and manage the patient?
+7;Obstetrics/Gynaecology;Caesarean sections;A 32-year-old G1P0 wants a Caesarean Section. What are the common indications and complications of caesarean section?
+8;Obstetrics/Gynaecology;Contraception;A 24-year-old female comes to your GP practice and asks about different contraceptive methods. Discuss how you would counsel the patient.
+9;Obstetrics/Gynaecology;Down’s syndrome counselling;A 38-year-old G2P1 is concerned about having a child with Down syndrome. What tests are available and how would you counsel the patient regarding the possible results?
+10;Obstetrics/Gynaecology;Dysmenorrhoea and dyspareunia;A 28-year-old woman has 2-month history of dysmenorrhoea and dyspareunia. How would you assess and manage?
+11;Obstetrics/Gynaecology;Ectopic pregnancy;A 25-year-old woman presents with severe lower abdominal pain and tenderness. Her last period was 6 weeks ago. How would you assess and manage her?
+12;Obstetrics/Gynaecology;Foetal Distress;A baby starts recording decelerations on CTG during 2nd stage of labour. How would you manage?
+13;Obstetrics/Gynaecology;GBS in pregnancy;A 27-year-old Spanish woman G3P2 36 weeks’ gestation is found to be group B strep positive. Discuss her management now and during labour
+14;Obstetrics/Gynaecology;Gestational diabetes mellitus;A 28-year-old pregnant woman is found to have a random BSL of 15mmol/L. Discuss diagnosis and management.
+15;Obstetrics/Gynaecology;HBV in pregnancy;A 34-year-old Asian lady G2P1 24 weeks’ gestation is found to be Hep B positive in her antenatal testing. What would be your management? What would be your concerns and follow-up for the foetus?
+16;Obstetrics/Gynaecology;HIV in pregnancy;A HIV positive G1P0 is concerned about vertical transmission. How would you advise and manage?
+17;Obstetrics/Gynaecology;HSV in pregnancy;Discuss the assessment and management of HSV infection during pregnancy
+18;Obstetrics/Gynaecology;Hyperemesis Gravidarum;23-year-old primigravida presents at 20 weeks with continued vomiting. How would you assess and manage?
+19;Obstetrics/Gynaecology;Hypertension in pregnancy;A G1PO presents to antenatal clinic at 32 weeks GA with BP 180/110. Approach to diagnosis and management.
+20;Obstetrics/Gynaecology;Induction of Labour;A 30-year-old presents at 41 weeks gestation for induction of labour. How would you manage?
+21;Obstetrics/Gynaecology;Infertility;A 27 year old female comes in with her 30 year old husband complaining of infertility despite “trying for a year”. How would you investigate and manage the couple?
+22;Obstetrics/Gynaecology;Maternal collapse;A 30-year-old G2P2 has just delivered her second baby and she appears well. 20 minutes after delivery you notice she has become acutely hypotensive and has marked respiratory distress. How would you assess and manage this patient?
+23;Obstetrics/Gynaecology;Menopausal hormone therapy;A 52-year-old postmenopausal woman complains of hot flushes and irritability. She wishes to commence HRT. How would you manage this situation? What are the risks and benefits of HRT?
+24;Obstetrics/Gynaecology;Menorrhagia;A 48-year-old woman complains of heavy periods and fatigue. She appears pale and has palmar and conjunctival pallor. Abdominal and pelvic examination were normal. Her Hb was 68g/L. How would you assess and manage?
+25;Obstetrics/Gynaecology;Miscarriage;A 23-year-old primigravida presents with two episodes of dark brown spotting and abdominal pain in the first trimester. How would you assess and manage?
+26;Obstetrics/Gynaecology;Normal labour;A lady comes in with rupture of membranes at 38 weeks. Discuss the management of the 3 stages of labour.
+27;Obstetrics/Gynaecology;Oligohydramnios;A 24-year-old G1P0 presented with an amniotic fluid index of 6cm. How would you assess and manage?
+28;Obstetrics/Gynaecology;Ovarian cancer;58-year-old woman presents with abdominal distension and discomfort. She has had significant weight loss over the last 3 months. She has a palpable adnexal mass on examination. How would you assess and manage?
+29;Obstetrics/Gynaecology;Pain relief during labour;A 20-year-old G1P0 asks about pain relief during labour and potential side effects. How would you counsel her?
+30;Obstetrics/Gynaecology;Pelvic inflammatory disease;A 30-year-old female presents with 7-day history of pelvic pain and dyspareunia. On examination, she had a temp of 38.5 C and a tender left adnexal mass. What is your provisional diagnosis and management?
+31;Obstetrics/Gynaecology;Pelvic Mass;A 27-year-old G2P2 presented to you for pelvic pain. On pelvic exam, palpation of the right adnexa elicits moderate tenderness. How would you assess and manage?
+32;Obstetrics/Gynaecology;Polycystic ovarian syndrome;25-year-old female presents with 5-year history of irregular periods, worsening facial hair and infertility. Assess + manage.
+33;Obstetrics/Gynaecology;Polyhydramnios;A 37-year-old G3P2 at 25 weeks presented with difficulty breathing for last 2 weeks. She was referred to you for polyhdramnios (amniotic fluid index 27cm) and moderate anaemia. How would you assess and manage?
+34;Obstetrics/Gynaecology;Post-menopausal bleeding (endometrial cancer);A 55-year-old (or 48) woman presents with post-menopausal bleeding. Discuss how you would assess and manage this patient.
+35;Obstetrics/Gynaecology;Post-partum haemorrhage;A 27-year-old has lost approximately 1 L of blood 30 min after delivery of the foetus and placenta. What is your immediate management? Discuss differentials.
+36;Obstetrics/Gynaecology;Pre-eclampsia and eclampsia;A 30-week GA woman is brought in by ambulance after a fit at home, witnessed by the husband. Assess and mange
+37;Obstetrics/Gynaecology;Preconception counselling;A 28-year-old comes to your GP clinic to talk about having a baby. She has been on the pill for the past two years and stopped 2 months ago and has been trying to conceive since then. Discuss how you would counsel her.
+38;Obstetrics/Gynaecology;Preterm Labour;A woman presents at 32/40 with uterine contractions. How would you manage?
+39;Obstetrics/Gynaecology;Preterm prelabour rupture of membranes;A woman presents with premature rupture of membranes at 32 weeks. How would you manage this? Discuss both premature rupture of membranes progressing to labour and not progressing to labour.
+40;Obstetrics/Gynaecology;Primary amenorrhoea;A 16-year-old girl comes in with her mother because she has not had periods yet. What are your differential diagnoses, investigations and management?
+41;Obstetrics/Gynaecology;Pyrexia in labour;A 29-year-old woman develops a temperature of 38.5OC two days after delivery. How would you assess and manage?
+42;Obstetrics/Gynaecology;Recurrent miscarriage;A 26-year-old had 3 previous 1st trimester miscarriages. What is your management? 
+43;Obstetrics/Gynaecology;Rheumatic heart disease in pregnancy;A 26-year-old who is 14wk pregnant with Hx of ARF and mitral valve disease presents for antenatal care, no other antenatal care has been provided. How would you manage?
+44;Obstetrics/Gynaecology;Shoulder dystocia;You are trying to deliver the baby and although the baby’s head has been delivered, you are having difficulty trying to get the shoulders out. What do you do?
+45;Obstetrics/Gynaecology;Small for gestational age/Intrauterine growth restriction;A 30-year-old presents at 32 weeks with US finding of the foetus being less than 10% of predicted weight. What are the causes and what is the likely management? 
+46;Obstetrics/Gynaecology;Termination of pregnancy;A 16-year-old female came in to your GP practice asking for a referral for abortion. How would you counsel and manage the patient? Discuss time limits for abortion, ethical, legal aspects
+47;Obstetrics/Gynaecology;Twin pregnancies;A lady is found to have twins at 12-week U/S. Counsel the patient regarding what she should expect in her pregnancy.
+48;Obstetrics/Gynaecology;Urinary incontinence;A 55-year-old female complains of urinary incontinence. What are the types of urinary incontinence and how are they diagnosed and managed?
+49;Obstetrics/Gynaecology;Uterine prolapse;A 70-year-old female comes in with utero-vaginal prolapse. What are your options in management?
+50;Obstetrics/Gynaecology;Vaginal discharge;22-year-old sexually active female reports vaginal discharge. How would you assess and manage?
