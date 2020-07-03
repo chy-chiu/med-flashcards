@@ -48,12 +48,14 @@
                     <h1 class="header center" id="timer"><span id="minutes">01</span>:<span id="seconds">00</span></h1>
                 </div>
                 <div id="buttonRow" class="row center">
-                    <a id="skipButton" class="col s8 m4 btn-large waves-effect waves-light orange">Skip</a>
-                    <a id="readyButton" class="col s8 m4 btn-large waves-effect waves-light green lighten-1">Ready!</a>
-                    <span class="col s6 m4"><p></p></span>
-                    <a id="refreshButton" class="col s8 m4 btn-large waves-effect waves-light light-yellow lighten-1">Split</a>
-                    <span class="col s6 m4"><p></p></span>
-                    <a id="refreshButton" class="col s8 m4 btn-large waves-effect waves-light light-blue lighten-1">Reset</a>
+                    <a id="skipButton" class="col s12 m4 btn-large waves-effect waves-light orange">Skip</a>
+                    <a id="readyButton" class="col s12 m4 btn-large waves-effect waves-light green lighten-1">Ready!</a>
+                    <a id="splitButton" class="col s12 m4 btn-large waves-effect waves-light light-yellow lighten-1">Split</a>
+                    <a id="refreshButton" class="col s12 m4 btn-large waves-effect waves-light light-blue lighten-1">Reset</a>
+                </div>
+                <div class="row center">
+					<h6 id="splitTitle" class="header col s12"><b>Split Times</b></h6>
+					<h6 id="splitTimes" class="header col s12"></h6>
                 </div>
                 <br><br>
 
@@ -61,7 +63,7 @@
         </div>
 
         <!-- footer -->
-        <footer class="page-footer orange">
+        <footer class="page-footer orange" style="position:fixed;bottom:0;left:0;width:100%;">
             <div class="container">
                 <div class="row">
                     <div class="col l3 s12">
@@ -105,6 +107,7 @@
         <script>
             //Variable initialisation
             var timeLeft = 60;
+            var countDown = -1;
             var rTInt = setInterval(readTimer, 1000);
             var qListRaw = '';
             var qID = 0;
@@ -123,6 +126,8 @@
                 } else{
                     $("#skipButton").hide();
                 }
+                $("#splitTitle").hide();
+                $("#splitTimes").hide();
                 getQuestions();
                 $("#readyButton").click(function(){
                     $("#skipButton").show();
@@ -138,6 +143,21 @@
             $("#refreshButton").click(function(){
                 location.reload(); 
             });
+			
+			$("#splitButton").click(function(){
+				if (countDown > 0){
+                	$("#splitTitle").show();
+                	$("#splitTimes").show();
+                	var splitTime = countDown - timeLeft;
+                	var splitSecond = 0;
+
+					var splitMinute = Math.floor(splitTime / 60);
+                    var splitSecond = Math.floor((splitTime - (splitMinute * 60)));
+                    if (splitMinute < "10") { splitMinute = "0" + splitMinute; }
+                    if (splitSecond < "10") { splitSecond = "0" + splitSecond; }
+
+                	document.getElementById("splitTimes").innerHTML=document.getElementById("splitTimes").innerHTML+"<br>"+ splitMinute + ":" + splitSecond;}
+	            });
 
             function setTitle(addit){
                 if(getQueryVariable("mode")=="indiv"){
@@ -277,9 +297,11 @@
                         clearInterval(rTInt);
                         if (qList[qID][1]=="Medicine" || qList[qID][1]=="Surgery" || qList[qID][1]=="Emergency" || qList[qID][1]=="Paediatrics"){
                             timeLeft=300;
+                            countDown=300;
                             $("#minutes").html("05");
                         } else {
                             timeLeft=600;
+                            countDown=600;
                             $("#minutes").html("10");
                         }
                         $("#phase").html("Viva time:");
